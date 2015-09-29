@@ -1,7 +1,10 @@
 {
 :lang :sidaama
 :sgpref "sid"
-:schemata {
+:datasource "Kawachi2007"
+:geodemoURL "http://www.ethnologue.com/language/sid"
+:geodemoTXT "Varieties and subdialects of Sidaama are spoken in"
+:schematas {
 :aspect [:Imperfect, :PresentPerfect, :SimplePerfect]
 	  :case [:Accusative, :Common, :Genitive, :Nominative, :nom-gen]
 	  :causative1Causative2 [:Case-ii, :Case-iv, :Case-vii, :Common]
