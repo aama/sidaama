@@ -125,7 +125,7 @@
 	    :pos :Verb,
 	    :tam :SimplePerfect,
 	    :morphClass :SuffStructure}
-    :terms [[:gender, :number, :person, :token, :token-structure]  ;; schema
+    :terms [[:gender, :number, :person, :token, :token-note-structure]  ;; schema
 	    [:Masc, :Singular, :Person1, "ani wi’l-u-mm-o", "cry-V-simplePerf+1-1sg-m"],
 	    [:Fem, :Singular, :Person1, "ani wi’l-u-mm-a", "cry-V-simplePerf+1-1sg-f"],
 	    [:Masc, :Singular, :Person2, "ati wi’l-i-tt-o", "cry-V-simplePerf+2-2sg-m"],
@@ -396,7 +396,7 @@
     :common {:morpheme :VNEGATION,
 	    :pos :Verb,
 	    :morphClass :VerbNegation}
-    :terms [[:clauseType, :number, :person, :token, :token-notes]  ;; schema
+    :terms [[:clauseType, :number, :person, :token, :token-note]  ;; schema
 	    [:MainGeneral, :Common, :Common, "di=", "Proclitic"],
 	    [:ImperativeNegative, :Singular, :Person2, "-tooti", ""],
 	    [:ImperativeNegative, :Plural, :Person2, "-tinoonte", ""],
@@ -631,32 +631,32 @@
             Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the
             simple perfect,and the present perfect,together with suffixes for theperson/number of
             the subject. In addition,the genders of the first- and second-personsingular subjects
-            are also marked with suffixes (M:-o,F:-a)"
+            are also marked with suffixes (M:-o,F:-a). Template note: :token-genF, :token-genM, :token-numPers, :token-tense."
     :common {:morpheme :TENSEPNGTEMPLATE,
 	    :pos :Verb,
 	    :morphClass :TensePersNumGenTemplate}
-    :terms [[:gender, :number, :person, :tam, :token-genF, :token-genM, :token-numPers, :token-tense, :token, :token]  ;; schema
-	    [:Common, :Singular, :Person1, :Imperfect, "-a", "-o", "-mm", "-ee", "-a : -o : -mm : -ee", "-a : -o : -mm : -ee"],
-	    [:Common, :Singular, :Person2, :Imperfect, "-a", "-o", "-tt", "-a", "-a : -o : -tt : -a"],
-	    [:Masc, :Singular, :Person3, :Imperfect, "", "Common", "Common", "-anno", " : Common : Common : -anno"],
-	    [:Fem, :Singular, :Person3, :Imperfect, "", "Common", "-t", "-anno", " : Common : -t : -anno"],
-	    [:Common, :Plural, :Person1, :Imperfect, "", "Common", "-n-V–mmo", "-ee", " : Common : -n-V–mmo : -ee"],
-	    [:Common, :Plural, :Person2, :Imperfect, "", "Common", "-tin", "-anni", " : Common : -tin : -anni"],
-	    [:Common, :Plural, :Person3, :Imperfect, "", "Common", "-t", "-anno", " : Common : -t : -anno"],
-	    [:Common, :Singular, :Person1, :SimplePerfect, "-a", "-o", "-mm", "-u", "-a : -o : -mm : -u"],
-	    [:Common, :Singular, :Person2, :SimplePerfect, "-a", "-o", "-tt", "-i", "-a : -o : -tt : -i"],
-	    [:Masc, :Singular, :Person3, :SimplePerfect, "", "Common", "Common", "-i", " : Common : Common : -i"],
-	    [:Fem, :Singular, :Person3, :SimplePerfect, "", "Common", "-t", "-u", " : Common : -t : -u"],
-	    [:Common, :Plural, :Person1, :SimplePerfect, "", "Common", "-n-V–mmo", "-u", " : Common : -n-V–mmo : -u"],
-	    [:Common, :Plural, :Person2, :SimplePerfect, "", "Common", "-tin", "-i", " : Common : -tin : -i"],
-	    [:Common, :Plural, :Person3, :SimplePerfect, "", "Common", "-t", "-u", " : Common : -t : -u"],
-	    [:Common, :Singular, :Person1, :PresentPerfect, "-a", "-o", "-mm", "-oo", "-a : -o : -mm : -oo"],
-	    [:Common, :Singular, :Person2, :PresentPerfect, "-a", "-o", "-tt", "-oo", "-a : -o : -tt : -oo"],
-	    [:Masc, :Singular, :Person3, :PresentPerfect, "", "Common", "Common", "-ino", " : Common : Common : -ino"],
-	    [:Fem, :Singular, :Person3, :PresentPerfect, "", "Common", "-t", "-ino", " : Common : -t : -ino"],
-	    [:Common, :Plural, :Person1, :PresentPerfect, "", "Common", "-n-V–mmo", "-oo", " : Common : -n-V–mmo : -oo"],
-	    [:Common, :Plural, :Person2, :PresentPerfect, "", "Common", "-tin", "-oonni", " : Common : -tin : -oonni"],
-	    [:Common, :Plural, :Person3, :PresentPerfect, "", "Common", "-t", "-ino", " : Common : -t : -ino"]]
+    :terms [[:gender, :number, :person, :tam, :token-note-template, :token]  ;; schema
+	    [:Common, :Singular, :Person1, :Imperfect, "-a + -o + -mm + -ee", "-a : -o : -mm : -ee",],
+	    [:Common, :Singular, :Person2, :Imperfect, "-a + -o + -tt + -a", "-a : -o : -tt : -a"],
+	    [:Masc, :Singular, :Person3, :Imperfect, " + Common + Common + -anno", " : Common : Common : -anno"],
+	    [:Fem, :Singular, :Person3, :Imperfect, " + Common + -t + -anno", " : Common : -t : -anno"],
+	    [:Common, :Plural, :Person1, :Imperfect, " + Common + -n-V–mmo + -ee", " : Common : -n-V–mmo : -ee"],
+	    [:Common, :Plural, :Person2, :Imperfect, " + Common + -tin + -anni", " : Common : -tin : -anni"],
+	    [:Common, :Plural, :Person3, :Imperfect, " + Common + -t + -anno", " : Common : -t : -anno"],
+	    [:Common, :Singular, :Person1, :SimplePerfect, "-a + -o + -mm + -u", "-a : -o : -mm : -u"],
+	    [:Common, :Singular, :Person2, :SimplePerfect, "-a + -o + -tt + -i", "-a : -o : -tt : -i"],
+	    [:Masc, :Singular, :Person3, :SimplePerfect, " + Common + Common + -i", " : Common : Common : -i"],
+	    [:Fem, :Singular, :Person3, :SimplePerfect, " + Common + -t + -u", " : Common : -t : -u"],
+	    [:Common, :Plural, :Person1, :SimplePerfect, " + Common + -n-V–mmo + -u", " : Common : -n-V–mmo : -u"],
+	    [:Common, :Plural, :Person2, :SimplePerfect, " + Common + -tin + -i", " : Common : -tin : -i"],
+	    [:Common, :Plural, :Person3, :SimplePerfect, " + Common + -t + -u", " : Common : -t : -u"],
+	    [:Common, :Singular, :Person1, :PresentPerfect, "-a + -o + -mm + -oo", "-a : -o : -mm : -oo"],
+	    [:Common, :Singular, :Person2, :PresentPerfect, "-a + -o + -tt + -oo", "-a : -o : -tt : -oo"],
+	    [:Masc, :Singular, :Person3, :PresentPerfect, " + Common + Common + -ino", " : Common : Common : -ino"],
+	    [:Fem, :Singular, :Person3, :PresentPerfect, " + Common + -t + -ino", " : Common : -t : -ino"],
+	    [:Common, :Plural, :Person1, :PresentPerfect, " + Common + -n-V–mmo + -oo", " : Common : -n-V–mmo : -oo"],
+	    [:Common, :Plural, :Person2, :PresentPerfect, " + Common + -tin + -oonni", " : Common : -tin : -oonni"],
+	    [:Common, :Plural, :Person3, :PresentPerfect, " + Common + -t + -ino", " : Common : -t : -ino"]]
     }
     {:label "sidaama-VSubjMarkerInfinSub"
     :note "Kawachi2007,Table 4.12:Infinitive Suffix Accompanied by the Person Suffix when
