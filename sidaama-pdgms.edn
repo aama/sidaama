@@ -5,28 +5,23 @@
 :datasource "Kawachi2007"
 :geodemoURL "http://www.ethnologue.com/language/sid"
 :geodemoTXT "Varieties and subdialects of Sidaama are spoken in the 'South central, Southern Nations, Nationalities, and Peoples’ region: northeast of Lake Abaya; Oromia region: southeast of Lake Awasa'."
-:schemata{:direction [:DirAT :DirFROM :DirTO],
-          :gender [:Common :Fem :Masc],
-          :interrogClass [:InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWhich :InterrogProWho],
-          :middleClass [:Case_iii :Case_v :Case_vi :Common],
-          :pdgmType [:Compound :DervStem :Existence :Finite :NA :TensePersNumGenTemplate :SubjMarkerConnConj :SubjMarkerMain :SuffStructure :SubjMarkerInfinSub :PersNumTenseSuff :VerbNegation]
-          :classification [:DERVSTEMCLASS],
-          :causative1Causative2 [:Case_ii :Case_iv :Case_vii :Common],
-          :polarity [:Affirmative :Negative],
-          :case [:Accusative :Common :Genitive :Nominative :NomGen],
-          :aspect [:Imperfect :PresentPerfect :SimplePerfect],
-          :passiveReciprocalClass [:A :B :Case_FN40 :Case_i],
-          :pos [:Pronoun :Verb],
-          :person [:Common :Person1 :Person2 :Person3],
-          :derivedStem [:Causative1 :Causative1Causative2 :Causative2 :DenominalDeadjectival :MiddleClass :Passive :PassiveReciprocalClass :Reciprocal],
-          :morphClass [:DervStem :Existence :PersNumTenseSuff :SubjMarkerConnConj :SubjMarkerInfinSub :SubjMarkerMain :SuffStructure :TensePersNumGenTemplate :VerbNegation],
-          :posClass [:Adnominal :Adverb :ProInd],
-          :configuration [:Connective :InfinitiveConj :InfinitiveConn :SubjMarkerRed],
-          :proClass [:DemAdnom :DemAdv :DemAreaAdnom :DemSpec :DemSpecAdv :Demonstrative :Independent :Interrogative :ObjSuff :ReflPoss],
-          :tam [:Connective :Continuous :Imperative :Imperfect :InfinitiveConj :InfinitiveConn :InfinitiveSub :Optative :PresentPerfect :PresentProgressive :SimplePerfect],
-          :clauseType [:ImperativeNegative :MainGeneral :Optative :Subordinate],
-          :number [:Common :Plural :Singular],
-          :deixis [:Here :ThatArea :There :ThisArea :overThere]}
+ :schemata {:aspect [:Imperfect  :PresentPerfect :SimplePerfect],
+            :case [:Accusative :Common :Genitive :NomGen :Nominative],
+            :clauseType [:ImperativeNegative :MainGeneral :Optative :Subordinate],
+            :configuration [:Connective :InfinitiveConj :InfinitiveConn :SubjMarkerRed],
+            :deixis [:Here :ThatArea :There :ThisArea :overThere],
+            :derivedStem [:Causative1 :Causative2 :DenominalDeadjectival :MiddleClass :Passive :Reciprocal],
+            :direction [:DirAT :DirFROM :DirTO],
+            :gender [:Common :Fem :Masc],
+            :interrogClass [:InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWhich :InterrogProWho],
+            :number [:Common :Plural :Singular],
+            :person [:Common :Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :posClass [:Adnominal :Adverb :ProInd],
+            :proClass [:DemAdnom :DemAdv :DemAreaAdnom :DemSpec :DemSpecAdv :Demonstrative :Independent :Interrogative :ObjSuff :ReflPoss],
+            :tam [:Connective :Continuous :Imperative :Imperfect :InfinitiveConj :InfinitiveConn :InfinitiveSub :Optative :PresentPerfect :PresentProgressive :SimplePerfect]
+            :pdgmType [:Compound :DervStem :Existence :Finite :PersNumTenseSuff :SubjMarkerConnConj :SubjMarkerInfinSub :SubjMarkerMain :SuffStructure :TensePersNumGenTemplate :VerbNegation :PRO]}
 :pclass {:pngClass [:person :number :gender],
           :synsemClass [:aspect :case :causative1Causative2 :clausetype :configuration :deixis :derivedStem :direction :interrogClass :middleClass :passiveReckiprocalClass :polarity :pos :posClass :proClass :tamb],
           :inflClass [],
@@ -58,7 +53,7 @@
 :lxterms [
     {:label "sidaama-PReflPoss"
     :note "Kawachi2007,Table 3.5"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROREFLPOSS,
              :pos :Pronoun,
              :proClass :ReflPoss}
@@ -80,7 +75,7 @@
     }
     {:label "sidaama-PIndependent"
     :note "Kawachi2007,Table 3.4"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROIND,
              :pos :Pronoun,
              :proClass :Independent}
@@ -177,8 +172,7 @@
             f)"
     :pdgmType :Existence
     :common {:lexeme :no,
-             :pos :Verb,
-             :morphClass :Existence}
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Masc "noomma"],
             [:Singular :Person1 :Fem "noommo"],
@@ -198,8 +192,7 @@
             :token-tense."
     :pdgmType :TensePersNumGenTemplate
     :common {:lexeme :TENSEPNGTEMPLATE,
-             :pos :Verb,
-             :morphClass :TensePersNumGenTemplate}
+             :pos :Verb}
     :terms [[:tam :number :person :gender :token :token-note-template],
             [:Imperfect :Singular :Person1 :Common "-a : -o : -mm : -ee" "-a + -o + -mm + -ee"],
             [:Imperfect :Singular :Person2 :Common "-a : -o : -tt : -a" "-a + -o + -tt + -a"],
@@ -245,8 +238,7 @@
             the person/number of the subject(p. 398)"
     :pdgmType :PersNumTenseSuff
     :common {:lexeme :PERSNUMTENSESUFF,
-             :pos :Verb,
-             :morphClass :PersNumTenseSuff}
+             :pos :Verb}
     :terms [[:aspect :number :person :gender :token],
             [:Imperfect :Singular :Person2 :Common "-a"],
             [:Imperfect :Plural :Person2 :Common "-anni"],
@@ -284,8 +276,7 @@
             –e"
     :pdgmType :SubjMarkerConnConj
     :common {:lexeme :SUBJMARKERCONNCONJ,
-             :pos :Verb,
-             :morphClass :SubjMarkerConnConj}
+             :pos :Verb}
     :terms [[:configuration :number :person :gender :token],
             [:Connective :Singular :Person1 :Common "-Ø-e"],
             [:Connective :Singular :Person2 :Common "-t-e"],
@@ -324,8 +315,7 @@
             clauses. cf. Kawachi2007,pp. 420-425."
     :pdgmType :SubjMarkerInfinSub
     :common {:lexeme :SUBJMARKERINFINSUB,
-             :pos :Verb,
-             :morphClass :SubjMarkerInfinSub}
+             :pos :Verb}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Masc "-a-mm-o-ra ~ –ee-mm-o-a"],
             [:Singular :Person1 :Fem "-a-mm-a-ra ~ –ee-mm-a-ra"],
@@ -341,7 +331,7 @@
     :note "Kawachi2007,Table 3.6. Demonstratives can be reduplicated in all case and deixis
             forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc
             form is also the predicative."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEM,
              :pos :Pronoun,
              :proClass :Demonstrative}
@@ -359,8 +349,7 @@
     :pdgmType :SuffStructure
     :common {:lexeme :wil,
              :pos :Verb,
-             :tam :SimplePerfect,
-             :morphClass :SuffStructure}
+             :tam :SimplePerfect}
     :terms [[:number :person :gender :token :token-note-structure],
             [:Singular :Person1 :Masc "ani wi’l-u-mm-o" "cry-V-simplePerf+1-1sg-m"],
             [:Singular :Person1 :Fem "ani wi’l-u-mm-a" "cry-V-simplePerf+1-1sg-f"],
@@ -437,7 +426,7 @@
             Demonstratives can be reduplicated in all case and deixis forms to indicate intensity –
             e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the
             predicative."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEMSPEC,
              :pos :Pronoun,
              :proClass :DemSpec}
@@ -468,7 +457,7 @@
     }
     {:label "sidaama-PDemSpecAdv"
     :note "Kawachi2007,Table 3.9."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEMSPECADV,
              :pos :Pronoun,
              :proClass :DemSpecAdv}
@@ -502,7 +491,7 @@
     }
     {:label "sidaama-PDemAdv"
     :note "Kawachi2007,Table 3.7"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEMADV,
              :pos :Pronoun,
              :proClass :DemAdv}
@@ -519,7 +508,7 @@
     }
     {:label "sidaama-PDemAreaAdnom"
     :note "Kawachi2007,Table 3.14"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEMAREA,
              :pos :Pronoun,
              :proClass :DemAreaAdnom}
@@ -533,8 +522,7 @@
             2.2.1)"
     :pdgmType :DervStem
     :common {:lexeme :DERVSTEM,
-             :pos :Verb,
-             :morphClass :DervStem}
+             :pos :Verb}
     :terms [[:derivedStem :token],
             [:Causative1 "-(i)s-"],
             [:Causative2 "-siis-"],
@@ -562,8 +550,7 @@
     :note "Kawachi2007,Tables 4.8,4.9,4.10,4.13,4.15"
     :pdgmType :SubjMarkerMain
     :common {:lexeme :SUBJMARKERMAIN,
-             :pos :Verb,
-             :morphClass :SubjMarkerMain}
+             :pos :Verb}
     :terms [[:polarity :tam :number :person :gender :token],
             [:Affirmative :Imperative :Singular :Person2 :Common "-i"],
             [:Affirmative :Imperative :Plural :Person2 :Common "-Ce"],
@@ -653,7 +640,7 @@
     :note "Kawachi2007,Table 3.10,3.11. Demonstratives can be reduplicated in all case and
             deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
             noted,the acc form is also the predicative."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PRODEMADNOM,
              :pos :Pronoun,
              :proClass :DemAdnom}
@@ -688,7 +675,7 @@
     }
     {:label "sidaama-PObjSuff"
     :note "Kawachi2007,Table 4.16"
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROOBJSUFF,
              :pos :Pronoun,
              :proClass :ObjSuff}
@@ -711,8 +698,7 @@
             acts as a 1 pl imperative"
     :pdgmType :VerbNegation
     :common {:lexeme :VNEGATION,
-             :pos :Verb,
-             :morphClass :VerbNegation}
+             :pos :Verb}
     :terms [[:clauseType :number :person :token :token-note],
             [:ImperativeNegative :Singular :Person2 "-tooti" ""],
             [:ImperativeNegative :Plural :Person2 "-tinoonte" ""],
@@ -724,7 +710,7 @@
     :note "Kawachi2007,Table 3.15,3.16. Demonstratives can be reduplicated in all case and
             deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
             noted,the acc form is also the predicative."
-    :pdgmType :NA
+    :pdgmType :PRO
     :common {:lexeme :PROINTERROG,
              :pos :Pronoun,
              :proClass :Interrogative}
