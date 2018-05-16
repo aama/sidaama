@@ -86,7 +86,7 @@
                  }
                 {:label "sidaama-VSimplePerf-haishsh"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :haishsh,
                           :pos :Verb,
                           :tam :SimplePerfect}
@@ -103,7 +103,7 @@
                  }
                 {:label "sidaama-VImperfect-haishsh"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :haishsh,
                           :pos :Verb,
                           :tam :Imperfect}
@@ -120,7 +120,7 @@
                  }
                 {:label "sidaama-VImperfect-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :Imperfect}
@@ -152,7 +152,7 @@
             live’ is used in these cases (1PL:hee’-n-oo-mmo
             [live-1PL-PRESPERF.1-1PL],2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407
             f)"
-                 :common {:vmorphclass :FiniteExistence
+                 :common {:vmorphClass :FiniteExistence
                           :lexeme :no,
                           :pos :Verb}
                  :terms [[:number :person :gender :token],
@@ -200,7 +200,7 @@
                  }
                 {:label "sidaama-VSimplePerf-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :SimplePerfect}
@@ -239,7 +239,7 @@
                 {:label "sidaama-VAffImprtv-it"
                  :note "Kawachi2007,Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
             imperative."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :person :Person2,
                           :polarity :Affirmative,
@@ -344,7 +344,7 @@
                  }
                 {:label "sidaama-VInfinitiveSub-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :InfinitiveSub}
@@ -361,7 +361,7 @@
                  }
                 {:label "sidaama-VInfinitiveConj-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :InfinitiveConj}
@@ -376,7 +376,7 @@
                  }
                 {:label "sidaama-VConnective-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :Connective}
@@ -392,7 +392,7 @@
                 {:label "sidaama-VNegImprtv-it"
                  :note "Kawachi2007,Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
             imperative."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :person :Person2,
                           :polarity :Negative,
@@ -420,7 +420,7 @@
                  }
                 {:label "sidaama-VPresProg-it"
                  :note "Kawachi2007,(4.182). The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective formof another verb (lit.,‘did sth and came to exist’),as in (4.183). In each of them,the firstpersonand second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n) the>initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also, the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)"
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
                           :lexeme :it,
                           :pos :Verb,
                           :tam :PresentProgressive}
@@ -453,7 +453,7 @@
                  }
                 {:label "sidaama-VPresPerf-haishsh"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :haishsh,
                           :pos :Verb,
                           :tam :PresentPerfect}
@@ -510,7 +510,7 @@
                  }
                 {:label "sidaama-VInfinitiveConn-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :InfinitiveConn}
@@ -581,7 +581,7 @@
             inflects for the person/number/gender of the subject,asindicated in (4.181) (for the
             second-person plural,the existential verb cannot be used ineither aspect).(p.
             409)"
-                 :common {:vmorphclass :FiniteCompound
+                 :common {:vmorphClass :FiniteCompound
                           :lexeme :hank,
                           :pos :Verb,
                           :tam :Continuous}
@@ -598,7 +598,7 @@
                  }
                 {:label "sidaama-VPresPerf-it"
                  :note "Kawachi2007,Tables 4.8,4.9,4.10"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :it,
                           :pos :Verb,
                           :tam :PresentPerfect}
