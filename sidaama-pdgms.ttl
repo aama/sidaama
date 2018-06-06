@@ -1,0 +1,5485 @@
+#TTL FROM INPUT FILE:
+#../aama-data/data//sidaama/sidaama-pdgms.edn
+
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dc:    <http://purl.org/dc/elements>.
+@prefix dcterms:    <http://purl.org/dc/terms>.
+@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+@prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
+@prefix sid:   <http://id.oi.uchicago.edu/aama/2013/sidaama/> .
+
+#LANG INFO:
+
+aama:Sidaama a aamas:Language .
+aama:Sidaama rdfs:label "Sidaama" .
+aama:Sidaama aamas:subfamily "Highland East Cushitic" .
+aama:Sidaama aamas:lpref "sid" .
+aama:Sidaama aamas:dataSource "Kawachi2007" .
+aama:Sidaama aamas:dataSourceNotes "" .
+aama:Sidaama aamas:geodemoURL "http://www.ethnologue.com/language/sid" .
+aama:Sidaama aamas:geodemoTXT "Varieties and subdialects of Sidaama are spoken in the 'South central%% Southern Nations%% Nationalities%% and Peoples’ region: northeast of Lake Abaya; Oromia region: southeast of Lake Awasa'." .
+
+
+#SCHEMATA: aspect
+sid:aspect aamas:lang aama:Sidaama .
+sid:Aspect aamas:lang aama:Sidaama .
+sid:aspect rdfs:domain aamas:Term .
+sid:Aspect rdfs:label "aspect exponents" .
+sid:aspect rdfs:label "aspect" .
+sid:aspect rdfs:range sid:Aspect .
+sid:Aspect rdfs:subClassOf sid:MuExponent .
+sid:aspect rdfs:subPropertyOf sid:muProperty .
+sid:Imperfect aamas:lang aama:Sidaama .
+sid:Imperfect rdf:type sid:Aspect .
+sid:Imperfect rdfs:label "Imperfect" .
+sid:PresentPerfect aamas:lang aama:Sidaama .
+sid:PresentPerfect rdf:type sid:Aspect .
+sid:PresentPerfect rdfs:label "PresentPerfect" .
+sid:SimplePerfect aamas:lang aama:Sidaama .
+sid:SimplePerfect rdf:type sid:Aspect .
+sid:SimplePerfect rdfs:label "SimplePerfect" .
+
+#SCHEMATA: posClass
+sid:posClass aamas:lang aama:Sidaama .
+sid:Posclass aamas:lang aama:Sidaama .
+sid:posClass rdfs:domain aamas:Term .
+sid:Posclass rdfs:label "posClass exponents" .
+sid:posClass rdfs:label "posClass" .
+sid:posClass rdfs:range sid:Posclass .
+sid:Posclass rdfs:subClassOf sid:MuExponent .
+sid:posClass rdfs:subPropertyOf sid:muProperty .
+sid:Adnominal aamas:lang aama:Sidaama .
+sid:Adnominal rdf:type sid:Posclass .
+sid:Adnominal rdfs:label "Adnominal" .
+sid:Adverb aamas:lang aama:Sidaama .
+sid:Adverb rdf:type sid:Posclass .
+sid:Adverb rdfs:label "Adverb" .
+sid:ProInd aamas:lang aama:Sidaama .
+sid:ProInd rdf:type sid:Posclass .
+sid:ProInd rdfs:label "ProInd" .
+
+#SCHEMATA: person
+sid:person aamas:lang aama:Sidaama .
+sid:Person aamas:lang aama:Sidaama .
+sid:person rdfs:domain aamas:Term .
+sid:Person rdfs:label "person exponents" .
+sid:person rdfs:label "person" .
+sid:person rdfs:range sid:Person .
+sid:Person rdfs:subClassOf sid:MuExponent .
+sid:person rdfs:subPropertyOf sid:muProperty .
+sid:Common aamas:lang aama:Sidaama .
+sid:Common rdf:type sid:Person .
+sid:Common rdfs:label "Common" .
+sid:Person1 aamas:lang aama:Sidaama .
+sid:Person1 rdf:type sid:Person .
+sid:Person1 rdfs:label "Person1" .
+sid:Person2 aamas:lang aama:Sidaama .
+sid:Person2 rdf:type sid:Person .
+sid:Person2 rdfs:label "Person2" .
+sid:Person3 aamas:lang aama:Sidaama .
+sid:Person3 rdf:type sid:Person .
+sid:Person3 rdfs:label "Person3" .
+
+#SCHEMATA: derivedStem
+sid:derivedStem aamas:lang aama:Sidaama .
+sid:Derivedstem aamas:lang aama:Sidaama .
+sid:derivedStem rdfs:domain aamas:Term .
+sid:Derivedstem rdfs:label "derivedStem exponents" .
+sid:derivedStem rdfs:label "derivedStem" .
+sid:derivedStem rdfs:range sid:Derivedstem .
+sid:Derivedstem rdfs:subClassOf sid:MuExponent .
+sid:derivedStem rdfs:subPropertyOf sid:muProperty .
+sid:Causative1 aamas:lang aama:Sidaama .
+sid:Causative1 rdf:type sid:Derivedstem .
+sid:Causative1 rdfs:label "Causative1" .
+sid:Causative2 aamas:lang aama:Sidaama .
+sid:Causative2 rdf:type sid:Derivedstem .
+sid:Causative2 rdfs:label "Causative2" .
+sid:DenominalDeadjectival aamas:lang aama:Sidaama .
+sid:DenominalDeadjectival rdf:type sid:Derivedstem .
+sid:DenominalDeadjectival rdfs:label "DenominalDeadjectival" .
+sid:MiddleClass aamas:lang aama:Sidaama .
+sid:MiddleClass rdf:type sid:Derivedstem .
+sid:MiddleClass rdfs:label "MiddleClass" .
+sid:Passive aamas:lang aama:Sidaama .
+sid:Passive rdf:type sid:Derivedstem .
+sid:Passive rdfs:label "Passive" .
+sid:Reciprocal aamas:lang aama:Sidaama .
+sid:Reciprocal rdf:type sid:Derivedstem .
+sid:Reciprocal rdfs:label "Reciprocal" .
+
+#SCHEMATA: clauseType
+sid:clauseType aamas:lang aama:Sidaama .
+sid:Clausetype aamas:lang aama:Sidaama .
+sid:clauseType rdfs:domain aamas:Term .
+sid:Clausetype rdfs:label "clauseType exponents" .
+sid:clauseType rdfs:label "clauseType" .
+sid:clauseType rdfs:range sid:Clausetype .
+sid:Clausetype rdfs:subClassOf sid:MuExponent .
+sid:clauseType rdfs:subPropertyOf sid:muProperty .
+sid:ImperativeNegative aamas:lang aama:Sidaama .
+sid:ImperativeNegative rdf:type sid:Clausetype .
+sid:ImperativeNegative rdfs:label "ImperativeNegative" .
+sid:MainGeneral aamas:lang aama:Sidaama .
+sid:MainGeneral rdf:type sid:Clausetype .
+sid:MainGeneral rdfs:label "MainGeneral" .
+sid:Optative aamas:lang aama:Sidaama .
+sid:Optative rdf:type sid:Clausetype .
+sid:Optative rdfs:label "Optative" .
+sid:Subordinate aamas:lang aama:Sidaama .
+sid:Subordinate rdf:type sid:Clausetype .
+sid:Subordinate rdfs:label "Subordinate" .
+
+#SCHEMATA: number
+sid:number aamas:lang aama:Sidaama .
+sid:Number aamas:lang aama:Sidaama .
+sid:number rdfs:domain aamas:Term .
+sid:Number rdfs:label "number exponents" .
+sid:number rdfs:label "number" .
+sid:number rdfs:range sid:Number .
+sid:Number rdfs:subClassOf sid:MuExponent .
+sid:number rdfs:subPropertyOf sid:muProperty .
+sid:Common aamas:lang aama:Sidaama .
+sid:Common rdf:type sid:Number .
+sid:Common rdfs:label "Common" .
+sid:Plural aamas:lang aama:Sidaama .
+sid:Plural rdf:type sid:Number .
+sid:Plural rdfs:label "Plural" .
+sid:Singular aamas:lang aama:Sidaama .
+sid:Singular rdf:type sid:Number .
+sid:Singular rdfs:label "Singular" .
+
+#SCHEMATA: vmorphClass
+sid:vmorphClass aamas:lang aama:Sidaama .
+sid:Vmorphclass aamas:lang aama:Sidaama .
+sid:vmorphClass rdfs:domain aamas:Term .
+sid:Vmorphclass rdfs:label "vmorphClass exponents" .
+sid:vmorphClass rdfs:label "vmorphClass" .
+sid:vmorphClass rdfs:range sid:Vmorphclass .
+sid:Vmorphclass rdfs:subClassOf sid:MuExponent .
+sid:vmorphClass rdfs:subPropertyOf sid:muProperty .
+sid:DervStem aamas:lang aama:Sidaama .
+sid:DervStem rdf:type sid:Vmorphclass .
+sid:DervStem rdfs:label "DervStem" .
+sid:Existence aamas:lang aama:Sidaama .
+sid:Existence rdf:type sid:Vmorphclass .
+sid:Existence rdfs:label "Existence" .
+sid:Finite aamas:lang aama:Sidaama .
+sid:Finite rdf:type sid:Vmorphclass .
+sid:Finite rdfs:label "Finite" .
+sid:PersNumTenseSuff aamas:lang aama:Sidaama .
+sid:PersNumTenseSuff rdf:type sid:Vmorphclass .
+sid:PersNumTenseSuff rdfs:label "PersNumTenseSuff" .
+sid:SubjMarkerConnConj aamas:lang aama:Sidaama .
+sid:SubjMarkerConnConj rdf:type sid:Vmorphclass .
+sid:SubjMarkerConnConj rdfs:label "SubjMarkerConnConj" .
+sid:SubjMarkerInfinSub aamas:lang aama:Sidaama .
+sid:SubjMarkerInfinSub rdf:type sid:Vmorphclass .
+sid:SubjMarkerInfinSub rdfs:label "SubjMarkerInfinSub" .
+sid:SubjMarkerMain aamas:lang aama:Sidaama .
+sid:SubjMarkerMain rdf:type sid:Vmorphclass .
+sid:SubjMarkerMain rdfs:label "SubjMarkerMain" .
+sid:SuffStructure aamas:lang aama:Sidaama .
+sid:SuffStructure rdf:type sid:Vmorphclass .
+sid:SuffStructure rdfs:label "SuffStructure" .
+sid:TensePersNumGenTemplate aamas:lang aama:Sidaama .
+sid:TensePersNumGenTemplate rdf:type sid:Vmorphclass .
+sid:TensePersNumGenTemplate rdfs:label "TensePersNumGenTemplate" .
+sid:VerbNegation aamas:lang aama:Sidaama .
+sid:VerbNegation rdf:type sid:Vmorphclass .
+sid:VerbNegation rdfs:label "VerbNegation" .
+
+#SCHEMATA: interrogClass
+sid:interrogClass aamas:lang aama:Sidaama .
+sid:Interrogclass aamas:lang aama:Sidaama .
+sid:interrogClass rdfs:domain aamas:Term .
+sid:Interrogclass rdfs:label "interrogClass exponents" .
+sid:interrogClass rdfs:label "interrogClass" .
+sid:interrogClass rdfs:range sid:Interrogclass .
+sid:Interrogclass rdfs:subClassOf sid:MuExponent .
+sid:interrogClass rdfs:subPropertyOf sid:muProperty .
+sid:InterrogProWhat aamas:lang aama:Sidaama .
+sid:InterrogProWhat rdf:type sid:Interrogclass .
+sid:InterrogProWhat rdfs:label "InterrogProWhat" .
+sid:InterrogProWhen aamas:lang aama:Sidaama .
+sid:InterrogProWhen rdf:type sid:Interrogclass .
+sid:InterrogProWhen rdfs:label "InterrogProWhen" .
+sid:InterrogProWhere aamas:lang aama:Sidaama .
+sid:InterrogProWhere rdf:type sid:Interrogclass .
+sid:InterrogProWhere rdfs:label "InterrogProWhere" .
+sid:InterrogProWhich aamas:lang aama:Sidaama .
+sid:InterrogProWhich rdf:type sid:Interrogclass .
+sid:InterrogProWhich rdfs:label "InterrogProWhich" .
+sid:InterrogProWho aamas:lang aama:Sidaama .
+sid:InterrogProWho rdf:type sid:Interrogclass .
+sid:InterrogProWho rdfs:label "InterrogProWho" .
+
+#SCHEMATA: pos
+sid:pos aamas:lang aama:Sidaama .
+sid:Pos aamas:lang aama:Sidaama .
+sid:pos rdfs:domain aamas:Term .
+sid:Pos rdfs:label "pos exponents" .
+sid:pos rdfs:label "pos" .
+sid:pos rdfs:range sid:Pos .
+sid:Pos rdfs:subClassOf sid:MuExponent .
+sid:pos rdfs:subPropertyOf sid:muProperty .
+sid:Pronoun aamas:lang aama:Sidaama .
+sid:Pronoun rdf:type sid:Pos .
+sid:Pronoun rdfs:label "Pronoun" .
+sid:Verb aamas:lang aama:Sidaama .
+sid:Verb rdf:type sid:Pos .
+sid:Verb rdfs:label "Verb" .
+
+#SCHEMATA: proClass
+sid:proClass aamas:lang aama:Sidaama .
+sid:Proclass aamas:lang aama:Sidaama .
+sid:proClass rdfs:domain aamas:Term .
+sid:Proclass rdfs:label "proClass exponents" .
+sid:proClass rdfs:label "proClass" .
+sid:proClass rdfs:range sid:Proclass .
+sid:Proclass rdfs:subClassOf sid:MuExponent .
+sid:proClass rdfs:subPropertyOf sid:muProperty .
+sid:DemAdnom aamas:lang aama:Sidaama .
+sid:DemAdnom rdf:type sid:Proclass .
+sid:DemAdnom rdfs:label "DemAdnom" .
+sid:DemAdv aamas:lang aama:Sidaama .
+sid:DemAdv rdf:type sid:Proclass .
+sid:DemAdv rdfs:label "DemAdv" .
+sid:DemAreaAdnom aamas:lang aama:Sidaama .
+sid:DemAreaAdnom rdf:type sid:Proclass .
+sid:DemAreaAdnom rdfs:label "DemAreaAdnom" .
+sid:DemSpec aamas:lang aama:Sidaama .
+sid:DemSpec rdf:type sid:Proclass .
+sid:DemSpec rdfs:label "DemSpec" .
+sid:DemSpecAdv aamas:lang aama:Sidaama .
+sid:DemSpecAdv rdf:type sid:Proclass .
+sid:DemSpecAdv rdfs:label "DemSpecAdv" .
+sid:Demonstrative aamas:lang aama:Sidaama .
+sid:Demonstrative rdf:type sid:Proclass .
+sid:Demonstrative rdfs:label "Demonstrative" .
+sid:Independent aamas:lang aama:Sidaama .
+sid:Independent rdf:type sid:Proclass .
+sid:Independent rdfs:label "Independent" .
+sid:Interrogative aamas:lang aama:Sidaama .
+sid:Interrogative rdf:type sid:Proclass .
+sid:Interrogative rdfs:label "Interrogative" .
+sid:ObjSuff aamas:lang aama:Sidaama .
+sid:ObjSuff rdf:type sid:Proclass .
+sid:ObjSuff rdfs:label "ObjSuff" .
+sid:ReflPoss aamas:lang aama:Sidaama .
+sid:ReflPoss rdf:type sid:Proclass .
+sid:ReflPoss rdfs:label "ReflPoss" .
+
+#SCHEMATA: lexeme
+sid:lexeme aamas:lang aama:Sidaama .
+sid:Lexeme aamas:lang aama:Sidaama .
+sid:lexeme rdfs:domain aamas:Term .
+sid:Lexeme rdfs:label "lexeme exponents" .
+sid:lexeme rdfs:label "lexeme" .
+sid:lexeme rdfs:range sid:Lexeme .
+sid:Lexeme rdfs:subClassOf sid:MuExponent .
+sid:lexeme rdfs:subPropertyOf sid:muProperty .
+sid:haishsh aamas:lang aama:Sidaama .
+sid:haishsh rdf:type sid:Lexeme .
+sid:haishsh rdfs:label "haishsh" .
+sid:hank aamas:lang aama:Sidaama .
+sid:hank rdf:type sid:Lexeme .
+sid:hank rdfs:label "hank" .
+sid:it aamas:lang aama:Sidaama .
+sid:it rdf:type sid:Lexeme .
+sid:it rdfs:label "it" .
+sid:no aamas:lang aama:Sidaama .
+sid:no rdf:type sid:Lexeme .
+sid:no rdfs:label "no" .
+sid:wil aamas:lang aama:Sidaama .
+sid:wil rdf:type sid:Lexeme .
+sid:wil rdfs:label "wil" .
+
+#SCHEMATA: pmorphClass
+sid:pmorphClass aamas:lang aama:Sidaama .
+sid:Pmorphclass aamas:lang aama:Sidaama .
+sid:pmorphClass rdfs:domain aamas:Term .
+sid:Pmorphclass rdfs:label "pmorphClass exponents" .
+sid:pmorphClass rdfs:label "pmorphClass" .
+sid:pmorphClass rdfs:range sid:Pmorphclass .
+sid:Pmorphclass rdfs:subClassOf sid:MuExponent .
+sid:pmorphClass rdfs:subPropertyOf sid:muProperty .
+sid:ProMorph aamas:lang aama:Sidaama .
+sid:ProMorph rdf:type sid:Pmorphclass .
+sid:ProMorph rdfs:label "ProMorph" .
+
+#SCHEMATA: case
+sid:case aamas:lang aama:Sidaama .
+sid:Case aamas:lang aama:Sidaama .
+sid:case rdfs:domain aamas:Term .
+sid:Case rdfs:label "case exponents" .
+sid:case rdfs:label "case" .
+sid:case rdfs:range sid:Case .
+sid:Case rdfs:subClassOf sid:MuExponent .
+sid:case rdfs:subPropertyOf sid:muProperty .
+sid:Accusative aamas:lang aama:Sidaama .
+sid:Accusative rdf:type sid:Case .
+sid:Accusative rdfs:label "Accusative" .
+sid:Common aamas:lang aama:Sidaama .
+sid:Common rdf:type sid:Case .
+sid:Common rdfs:label "Common" .
+sid:Genitive aamas:lang aama:Sidaama .
+sid:Genitive rdf:type sid:Case .
+sid:Genitive rdfs:label "Genitive" .
+sid:NomGen aamas:lang aama:Sidaama .
+sid:NomGen rdf:type sid:Case .
+sid:NomGen rdfs:label "NomGen" .
+sid:Nominative aamas:lang aama:Sidaama .
+sid:Nominative rdf:type sid:Case .
+sid:Nominative rdfs:label "Nominative" .
+
+#SCHEMATA: polarity
+sid:polarity aamas:lang aama:Sidaama .
+sid:Polarity aamas:lang aama:Sidaama .
+sid:polarity rdfs:domain aamas:Term .
+sid:Polarity rdfs:label "polarity exponents" .
+sid:polarity rdfs:label "polarity" .
+sid:polarity rdfs:range sid:Polarity .
+sid:Polarity rdfs:subClassOf sid:MuExponent .
+sid:polarity rdfs:subPropertyOf sid:muProperty .
+sid:Affirmative aamas:lang aama:Sidaama .
+sid:Affirmative rdf:type sid:Polarity .
+sid:Affirmative rdfs:label "Affirmative" .
+sid:Negative aamas:lang aama:Sidaama .
+sid:Negative rdf:type sid:Polarity .
+sid:Negative rdfs:label "Negative" .
+
+#SCHEMATA: tam
+sid:tam aamas:lang aama:Sidaama .
+sid:Tam aamas:lang aama:Sidaama .
+sid:tam rdfs:domain aamas:Term .
+sid:Tam rdfs:label "tam exponents" .
+sid:tam rdfs:label "tam" .
+sid:tam rdfs:range sid:Tam .
+sid:Tam rdfs:subClassOf sid:MuExponent .
+sid:tam rdfs:subPropertyOf sid:muProperty .
+sid:Connective aamas:lang aama:Sidaama .
+sid:Connective rdf:type sid:Tam .
+sid:Connective rdfs:label "Connective" .
+sid:Continuous aamas:lang aama:Sidaama .
+sid:Continuous rdf:type sid:Tam .
+sid:Continuous rdfs:label "Continuous" .
+sid:Imperative aamas:lang aama:Sidaama .
+sid:Imperative rdf:type sid:Tam .
+sid:Imperative rdfs:label "Imperative" .
+sid:Imperfect aamas:lang aama:Sidaama .
+sid:Imperfect rdf:type sid:Tam .
+sid:Imperfect rdfs:label "Imperfect" .
+sid:InfinitiveConj aamas:lang aama:Sidaama .
+sid:InfinitiveConj rdf:type sid:Tam .
+sid:InfinitiveConj rdfs:label "InfinitiveConj" .
+sid:InfinitiveConn aamas:lang aama:Sidaama .
+sid:InfinitiveConn rdf:type sid:Tam .
+sid:InfinitiveConn rdfs:label "InfinitiveConn" .
+sid:InfinitiveSub aamas:lang aama:Sidaama .
+sid:InfinitiveSub rdf:type sid:Tam .
+sid:InfinitiveSub rdfs:label "InfinitiveSub" .
+sid:Optative aamas:lang aama:Sidaama .
+sid:Optative rdf:type sid:Tam .
+sid:Optative rdfs:label "Optative" .
+sid:PresentPerfect aamas:lang aama:Sidaama .
+sid:PresentPerfect rdf:type sid:Tam .
+sid:PresentPerfect rdfs:label "PresentPerfect" .
+sid:PresentProgressive aamas:lang aama:Sidaama .
+sid:PresentProgressive rdf:type sid:Tam .
+sid:PresentProgressive rdfs:label "PresentProgressive" .
+sid:SimplePerfect aamas:lang aama:Sidaama .
+sid:SimplePerfect rdf:type sid:Tam .
+sid:SimplePerfect rdfs:label "SimplePerfect" .
+
+#SCHEMATA: configuration
+sid:configuration aamas:lang aama:Sidaama .
+sid:Configuration aamas:lang aama:Sidaama .
+sid:configuration rdfs:domain aamas:Term .
+sid:Configuration rdfs:label "configuration exponents" .
+sid:configuration rdfs:label "configuration" .
+sid:configuration rdfs:range sid:Configuration .
+sid:Configuration rdfs:subClassOf sid:MuExponent .
+sid:configuration rdfs:subPropertyOf sid:muProperty .
+sid:Connective aamas:lang aama:Sidaama .
+sid:Connective rdf:type sid:Configuration .
+sid:Connective rdfs:label "Connective" .
+sid:InfinitiveConj aamas:lang aama:Sidaama .
+sid:InfinitiveConj rdf:type sid:Configuration .
+sid:InfinitiveConj rdfs:label "InfinitiveConj" .
+sid:InfinitiveConn aamas:lang aama:Sidaama .
+sid:InfinitiveConn rdf:type sid:Configuration .
+sid:InfinitiveConn rdfs:label "InfinitiveConn" .
+sid:SubjMarkerRed aamas:lang aama:Sidaama .
+sid:SubjMarkerRed rdf:type sid:Configuration .
+sid:SubjMarkerRed rdfs:label "SubjMarkerRed" .
+
+#SCHEMATA: gender
+sid:gender aamas:lang aama:Sidaama .
+sid:Gender aamas:lang aama:Sidaama .
+sid:gender rdfs:domain aamas:Term .
+sid:Gender rdfs:label "gender exponents" .
+sid:gender rdfs:label "gender" .
+sid:gender rdfs:range sid:Gender .
+sid:Gender rdfs:subClassOf sid:MuExponent .
+sid:gender rdfs:subPropertyOf sid:muProperty .
+sid:Common aamas:lang aama:Sidaama .
+sid:Common rdf:type sid:Gender .
+sid:Common rdfs:label "Common" .
+sid:Fem aamas:lang aama:Sidaama .
+sid:Fem rdf:type sid:Gender .
+sid:Fem rdfs:label "Fem" .
+sid:Masc aamas:lang aama:Sidaama .
+sid:Masc rdf:type sid:Gender .
+sid:Masc rdfs:label "Masc" .
+
+#SCHEMATA: deixis
+sid:deixis aamas:lang aama:Sidaama .
+sid:Deixis aamas:lang aama:Sidaama .
+sid:deixis rdfs:domain aamas:Term .
+sid:Deixis rdfs:label "deixis exponents" .
+sid:deixis rdfs:label "deixis" .
+sid:deixis rdfs:range sid:Deixis .
+sid:Deixis rdfs:subClassOf sid:MuExponent .
+sid:deixis rdfs:subPropertyOf sid:muProperty .
+sid:Here aamas:lang aama:Sidaama .
+sid:Here rdf:type sid:Deixis .
+sid:Here rdfs:label "Here" .
+sid:ThatArea aamas:lang aama:Sidaama .
+sid:ThatArea rdf:type sid:Deixis .
+sid:ThatArea rdfs:label "ThatArea" .
+sid:There aamas:lang aama:Sidaama .
+sid:There rdf:type sid:Deixis .
+sid:There rdfs:label "There" .
+sid:ThisArea aamas:lang aama:Sidaama .
+sid:ThisArea rdf:type sid:Deixis .
+sid:ThisArea rdfs:label "ThisArea" .
+sid:overThere aamas:lang aama:Sidaama .
+sid:overThere rdf:type sid:Deixis .
+sid:overThere rdfs:label "overThere" .
+
+#SCHEMATA: direction
+sid:direction aamas:lang aama:Sidaama .
+sid:Direction aamas:lang aama:Sidaama .
+sid:direction rdfs:domain aamas:Term .
+sid:Direction rdfs:label "direction exponents" .
+sid:direction rdfs:label "direction" .
+sid:direction rdfs:range sid:Direction .
+sid:Direction rdfs:subClassOf sid:MuExponent .
+sid:direction rdfs:subPropertyOf sid:muProperty .
+sid:DirAT aamas:lang aama:Sidaama .
+sid:DirAT rdf:type sid:Direction .
+sid:DirAT rdfs:label "DirAT" .
+sid:DirFROM aamas:lang aama:Sidaama .
+sid:DirFROM rdf:type sid:Direction .
+sid:DirFROM rdfs:label "DirFROM" .
+sid:DirTO aamas:lang aama:Sidaama .
+sid:DirTO rdf:type sid:Direction .
+sid:DirTO rdfs:label "DirTO" .
+
+#PCLASSES:
+
+sid:person aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+sid:number aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+sid:gender aamas:pclass aamas:pngClass .
+aamas:pngClass rdfs:label "pngClass" .
+sid:aspect aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:case aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:causative1Causative2 aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:clausetype aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:configuration aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:deixis aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:derivedStem aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:direction aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:interrogClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:middleClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:passiveReckiprocalClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:polarity aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:pos aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:posClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:proClass aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+sid:tamb aamas:pclass aamas:synsemClass .
+aamas:synsemClass rdfs:label "synsemClass" .
+
+#LEXEMES:
+aama:Sidaama-haishsh a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "haishsh" ;
+	aamas:lemma "haišš-" ;
+	aamas:gloss "wash" ;
+	.
+aama:Sidaama-hank a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "hank" ;
+	aamas:lemma "hank'-" ;
+	aamas:gloss "Getangry" ;
+	.
+aama:Sidaama-it a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "it" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Sidaama-it-1 a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "it-1" ;
+	aamas:lemma "waasa" ;
+	aamas:gloss "Foot" ;
+	.
+aama:Sidaama-it-2 a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "it-2" ;
+	aamas:lemma "it-" ;
+	aamas:gloss "eat" ;
+	.
+aama:Sidaama-no a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "no" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Sidaama-wil a aamas:Lexeme ;
+	aamas:lang aama:Sidaama ;
+	rdfs:label "wil" ;
+	aamas:lemma "wil-" ;
+	aamas:gloss "cry" ;
+	.
+
+#TERMCLUSTER:  sidaama-PReflPoss
+
+sid:sidaama-PReflPoss a aamas:Termcluster ;
+	rdfs:label "sidaama-PReflPoss" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.5" 
+	.
+
+aama:ID59686d5b-51f1-4976-8082-09deed4462d0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-’ya" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID1b86ead7-7ca5-4c74-9429-0abd01015047 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-kki" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDb77d35c4-4221-4b92-bef4-3aa659588506 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-si" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID90b69e8d-fa87-42e7-b845-db9d28e3d98e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-se" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID4510c2c1-fc78-41a0-91f8-d29d9f66babe a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-nke" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDfa968b8f-aa34-4cfb-b17a-36d3be8a2edf a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-’ne" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDc8a8f102-979f-4ead-a402-692ebd160e56 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "umo-nsa" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDc3ddc636-2c57-45f3-84ca-177cddb64908 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-’ya" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:case sid:NomGen ;
+	.
+
+aama:ID1cc038c8-619f-442e-b41b-3acc88f8e27e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-kki" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:case sid:NomGen ;
+	.
+
+aama:ID532f223a-fda8-4625-8d62-183c59efc4eb a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-si" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:NomGen ;
+	.
+
+aama:ID1e8f47e0-e787-4dab-b861-7379a41193af a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-se" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:NomGen ;
+	.
+
+aama:IDd2378c7d-2a69-4e2a-a24b-b23e37d7260a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-nke" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:case sid:NomGen ;
+	.
+
+aama:ID21920b3f-91a6-47d2-8761-1aa54538df77 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-’ne" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:case sid:NomGen ;
+	.
+
+aama:ID5821d945-2feb-401d-af17-8b86d3e28430 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PReflPoss ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ReflPoss ;
+	sid:token "um-i-nsa" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:case sid:NomGen ;
+	.
+
+#TERMCLUSTER:  sidaama-PIndependent
+
+sid:sidaama-PIndependent a aamas:Termcluster ;
+	rdfs:label "sidaama-PIndependent" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.4" 
+	.
+
+aama:ID2d5c3548-d27f-4e49-bd17-b4284e90fda7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ané" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID29e130a3-e060-400d-a8c4-63c684c78c7f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "até" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID3f35af0f-0b32-4c98-bfae-6075be127200 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "isó" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID542b019d-8d21-4716-9314-6958423bb9f0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "isé" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID4c9953d8-be3c-41e6-b910-f7b70a9783a5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ninké" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID485afdfe-0191-4671-a34b-16e7981a0596 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ki’né" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID3aaacca1-ff92-4a26-9bd0-dcff2b40348a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "insá" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDb6bfc0ca-1f86-4de1-b3b1-a1f7d5abf4ea a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ané" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:case sid:Genitive ;
+	.
+
+aama:IDf6e92f78-640c-451e-9148-71ce1cd0194a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "até" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID1ff3b67b-a644-4be7-a7b2-4d49b47ad952 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "isí" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID59e9795f-fb13-46d2-a77c-6c8946b18e3d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "isé" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Genitive ;
+	.
+
+aama:IDf6c97283-6a31-4d43-8992-c6935f1e66d2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ninké" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID3976de1d-b648-4206-937d-2dd73a8caeff a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ki’né" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID0c76594f-9ef7-45a4-affb-91883a841e00 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "insá" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:case sid:Genitive ;
+	.
+
+aama:IDe030f946-2015-4254-b7bc-1d0a3af4191f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "áni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:case sid:Nominative ;
+	.
+
+aama:IDd135c7f2-12d5-48e5-8fa5-e3fcd991074b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "áti" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:case sid:Nominative ;
+	.
+
+aama:IDe9819119-0dc9-49b1-a4b7-587e35333ea0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ísi" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID25923461-044b-4a2a-bb94-afda94025932 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "íse" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:case sid:Nominative ;
+	.
+
+aama:IDe3bd5227-8297-4f3d-aa8f-9b65785216cf a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "nínke" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID3dcba501-f650-4806-b919-076580273d76 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "kí’ne" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID7d4f5b93-889b-4ae5-8520-0bcff7cb3bb8 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PIndependent ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Independent ;
+	sid:token "ínsa" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:case sid:Nominative ;
+	.
+
+#TERMCLUSTER:  sidaama-VSimplePerf-haishsh
+
+sid:sidaama-VSimplePerf-haishsh a aamas:Termcluster ;
+	rdfs:label "sidaama-VSimplePerf-haishsh" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID716e2d08-0c9d-4137-b226-f55a20d031c4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆--mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDeae60a3a-e940-403d-8856-0e34d70755f8 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-u-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDe390f7e8-d367-4261-a50c-a978360c2c09 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDb7c77ea2-106a-411b-88d0-6dfbf446749d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID8ed66e67-dda6-4faa-8d00-4eab2537a1bd a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID5db2bd7f-4092-4666-a9d2-13b158acaa62 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i-t-u" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID409e6464-e6cf-4e72-8d1d-ca466cdb6826 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i-n-ummo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID2413f0bf-bb35-4771-af9c-e8e835f6a69d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i-t-in-i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDc0730018-d657-4cf1-83c5-a9739a45d5ff a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "hais̆s̆-i-t-u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VImperfect-haishsh
+
+sid:sidaama-VImperfect-haishsh a aamas:Termcluster ;
+	rdfs:label "sidaama-VImperfect-haishsh" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID262e676f-6fe9-48d5-b7d8-c3e292396be1 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-ee-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDb0557a3a-91aa-488c-86d6-172f6c7d3af4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-ee-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDb671f078-bd42-4566-ae97-c4297268cdb3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-a-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID74c69379-1bca-4d54-b4a8-c3932658c653 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-a-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID2ab2b0b2-0b1c-4f6a-a8c4-3492a7de754d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-anno" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf7981f75-afd8-4bf0-bfd0-b2bd5c3238cb a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-i-t-anno" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1651bea9-f3e9-46dd-b6ba-4029510c5cb4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-i-n-ee-mmo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID08984f87-6282-473b-b671-849689cd2865 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-i-tin-anni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID9078a3a0-1d5c-4c07-a2bc-b0600cecaa67 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "hais̆s̆-i-t-anno" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VImperfect-it
+
+sid:sidaama-VImperfect-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VImperfect-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:IDa157a3a1-188f-40c2-9748-052bd7617a08 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-ee-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDaeabb92a-ec8b-4605-bf7b-5db0c431bfd0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-ee-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDfc12dd9a-9194-4c1d-a3a6-76e298a21541 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-a-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf0bb71ab-82b9-4642-888e-3a421dea945e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-a-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID5717a977-fc40-42f2-9fed-c9a8151fc698 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-anno" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID6a4aa314-d011-4c5e-a6e3-c59b01079686 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-t-anno" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID282d9b8f-eb13-4b55-804b-eb337c52f859 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "i-n-t-ee-mmo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDb78d4d69-59b1-4110-9652-3235078455f2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-tin-anni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID9ecd1ca8-8a77-4249-953f-382b9ad30d8d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VImperfect-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperfect ;
+	sid:token "it-t-anno" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VExistence-no
+
+sid:sidaama-VExistence-no a aamas:Termcluster ;
+	rdfs:label "sidaama-VExistence-no" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%(4.181). The existential/locational verb (henceforth%%“the existential
+            verb”) (lit.%%‘to come to exist%%come to be located’)%%which is used to indicate the
+            existence of an entity or thelocation of one entity with respect to another%%is always in
+            a present perfect form%%asshown in (4.181)%%and is incompatible with most of the
+            inflectional suffixes with whichother verbs can usually occur. It expresses the present
+            state of existence or locatedness asthe resultative state of a state-change%%as indicated
+            above in the gloss for this verb(nevertheless%%the present study employs ‘exist’ as its
+            gloss). Thus%%this verb does nottake any other aspect suffix. For example%%it has no
+            simple perfect or imperfect forms(e.g.%%*no-u-mm-a/*no-u-mm-o
+            [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o
+            [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning%%verbs like
+            heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has
+            no forms for the first-person plural and the secondperson plural%%the verb heeɗ- ‘to
+            live’ is used in these cases (1PL:hee’-n-oo-mmo
+            [live-1PL-PRESPERF.1-1PL]%%2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407
+            f)" 
+	.
+
+aama:ID6ded9bb1-4f41-4264-ac29-f1bf69e38379 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VExistence-no ;
+	aamas:lexeme aama:Sidaama-no ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:Existence ;
+	sid:token "noomma" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1f16260f-c207-4953-bb9e-fda7d4caa945 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VExistence-no ;
+	aamas:lexeme aama:Sidaama-no ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:Existence ;
+	sid:token "noommo" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDca966dd3-c50b-4aa5-9739-420e999c0022 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VExistence-no ;
+	aamas:lexeme aama:Sidaama-no ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:Existence ;
+	sid:token "nootta" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID73f28c47-2343-441f-8788-60e63feee7b5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VExistence-no ;
+	aamas:lexeme aama:Sidaama-no ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:Existence ;
+	sid:token "nootto" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDe524317b-4001-4eab-a560-3316827138cc a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VExistence-no ;
+	aamas:lexeme aama:Sidaama-no ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:Existence ;
+	sid:token "no" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1d023ba7-0584-47a8-8f41-16d651a33794 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VExistence-no ;
+	aamas:lexeme aama:Sidaama-no ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:Existence ;
+	sid:token "no" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VTensePersNumGenTemplate
+
+sid:sidaama-VTensePersNumGenTemplate a aamas:Termcluster ;
+	rdfs:label "sidaama-VTensePersNumGenTemplate" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 4.6. There is a basic template:1:tense%%2:numPers%%3:genM/genF.
+            Verbs can be marked with suffixes for three types of temporal aspects%%the imperfect%%the
+            simple perfect%%and the present perfect%%together with suffixes for theperson/number of
+            the subject. In addition%%the genders of the first- and second-personsingular subjects
+            are also marked with suffixes (M:-o%%F:-a). Template note: :token-genF%%
+            :token-genM%%
+            :token-numPers%%
+            :token-tense." 
+	.
+
+aama:ID614a7a6f-7750-4041-a8ca-4636962409b7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template "-a + -o + -mm + -ee" ;
+	sid:token "-a : -o : -mm : -ee" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:ID03ed8655-6959-4a5b-a5a0-dfc7fa04d556 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template "-a + -o + -tt + -a" ;
+	sid:token "-a : -o : -tt : -a" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:IDd8faf1b4-81cc-4d52-9058-5fc89e992f26 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + Common + -anno" ;
+	sid:token " : Common : Common : -anno" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:ID67541e7d-ede2-4a80-8a7e-9da6b94e28da a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -t + -anno" ;
+	sid:token " : Common : -t : -anno" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:IDedd8e879-7191-4011-99c1-afcfd377e979 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -n-V–mmo + -ee" ;
+	sid:token " : Common : -n-V–mmo : -ee" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:IDbba9e0b1-6690-4637-bb7d-cc7d19b0f823 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -tin + -anni" ;
+	sid:token " : Common : -tin : -anni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:IDc1c3fa59-f442-46bc-8c36-e30da2533bd9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -t + -anno" ;
+	sid:token " : Common : -t : -anno" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperfect ;
+	.
+
+aama:ID317d2688-3bf0-4f31-a3aa-70283e260f33 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template "-a + -o + -mm + -oo" ;
+	sid:token "-a : -o : -mm : -oo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:ID186b0f3e-be62-4ea1-8d34-586699f2baed a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template "-a + -o + -tt + -oo" ;
+	sid:token "-a : -o : -tt : -oo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:ID0242fc29-c0c2-47ad-bed6-6e53de66820a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + Common + -ino" ;
+	sid:token " : Common : Common : -ino" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:ID5aeecc9c-fff9-4563-9f1a-8eba9035d72b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -t + -ino" ;
+	sid:token " : Common : -t : -ino" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:IDc18809e8-43a7-4eb8-a861-84499d7e1b66 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -n-V–mmo + -oo" ;
+	sid:token " : Common : -n-V–mmo : -oo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:IDa14d9b9d-08a2-46c3-ac4f-346ff5b4bcb2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -tin + -oonni" ;
+	sid:token " : Common : -tin : -oonni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:ID14257928-7996-4863-8c83-27f293e84086 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -t + -ino" ;
+	sid:token " : Common : -t : -ino" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:PresentPerfect ;
+	.
+
+aama:ID7a5bb603-13d3-4218-8b4a-1db46e9a56ef a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template "-a + -o + -mm + -u" ;
+	sid:token "-a : -o : -mm : -u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+aama:IDd89146cb-bc09-4447-8937-5644afacf425 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template "-a + -o + -tt + -i" ;
+	sid:token "-a : -o : -tt : -i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+aama:ID25e2e03b-cd15-4922-93ed-63bdfb208a78 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + Common + -i" ;
+	sid:token " : Common : Common : -i" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+aama:ID96327b99-de1f-456a-b872-ce3e68dcc9e8 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -t + -u" ;
+	sid:token " : Common : -t : -u" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+aama:ID4b88f3df-46f7-4b2d-b327-cbf7b18c086e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -n-V–mmo + -u" ;
+	sid:token " : Common : -n-V–mmo : -u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+aama:IDb5921e0d-5c7c-4b2b-bddf-f211f10abf34 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -tin + -i" ;
+	sid:token " : Common : -tin : -i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+aama:IDa5b0f140-0257-417d-973e-8427c65aa248 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:TensePersNumGenTemplate ;
+	sid:token-note-template " + Common + -t + -u" ;
+	sid:token " : Common : -t : -u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:SimplePerfect ;
+	.
+
+#TERMCLUSTER:  sidaama-VSimplePerf-it
+
+sid:sidaama-VSimplePerf-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VSimplePerf-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID12ec664f-e8a5-475e-a457-e3ffd063d0b9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-u-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID895a8ed5-fb21-4603-9dd4-edb0df1f2a27 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-u-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDfa6f39b7-382b-4db1-b7fa-4e0da829ceac a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-i-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID86014ad8-c9cc-4b4c-9274-708f7fd72e8f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-i-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID72b0be4a-c6a5-4c66-bfa9-e071e3149fb6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-i" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1aec2aec-5002-43c2-909b-b63de13552ec a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-t-u" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID9d64c21a-5ade-4c78-b4ab-538e050085af a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "i-n-t-u-mmo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID1cb06050-2319-4447-b36e-ccec9e2ee5fc a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-in-i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID36b04e27-3c72-408a-aa70-4bf6180eb49d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:token "it-t-u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VPersNumTenseSuffCorrelation
+
+sid:sidaama-VPersNumTenseSuffCorrelation a aamas:Termcluster ;
+	rdfs:label "sidaama-VPersNumTenseSuffCorrelation" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 4.7. each aspect suffix can carry additional information about
+            the person/number of the subject(p. 398)" 
+	.
+
+aama:IDaef475fa-1f9d-49d2-accf-6ccfaed81b52 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-a" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:aspect sid:Imperfect ;
+	.
+
+aama:IDf3991eb1-520a-4677-aea6-79c424e3ed41 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-anni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:aspect sid:Imperfect ;
+	.
+
+aama:ID5fb9279b-43b7-4dbc-bb82-e05cfd75e09a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-ee" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Common ;
+	sid:aspect sid:Imperfect ;
+	.
+
+aama:IDfb61cf86-7e66-417d-8b90-3144e9266799 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-anno" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Common ;
+	sid:aspect sid:Imperfect ;
+	.
+
+aama:ID4e470b6d-511d-415f-9462-f8a23f24c20c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-oo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:aspect sid:PresentPerfect ;
+	.
+
+aama:IDea8cfa30-843f-4c4d-8d7c-2bfa1ca29cbe a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-oo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:aspect sid:PresentPerfect ;
+	.
+
+aama:ID94840848-1d1e-49f8-be88-d0b7a46940d7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-oonni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:aspect sid:PresentPerfect ;
+	.
+
+aama:IDe75ef97f-6ae4-49cd-ae1c-9d4da1a097b3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-ino" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Common ;
+	sid:aspect sid:PresentPerfect ;
+	.
+
+aama:ID1b8d9945-72e4-4945-812b-e5bf685c2800 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:aspect sid:SimplePerfect ;
+	.
+
+aama:ID53e59927-4f98-4999-ab5f-f854cef5d6af a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:aspect sid:SimplePerfect ;
+	.
+
+aama:ID408b87fa-1ce6-4256-ba73-c7314e5773ed a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-i" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:aspect sid:SimplePerfect ;
+	.
+
+aama:ID352afeef-e882-49a0-b23a-22f299e5306f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-u" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:aspect sid:SimplePerfect ;
+	.
+
+aama:IDc4ae481e-1700-4611-84c3-be4087e20b32 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:PersNumTenseSuff ;
+	sid:token "-u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:aspect sid:SimplePerfect ;
+	.
+
+#TERMCLUSTER:  sidaama-VAffImprtv-it
+
+sid:sidaama-VAffImprtv-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VAffImprtv-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
+            imperative." 
+	.
+
+aama:IDa49a7d71-e18c-4926-83d9-d6c02c885ec2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VAffImprtv-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:person sid:Person2 ;
+	sid:polarity sid:Affirmative ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperative ;
+	sid:token "it-i" ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID9cbcfa76-3d2e-4430-86a1-2d59291a09a5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VAffImprtv-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:person sid:Person2 ;
+	sid:polarity sid:Affirmative ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperative ;
+	sid:token "it-Ce" ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VSubjMarkerConnConj
+
+sid:sidaama-VSubjMarkerConnConj a aamas:Termcluster ;
+	rdfs:label "sidaama-VSubjMarkerConnConj" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 4.11 Subject Person Suffix (before –CNN or –INF-MANNER). [=nna
+            is a conjunctive enclitic]. There are two basic connective constructions (markers on
+            verb1 for constuctions verb1-and-then verb2or while-verb1%%verb2) and one conjunctive
+            construction (verb1=and verb2)%%all involving a characteristically Cushitic reduced set
+            of person markers. The connective consists of the reduced person markrs followed by
+            –e" 
+	.
+
+aama:IDc14aa64f-43e6-482f-bd7d-4fa2edd9f332 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-Ø-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:IDeee904dd-a864-4a9a-a922-b5bd42d9b24a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:ID154affa2-245c-4af2-91ed-ecf53ec427f0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-Ø-e" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:IDa440f1a2-7df2-450d-a682-974b38061194 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-e" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:ID5420d6e0-947c-4b52-9fda-f6b9b894469a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-n-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:IDfc946df0-6fca-4ccf-acf7-7fe0a5f761dd a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-tin-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:ID88eb679b-4c13-43a7-ba36-fa5e7e81808e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:Connective ;
+	.
+
+aama:ID2913fb5a-3e0f-4341-b9b5-d671aac8b719 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-Ø-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:ID7b024576-f77e-4847-86c5-5be774b7adeb a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:ID76cf8d42-8117-4619-b07c-0ce480ccd71a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-Ø-a=nna" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:IDfa8dd379-aa02-45f5-93d8-35209921f794 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-a=nna" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:ID8635ca9b-7467-4efa-8d26-d87315ba14d0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-n-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:IDc029fb59-bac9-4332-a212-fc9e6a99b154 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-tin-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:ID3a367dc6-6cf2-49b8-bdff-7dbeefbaa1e0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:InfinitiveConj ;
+	.
+
+aama:ID70e0dedf-ee37-42b7-b804-38b092f17ec9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-Ø-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:ID38d1a99b-4126-4055-9cac-f93287dd7ead a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:ID79daa87a-a957-4501-a7e0-3e354908834f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-Ø-a-nni" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:ID490dadd2-8deb-4be1-a757-717ffc40f3a5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-a-nni" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:ID82b70163-d7c7-4812-b41b-2cde7035a33d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-n-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:ID41e3c575-fd09-4d76-a45f-866abfa13592 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-tin-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:ID40c93aee-3b1f-4508-a7e2-d0a0e7a4570b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:InfinitiveConn ;
+	.
+
+aama:IDd7b24ede-0118-4b54-85f8-d07509e0087c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "⊤" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+aama:ID7b9ca0e0-9cee-4ccf-8b32-5d1c4009aef7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+aama:ID0e1e7381-6992-4574-9c5c-efe27793e7e2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "⊤" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+aama:ID962ef883-13b1-4788-a5f8-9d28deb108b7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+aama:ID683e4e9a-dd67-4cdf-b9e8-9403c494d13b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-n" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+aama:IDd4b49d23-ad8a-462d-a611-cd60fcfbd277 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-tin" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+aama:ID77be7abf-7291-4273-a670-0fff7a71de83 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerConnConj ;
+	sid:token "-t" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:configuration sid:SubjMarkerRed ;
+	.
+
+#TERMCLUSTER:  sidaama-VSubjMarkerInfinSub
+
+sid:sidaama-VSubjMarkerInfinSub a aamas:Termcluster ;
+	rdfs:label "sidaama-VSubjMarkerInfinSub" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 4.12:Infinitive Suffix Accompanied by the Person Suffix when
+            Followed by –ra. The infinitival subordinate consists of the infinitivemarker
+            –a-%%followed by a special set of person markers (similar to imperfective)%%followed by
+            the subordinating suffix –ra. It is used for a large number of infinitival and purpose
+            clauses. cf. Kawachi2007%%pp. 420-425." 
+	.
+
+aama:ID26909d39-0d4f-45d9-a95c-5ce08cf55812 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-a-mm-o-ra ~ –ee-mm-o-a" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID95e14b4a-3ce3-4b14-970d-41221c1b7bd9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-a-mm-a-ra ~ –ee-mm-a-ra" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID030fa99e-23ad-4b5c-91c4-4b52e2ac0feb a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-a-tt-o-ra" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID0eedc996-63b9-41b7-805d-d67234a40b5d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-a-tt-a-ra" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID09c8c0cd-9b06-4d46-b57e-0f3544690dd7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-a-ra" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDc308630c-19bd-4b53-9f9a-687bffec6f4b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-t-a-ra" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID947fef56-91cf-46bf-bbac-6ea2e830ab32 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-n-a-mmo-ra ~ –n-ee-mmo-ra" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID69b0c1e0-225b-4eeb-b494-1f7ccd6da603 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-tin-a-ra" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDc9a08023-d85d-40ab-9574-64617c6b766b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerInfinSub ;
+	sid:token "-t-a-ra" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-PDem
+
+sid:sidaama-PDem a aamas:Termcluster ;
+	rdfs:label "sidaama-PDem" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.6. Demonstratives can be reduplicated in all case and deixis
+            forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted%%the acc
+            form is also the predicative." 
+	.
+
+aama:ID9c0ab821-806f-44ab-a206-9e4c53f30396 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDem ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Demonstrative ;
+	sid:token "kawa" ;
+	sid:deixis sid:Here ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDdb9e7be4-6f62-49d9-978d-deadcbfcb380 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDem ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Demonstrative ;
+	sid:token "hakka" ;
+	sid:deixis sid:There ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID0b0a9ad9-8458-42e4-998c-edae8d259479 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDem ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Demonstrative ;
+	sid:token "ka’a" ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID5bffb460-e6c2-44b1-94de-ac97a20c5646 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDem ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Demonstrative ;
+	sid:token "kaw-i" ;
+	sid:deixis sid:Here ;
+	sid:case sid:NomGen ;
+	.
+
+aama:IDa49586d6-54ff-49a8-87b1-2bd5cef11bcf a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDem ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Demonstrative ;
+	sid:token "hakk-i" ;
+	sid:deixis sid:There ;
+	sid:case sid:NomGen ;
+	.
+
+aama:IDae660667-ff62-4a70-a592-b84bf95d8e9a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDem ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Demonstrative ;
+	sid:token "ka’-i" ;
+	sid:deixis sid:overThere ;
+	sid:case sid:NomGen ;
+	.
+
+#TERMCLUSTER:  sidaama-VSimplePerfSuffStructure-wil
+
+sid:sidaama-VSimplePerfSuffStructure-wil a aamas:Termcluster ;
+	rdfs:label "sidaama-VSimplePerfSuffStructure-wil" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 4.19. [the V in token-structure is a contextually conditioned
+            epenthetic vowel]" 
+	.
+
+aama:ID8639f8ec-63fb-4ecd-ad3e-3f0783f6856c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-simplePerf+1-1sg-m" ;
+	sid:token "ani wi’l-u-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf828113c-2e47-4748-a40c-1618505abdf3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-simplePerf+1-1sg-f" ;
+	sid:token "ani wi’l-u-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID0afdd10f-7721-4cd4-9371-2c9a78997e92 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-simplePerf+2-2sg-m" ;
+	sid:token "ati wi’l-i-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDadc50aa6-5d6e-44f3-b291-4ad79884b729 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-simplePerf+2-2sg-f" ;
+	sid:token "ati wi’l-i-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf9ef25f8-981a-4ea1-b4ed-2d28d1759807 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-3sg.m-simplePerf+3sg.m" ;
+	sid:token "isi w’il-i" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID5b500e0c-708e-4824-8edf-cb7f96956152 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-3sg.f-simplePerf+3sg.f" ;
+	sid:token "ise wi’l-i-t-u" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDeacab6f2-7a23-4ca4-8f98-d768a0849c0b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-1pl-simplePerf+1-1pl OR cry-V-1pl-simplePerf+1-1sg-m" ;
+	sid:token "ninke wi’l-i-n-u-mmo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID55ec67b8-0dec-4f3a-8d5e-1fa20b850165 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-2pl-simplePerf+2" ;
+	sid:token "ki’ne w’il-i-tin-i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDf3349e02-85e7-4909-a818-7e021ed9a792 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
+	aamas:lexeme aama:Sidaama-wil ;
+	sid:pos sid:Verb ;
+	sid:tam sid:SimplePerfect ;
+	sid:vmorphClass sid:SuffStructure ;
+	sid:token-note-structure "cry-V-3pl-simplePerf+3pl" ;
+	sid:token "insa wi’l-i-t-u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VInfinitiveSub-it
+
+sid:sidaama-VInfinitiveSub-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VInfinitiveSub-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:IDf6a66092-7251-4ef5-aa62-5b6ad8c62b8a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-a-mm-o-ra ~ it–ee-mm-o-a" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID27a71467-c2aa-402f-b19c-8f28b88a4929 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-a-mm-a-ra ~ it–ee-mm-a-ra" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDcd73bc75-1c0b-486b-a477-f4ee5d1a7026 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-a-tt-o-ra" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID2ed1cec2-6b18-45e6-bf10-c04b36afa081 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-a-tt-a-ra" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID736b95d4-f3ee-4fee-8f5b-9c61e0ba16c8 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-a-ra" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf8194b46-2456-4a15-8868-df651f5fe83c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-t-a-ra" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID7f5bd789-055d-4ba2-be86-f07d094bb76b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-n-a-mmo-ra ~ it–n-ee-mmo-ra" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDca7b0237-eb5a-44ef-9347-6989aab46605 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-tin-a-ra" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID888c5c2a-23ce-4514-9693-0c5fa4f242b6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveSub ;
+	sid:token "it-t-a-ra" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VInfinitiveConj-it
+
+sid:sidaama-VInfinitiveConj-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VInfinitiveConj-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID128ad5a9-85b1-4a26-9acb-2ae2a1d2b45f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDb27d8523-ea11-4a7b-947f-bf40352d5432 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-t-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDda57e631-ad32-4f7f-8f50-9f488f07fe63 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-a=nna" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID44f4bb10-57bc-4f90-8bdf-90c7a8a4fc1a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-t-a=nna" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDb28e2e87-16fd-43a9-95e8-a4a5a4963bc0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-n-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID3aee2f2c-d408-444c-92eb-b2ba9d791061 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-tin-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID298fd8c8-68d5-4587-b5eb-39b9b6dab845 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConj ;
+	sid:token "it-t-a=nna" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VConnective-it
+
+sid:sidaama-VConnective-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VConnective-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID5b891e8e-5178-472c-9796-18237e4f6ad6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID78e80513-5629-4a5c-8cef-5638bfa0f160 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "it-t-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1f506142-5860-4712-9002-7de831f6f1f0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "it-e" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1c5b95d1-4e6e-4576-9a53-b52831db266a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "it-t-e" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDee072b8e-c737-409e-885a-6caaf61b27e0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "it-n-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID8e0187ba-6be1-4b53-801a-a8d0ec4e6f68 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "it-tin-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDf75f26cf-397c-4739-9a82-ef0c3064fb1e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VConnective-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Connective ;
+	sid:token "it-t-e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VNegImprtv-it
+
+sid:sidaama-VNegImprtv-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VNegImprtv-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
+            imperative." 
+	.
+
+aama:ID36f1dfc4-5a6c-4d43-b354-ca7e8c7ff2ba a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VNegImprtv-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:person sid:Person2 ;
+	sid:polarity sid:Negative ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperative ;
+	sid:token "it-tooti" ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID50b76320-9880-47c6-aea2-b1cfe9a3775e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VNegImprtv-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:person sid:Person2 ;
+	sid:polarity sid:Negative ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Imperative ;
+	sid:token "it-tinoonte" ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-PDemSpec
+
+sid:sidaama-PDemSpec a aamas:Termcluster ;
+	rdfs:label "sidaama-PDemSpec" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.8 Glosses:this place%%that place%%the place over there.
+            Demonstratives can be reduplicated in all case and deixis forms to indicate intensity –
+            e.g. kawa kawa very close. Unless otherwise noted%%the acc form is also the
+            predicative." 
+	.
+
+aama:IDa01bf281-7555-4c60-91db-039ae2d82646 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpec ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpec ;
+	sid:token "kawiččo" ;
+	sid:deixis sid:Here ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID4391c6f8-06df-47b9-9191-3c14b7026ae5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpec ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpec ;
+	sid:token "hakkiččo" ;
+	sid:deixis sid:There ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID2bf6ad56-e90c-48a4-8f99-2f43d39f0421 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpec ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpec ;
+	sid:token "ka’iččo" ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID75bd7f53-8712-437f-8e82-c707beca75c3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpec ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpec ;
+	sid:token "kawičč-i" ;
+	sid:deixis sid:Here ;
+	sid:case sid:NomGen ;
+	.
+
+aama:ID6caf9544-603c-4ec4-9d92-e38411e88fc9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpec ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpec ;
+	sid:token "hakkičč-i" ;
+	sid:deixis sid:There ;
+	sid:case sid:NomGen ;
+	.
+
+aama:IDf3a11ae0-e6cb-432b-90f4-82b85bc0da2f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpec ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpec ;
+	sid:token "ka’ičč-i" ;
+	sid:deixis sid:overThere ;
+	sid:case sid:NomGen ;
+	.
+
+#TERMCLUSTER:  sidaama-VPresProg-it
+
+sid:sidaama-VPresProg-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VPresProg-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%(4.182). The verb no- can also be a component of two aspectualmarkers%% they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.%%‘by doing sth%%came to exist’)%%as in (4.182) also%%they can be used to constitute the present continuous verb form with the connective formof another verb (lit.%%‘did sth and came to exist’)%%as in (4.183). In each of them%%the firstpersonand second-person plural forms are irregular. When used in either of these ways%%the subject is indicated on a suffix (1SG%%3SG.M:-ø%%2SG%%3SG.F/3PL:-t%%1PL:-n(t)%%2PL:-ti(n) the&gt;initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also%% the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject%%asindicated in (4.181) (for the second-person plural%%the existential verb cannot be used ineither aspect).(p. 409)" 
+	.
+
+aama:ID1128e4aa-2115-4f6a-8fc6-3f9e74aacf1a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ani waasa it-a-nni no-o-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDbfb1af96-763a-48b9-8e9e-b37553245ba5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ani waasa it-a-nni no-o-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID23cc1ca8-8b9b-4ac2-9c09-ac03fac908b0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ati waasa it-t-a-nni no-o-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID07ed5e12-4da8-4a01-83e3-605cc63d954c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ati waasa it-t-a-nni no-o-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDd8e06498-9136-4cc1-bd1d-15f94a6e511c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "isi waasa it-a-nni no" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDc6d74bbd-708b-4755-8016-be126366041a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ise waasa it-t-a-nni no" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDc797e010-3e54-46d7-a576-4cc47fd309dd a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ninke waasa i-n-t-a-nni no-o-mm-o" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID3fd59138-919f-449b-88cb-ead681c4747e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "ki’ne waasa it-tin-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID2cd2e81c-4009-445a-bc9b-5048fc381ed6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresProg-it ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentProgressive ;
+	sid:token "insa waasa it-t-a-nni no" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-PDemSpecAdv
+
+sid:sidaama-PDemSpecAdv a aamas:Termcluster ;
+	rdfs:label "sidaama-PDemSpecAdv" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.9." 
+	.
+
+aama:IDbe59d5cb-23ab-48c1-8b2c-fdb9b3b7c124 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "kawiččo" ;
+	sid:direction sid:DirAT ;
+	sid:deixis sid:Here ;
+	.
+
+aama:IDc605c5ab-af65-45d9-92ba-73d9e749f4a3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "kawičč-i-nni" ;
+	sid:direction sid:DirFROM ;
+	sid:deixis sid:Here ;
+	.
+
+aama:IDd439d59d-c6b0-45c4-8c0b-b1860ba9500f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "kawičč-i-ra" ;
+	sid:direction sid:DirTO ;
+	sid:deixis sid:Here ;
+	.
+
+aama:IDdbbcdc14-150f-4b70-a34b-1e68e0919272 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "hakkiččo" ;
+	sid:direction sid:DirAT ;
+	sid:deixis sid:There ;
+	.
+
+aama:IDc06f30c6-4af0-4eb2-9bba-4bad12761477 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "hakkičč-i-nni" ;
+	sid:direction sid:DirFROM ;
+	sid:deixis sid:There ;
+	.
+
+aama:ID3ac6506c-e572-4c16-910a-a617f808a7df a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "hakkičč-i-ra" ;
+	sid:direction sid:DirTO ;
+	sid:deixis sid:There ;
+	.
+
+aama:IDa7d55567-2943-41f8-b1e6-5f79992b654f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "ka’iččo" ;
+	sid:direction sid:DirAT ;
+	sid:deixis sid:overThere ;
+	.
+
+aama:ID2be2298e-cd91-420f-8be0-3d92d1c94290 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "ka’ičč-i-nni" ;
+	sid:direction sid:DirFROM ;
+	sid:deixis sid:overThere ;
+	.
+
+aama:ID33d52f0e-9f59-401d-8937-e72cdd61669e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemSpecAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemSpecAdv ;
+	sid:token "ka’ičč-i-ra" ;
+	sid:direction sid:DirTO ;
+	sid:deixis sid:overThere ;
+	.
+
+#TERMCLUSTER:  sidaama-VPresPerf-haishsh
+
+sid:sidaama-VPresPerf-haishsh a aamas:Termcluster ;
+	rdfs:label "sidaama-VPresPerf-haishsh" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:IDb71b1388-6f11-4f65-bc60-a323e71e35ac a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-o-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDee360f1e-5def-42f1-8df6-772b5ff89d42 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-o-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID954edc8a-5847-4f47-89e6-417a4e1c2ce4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-oo-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDc0aff2d1-ae60-4113-a3ab-8b04e0344cb6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-oo-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID3bc341ca-d909-4081-a9a2-3255e475b889 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "haiss̆-ino" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDbb25a5a6-0450-4f61-956c-1000d16b2648 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-i-t-ino" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf4bae7bb-d397-487a-b809-ccb19bb78f72 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-i-n-oo-mm-o" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID3bffaa22-2e71-418b-a0c2-5bfa6ae7fc63 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-i-tin-oonni/hais̆s̆-i-tin-ooi" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID00612b93-629a-4179-a1ce-23da9d3c8f53 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-haishsh ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "hais̆s̆-i-t-ino" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-PDemAdv
+
+sid:sidaama-PDemAdv a aamas:Termcluster ;
+	rdfs:label "sidaama-PDemAdv" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.7" 
+	.
+
+aama:ID279e3a51-6853-4cf6-b821-43c7b3464fbc a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "kawa-nni ~ kawa-a ~ kawa-i" ;
+	sid:direction sid:DirAT ;
+	sid:deixis sid:Here ;
+	.
+
+aama:ID4ea1904b-99f1-4c25-9cb4-0891f328b8c5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "kaw-i-nni ~ kaw-i-i" ;
+	sid:direction sid:DirFROM ;
+	sid:deixis sid:Here ;
+	.
+
+aama:ID33bd0386-8ce3-43e3-b2cf-c2d91ac1b31b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "kaw-i-ra ~ kawa" ;
+	sid:direction sid:DirTO ;
+	sid:deixis sid:Here ;
+	.
+
+aama:IDf193706b-f50a-4677-9c93-1ea26b2acea0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "hakka-nni ~ hakka-a ~ hakka-i" ;
+	sid:direction sid:DirAT ;
+	sid:deixis sid:There ;
+	.
+
+aama:ID47b541b2-27a5-4c95-9934-430d0c93f624 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "hakk-i-nni ~ hakk-i-i" ;
+	sid:direction sid:DirFROM ;
+	sid:deixis sid:There ;
+	.
+
+aama:ID1990d78d-0f90-4179-b1e2-7594a340099d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "hakk-i-ra ~ hakka" ;
+	sid:direction sid:DirTO ;
+	sid:deixis sid:There ;
+	.
+
+aama:ID1c39e2d8-1390-450d-aea1-f643d8150392 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "ka’a-nni ~ ka’a-a ~ ka’a-i" ;
+	sid:direction sid:DirAT ;
+	sid:deixis sid:overThere ;
+	.
+
+aama:IDfce61433-3484-4fb1-a6da-a9cbf6213e4d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "ka’-i-nni ~ ka’-i-i" ;
+	sid:direction sid:DirFROM ;
+	sid:deixis sid:overThere ;
+	.
+
+aama:ID289603a4-d892-4c83-866c-e5fdc6b9bf94 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdv ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdv ;
+	sid:token "ka’-i-ra ~ ka’a" ;
+	sid:direction sid:DirTO ;
+	sid:deixis sid:overThere ;
+	.
+
+#TERMCLUSTER:  sidaama-PDemAreaAdnom
+
+sid:sidaama-PDemAreaAdnom a aamas:Termcluster ;
+	rdfs:label "sidaama-PDemAreaAdnom" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.14" 
+	.
+
+aama:IDf54d97ba-ab00-4ccf-b12f-073843d48d46 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAreaAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAreaAdnom ;
+	sid:token "kawi ~ kawiidi" ;
+	sid:gender sid:Common ;
+	sid:deixis sid:ThatArea ;
+	.
+
+aama:IDa0938e86-7550-41d9-bb84-82ce21b37c0b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAreaAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAreaAdnom ;
+	sid:token "kowi ~ kowiidi" ;
+	sid:gender sid:Masc ;
+	sid:deixis sid:ThisArea ;
+	.
+
+aama:ID07fb4866-36d5-4047-9647-6d71e1467f7d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAreaAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAreaAdnom ;
+	sid:token "tewi ~ tewiidi" ;
+	sid:gender sid:Fem ;
+	sid:deixis sid:ThisArea ;
+	.
+
+#TERMCLUSTER:  sidaama-VDervStem
+
+sid:sidaama-VDervStem a aamas:Termcluster ;
+	rdfs:label "sidaama-VDervStem" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%sect. #4.2.1.3. (on phonology of denomDeadj and middle%%cf.
+            2.2.1)" 
+	.
+
+aama:IDb23faf2f-36e1-4044-b5f9-9e47c61d9d28 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VDervStem ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:DervStem ;
+	sid:token "-(i)s-" ;
+	sid:derivedStem sid:Causative1 ;
+	.
+
+aama:ID0fd56474-2fa8-4ed2-a296-dcab1537b70c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VDervStem ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:DervStem ;
+	sid:token "-siis-" ;
+	sid:derivedStem sid:Causative2 ;
+	.
+
+aama:ID9cbaaee8-7245-4cbd-bbc0-a4f460d38c6c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VDervStem ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:DervStem ;
+	sid:token "⊤" ;
+	sid:derivedStem sid:DenominalDeadjectival ;
+	.
+
+aama:IDa953c938-7877-4db9-a15d-ab8e5c214940 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VDervStem ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:DervStem ;
+	sid:token "⊤" ;
+	sid:derivedStem sid:MiddleClass ;
+	.
+
+aama:ID63350c11-d2a7-4000-bff8-836f404f436c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VDervStem ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:DervStem ;
+	sid:token "-am-" ;
+	sid:derivedStem sid:Passive ;
+	.
+
+aama:IDf07f370b-7e34-46c0-88a8-82bd8365e89d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VDervStem ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:DervStem ;
+	sid:token "-am-" ;
+	sid:derivedStem sid:Reciprocal ;
+	.
+
+#TERMCLUSTER:  sidaama-VInfinitiveConn-it
+
+sid:sidaama-VInfinitiveConn-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VInfinitiveConn-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID0360f1b2-8133-46ce-90a7-9cc2f9edd698 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf168ede3-ddf7-46e5-a702-16ec4bef0919 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-t-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID3e177c6c-6946-434c-a234-7f50288c9f5c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-a-nni" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID645777d3-85ff-48f5-b859-c8882c10546a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-t-a-nni" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID0c869f7f-bcaa-47e3-bfc4-101d57b1a893 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-n-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID05376cff-cdd2-4eb3-b422-36ff860fed8e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-tin-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDc721b3fa-4963-4901-b86d-705c4307fe57 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:InfinitiveConn ;
+	sid:token "it-t-a-nni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VSubjMarkerMain
+
+sid:sidaama-VSubjMarkerMain a aamas:Termcluster ;
+	rdfs:label "sidaama-VSubjMarkerMain" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10%%4.13%%4.15" 
+	.
+
+aama:ID4cc5c768-4bc3-4ecb-881c-2db16c0df83a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDbc31b0f6-5ce8-4790-887d-45df9dee72c6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-Ce" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID42270624-cd86-44bb-b559-d2d9dd4d64a4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-ee-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDfc0c2819-e818-4062-989e-ff06a5fb372f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-ee-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID9b07bf57-6231-42f1-8292-a38719141f91 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-a-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDe4cb4d3a-3fd4-4c6d-a314-01825c96b356 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-a-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID22bc30ba-1695-42e7-af9a-fd97f3309f2e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-anno" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID3f835076-7802-4d1d-98c3-6e7244617483 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-t-anno" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID594798d7-8363-4608-af90-41eb6cf40567 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-n-ee-mmo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID6ba61402-6dd4-430f-b8dd-a46eb1096ae5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-tin-anni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDc3a16290-b403-4bf1-b75f-3ff92392e726 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-t-anno" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDa9f04caa-bcd5-43e9-9aca-cb1cd751438f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-o" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Optative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDc2c67bd4-c2c2-4155-b49d-b6382603d7cd a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Optative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDa7f547ad-6b85-47c1-90ac-ec3d26d16b38 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-to" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Optative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID1e1bcf01-1c60-4d86-b560-dd26b83b2e12 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-no" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Optative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID28f5b4ea-2d41-404c-817d-52c511735dfa a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-to" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Optative ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID49a4e790-87e7-4e12-b170-ae80971860ff a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-oo-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDbd68a20d-1e88-4355-96ee-703b79c2c4e0 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-oo-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID68185a90-4de6-404f-87d2-ff6b1532540a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-oo-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID30c258df-d63a-495f-9c92-867ae7136b28 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-oo-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDcbeae37d-90a1-4607-bc1c-0748e74125fe a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-ino" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID06f79770-163e-4ef1-b16e-28ff9ea5e0c3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i-t-ino" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID57a94f67-0347-4388-83f7-a488881306fc a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i-n-oo-mm-o" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID40cf724d-1f30-46f9-8d7b-141589cf116e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-tin-oonni/tin-ooi" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID01bfa6e5-b76d-4d54-80e3-ebff56554c4f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i-t-ino" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:PresentPerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDf90d39f9-2709-4f54-bf6e-4af237e78422 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-u-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDccef6740-1f5f-4a6b-bf38-7a9251935bdd a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-u-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID5f7a4687-b829-4dd5-92ec-e85032c7346f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID82bffef2-8092-4989-87a9-3163c3e68828 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDdb5e104d-8acd-4afc-8b9c-438d2adea6f9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-i" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDaa6ec64c-0875-495a-8303-a7772c942100 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-C-u" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDd18a8e8c-f9f0-48aa-bad3-7d00cf64fc70 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-n-ummo" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDd98382b6-e3c9-478e-b15b-31e44dac43d2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-in-i" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:IDe8931b56-b533-47dc-a917-4e179e0a8177 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-C-u" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	sid:tam sid:SimplePerfect ;
+	sid:polarity sid:Affirmative ;
+	.
+
+aama:ID03360404-475c-414a-a7b8-c64ff89eb019 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-tooti" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:tam sid:Imperative ;
+	sid:polarity sid:Negative ;
+	.
+
+aama:ID2c8ed235-0192-4e54-91fb-24bb91c17231 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:SubjMarkerMain ;
+	sid:token "-tinoonte" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:tam sid:Imperative ;
+	sid:polarity sid:Negative ;
+	.
+
+#TERMCLUSTER:  sidaama-VContinuous-hank
+
+sid:sidaama-VContinuous-hank a aamas:Termcluster ;
+	rdfs:label "sidaama-VContinuous-hank" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%(4.182). The verb no- can also be a component of two aspectual
+            markers%% they can be used to constitute the present-progressive form of another verb
+            with the infinitive form followedby the instrumental case suffix -nni (lit.%%‘by doing
+            sth%%came to exist’)%%as in (4.182) also%%they can be used to constitute the present
+            continuous verb form with the connective formof another verb (lit.%%‘did sth and came to
+            exist’)%%as in (4.183). In each of them%%the firstpersonand second-person plural forms are
+            irregular. When used in either of these ways%%the subject is indicated on a suffix
+            (1SG%%3SG.M:-ø%%2SG%%3SG.F/3PL:-t%%1PL:-n(t)%%2PL:-ti(n) the&gt;initial t of the suffix can
+            be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a
+            consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the
+            connective suffix -e also%% the existential verb thatfollows either of these suffixes
+            inflects for the person/number/gender of the subject%%asindicated in (4.181) (for the
+            second-person plural%%the existential verb cannot be used ineither aspect).(p.
+            409)" 
+	.
+
+aama:ID18039003-ac1c-4087-b9ba-5f401b8e7ff3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ani hank’-e no-o-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID511d8f15-2d29-4e28-9e55-78260bab06d3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ani hank’-e no-o-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDf71bbba2-93f0-49ab-82f2-cfa4bb3b7ff9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ati hank’-i-t-e no-o-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID800593ad-be4b-40fc-802f-492c9262a49b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ati hank’i-t-e no-o-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID5e729216-86c7-4154-b6cc-04be1204d226 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "isi hank’-e no" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID4817905c-4cb6-4c22-bc96-9874939026c7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ise hank’-i-t-e no" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDa55c2a80-48e0-4a18-9a6f-3b4789bc6d43 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ninke hank’-i-n-e he’no-o-mm-o / hank’-i-no-o-mm-o" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID56a5af94-8e10-419b-bf09-799a4e0fcf59 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "ki’ne hank’-i-tine hee-ɗin-oonni" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDb8e34125-256f-408e-bb19-d5b2067cc713 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VContinuous-hank ;
+	aamas:lexeme aama:Sidaama-hank ;
+	sid:pos sid:Verb ;
+	sid:tam sid:Continuous ;
+	sid:token "insa hank’-i-t-e no" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VPresPerf-it
+
+sid:sidaama-VPresPerf-it a aamas:Termcluster ;
+	rdfs:label "sidaama-VPresPerf-it" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	.
+
+aama:ID3ecf0340-301a-4807-8051-eb8e7e086881 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-oo-mm-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDcd444ba3-b30a-41a9-a628-270edff901fa a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-oo-mm-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID12f0e45a-a150-433a-8675-ed467c6a0146 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-oo-tt-o" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID821f3d0f-0675-41ed-b1d4-81e17c552fd6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-oo-tt-a" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDb6e43778-c8bb-4b1f-a296-cc564ecebbad a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-ino" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID95adb330-7647-4f1a-ac3b-89e4242f51fb a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-i-t-ino" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID776e96a9-176e-4299-b370-6fa5df7c1634 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-i-n-oo-mm-o" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDe9e2fa84-443d-46dd-ab2c-15a998c3316e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-tinoonni/it-tin-ooi" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:IDef046085-a255-44c9-ae6a-f090c0808207 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VPresPerf-it ;
+	sid:vmorphClass sid:Finite ;
+	aamas:lexeme aama:Sidaama-it ;
+	sid:pos sid:Verb ;
+	sid:tam sid:PresentPerfect ;
+	sid:token "it-i-t-ino" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-PDemAdnom
+
+sid:sidaama-PDemAdnom a aamas:Termcluster ;
+	rdfs:label "sidaama-PDemAdnom" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.10%%3.11. Demonstratives can be reduplicated in all case and
+            deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
+            noted%%the acc form is also the predicative." 
+	.
+
+aama:ID9e77de16-d8d7-455e-9504-56d4a702700f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "kore" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:Here ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID6f75f5fd-7b3c-4696-866d-9e8bd1f1c660 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ko ~ konne ~ koe" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:Here ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDae6a92ae-6c5c-41e8-b10f-1ed37e147e5f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "te ~ tenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:Here ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID7b10e463-e816-438f-8f50-87ff69242d4e a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hakkore" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:There ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID796395ff-3180-47c9-a212-df138bd7658c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hakko ~ hakkonne ~ hakkoe" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:There ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDfc0da337-9958-43a2-8c06-9b73bdb16e0a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hatte ~ hattenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:There ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID651343bd-2ffb-4b42-94de-4b0bf26bd932 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "⊤" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDe6d1f53e-b656-455d-9c94-7d8e1ca5dd82 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ko’o ~ ko’onne" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDd8c9df10-23b0-4bf1-8af4-7a0ee1856f34 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "te’e ~ te’enne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDb130df1f-40c9-4895-bcae-a86d54049e5d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "kore ~ kuri ~ koori ~ kuwi" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:Here ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID46e79106-6b7f-4a79-9300-dfaa7eaf3bc4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ko ~ konni ~ koi" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:Here ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID1d15298b-49c3-49d2-84c7-ee748a176db9 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "te ~ tenne ~ teyi" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:Here ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID6ce2e5da-cae3-413f-8076-deac84185394 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hakkuri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:There ;
+	sid:case sid:Genitive ;
+	.
+
+aama:IDb821c76a-2bfa-4d5d-bced-66264eccdfaf a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hakko ~ hakkunni ~ hakkonni ~ hakkui ~ hakkoe" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:There ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID19584feb-c5b1-4f2a-bfda-fc7bd922ffa8 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hatte ~ hattenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:There ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID2261e7da-99c8-4c8d-82de-d089e6de19e7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ku’uri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID933cf2b5-39ba-4285-88f4-bb9821560bbe a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ko’o ~ ko’onni ~ ku’ui ~ ko’ui" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID838085b9-2dc3-4481-aa70-55cc7139592d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "te’e ~ te’enne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID231d4fd5-148b-4c19-a219-3d535a426281 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ko ~ kuni ~ kuyi" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:deixis sid:Here ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID79ee8518-0702-4a53-86db-e854ce6af6f2 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "kuri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:Here ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID5b4af803-7a5d-4325-a53d-452ad468c295 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "te ~ tini ~ tiyi" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:Here ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID3adae0c3-3685-4097-8463-ab7c0baa329d a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hakkuri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:There ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID161489d9-e722-4c01-9c46-f36eb8d1c582 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hakku ~ hakko" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:There ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID099c286c-b5bf-4a34-84fe-eb8803eb7b23 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "hatti ~ hattenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:There ;
+	sid:case sid:Nominative ;
+	.
+
+aama:IDa3f39a39-7f39-4657-bba7-c5f943ef86a4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ku’uri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Nominative ;
+	.
+
+aama:IDc2bd600d-33bc-4da4-97fb-c798ac701dd7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "ku’u" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Common ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID4e469aa5-a057-45aa-9702-bf3ee7c43897 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PDemAdnom ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:DemAdnom ;
+	sid:token "tii’i" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Common ;
+	sid:deixis sid:overThere ;
+	sid:case sid:Nominative ;
+	.
+
+#TERMCLUSTER:  sidaama-PObjSuff
+
+sid:sidaama-PObjSuff a aamas:Termcluster ;
+	rdfs:label "sidaama-PObjSuff" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 4.16" 
+	.
+
+aama:ID126f538b-b5b3-4c02-a7cd-1a7f2e246a5b a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-‘e" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID69dc05fc-fedd-466d-83e0-e00cefe27998 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-he" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	.
+
+aama:IDfbf459ec-e1eb-41c1-9a7f-c561676c2478 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-si" ;
+	sid:gender sid:Masc ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID1607fed6-1cbb-4447-b18a-af445fbc0092 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-se" ;
+	sid:gender sid:Fem ;
+	sid:person sid:Person3 ;
+	sid:number sid:Singular ;
+	.
+
+aama:ID2907869e-e0d9-4420-9913-b5b9a532375f a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-nke" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person1 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID96d0bff7-609d-4006-869b-b039b92deaaa a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-‘ne" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	.
+
+aama:ID2cca7866-a31c-4ca6-b430-9f452ec688be a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PObjSuff ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:ObjSuff ;
+	sid:token "-nsa" ;
+	sid:gender sid:Common ;
+	sid:person sid:Person3 ;
+	sid:number sid:Plural ;
+	.
+
+#TERMCLUSTER:  sidaama-VVerbNegation
+
+sid:sidaama-VVerbNegation a aamas:Termcluster ;
+	rdfs:label "sidaama-VVerbNegation" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%## 3.2.2.4%%4.2.2.3.5%%4.2.2.3.7. Sidaama has the simplest negative
+            morphology of any Cushitic or Omotic language. A specific negative form exists only for
+            the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di=
+            which can attach to the verb%%or in fact to any foregrounded sentence constituent. For
+            subordinate clause negation a suffix –kki is attached to the verb form. There is also a
+            negative suffix –nke which attaches to the optative%%including the 1 pl optative%%which
+            acts as a 1 pl imperative" 
+	.
+
+aama:IDed83a2b1-00e1-487c-9998-13bd6472b970 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VVerbNegation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:VerbNegation ;
+	sid:token-note "" ;
+	sid:token "-tooti" ;
+	sid:person sid:Person2 ;
+	sid:number sid:Singular ;
+	sid:clauseType sid:ImperativeNegative ;
+	.
+
+aama:ID8b8f433b-f1d3-4076-8a40-c31352522db6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VVerbNegation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:VerbNegation ;
+	sid:token-note "" ;
+	sid:token "-tinoonte" ;
+	sid:person sid:Person2 ;
+	sid:number sid:Plural ;
+	sid:clauseType sid:ImperativeNegative ;
+	.
+
+aama:IDbc167c2a-27c0-4e94-a2ea-b4c9f73787b3 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VVerbNegation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:VerbNegation ;
+	sid:token-note "Proclitic" ;
+	sid:token "di=" ;
+	sid:person sid:Common ;
+	sid:number sid:Common ;
+	sid:clauseType sid:MainGeneral ;
+	.
+
+aama:ID321027b8-ce62-4916-9d47-f6c7cae1190a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VVerbNegation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:VerbNegation ;
+	sid:token-note "with 1 pl constitutes negative 1 pl imperative" ;
+	sid:token "-nke" ;
+	sid:person sid:Common ;
+	sid:number sid:Common ;
+	sid:clauseType sid:Optative ;
+	.
+
+aama:IDde5bd642-1c77-4cf7-92e6-f13a49684272 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-VVerbNegation ;
+	sid:pos sid:Verb ;
+	sid:vmorphClass sid:VerbNegation ;
+	sid:token-note "suffixes to subordinate clause verb" ;
+	sid:token "-kki" ;
+	sid:person sid:Common ;
+	sid:number sid:Common ;
+	sid:clauseType sid:Subordinate ;
+	.
+
+#TERMCLUSTER:  sidaama-PInterrog
+
+sid:sidaama-PInterrog a aamas:Termcluster ;
+	rdfs:label "sidaama-PInterrog" ;
+	aamas:lang aama:Sidaama ;
+	rdfs:comment "Kawachi2007%%Table 3.15%%3.16. Demonstratives can be reduplicated in all case and
+            deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
+            noted%%the acc form is also the predicative." 
+	.
+
+aama:ID8fa3fd05-1413-411f-ac5b-61033af68093 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "ma ~ mariččo" ;
+	sid:gender sid:Common ;
+	sid:number sid:Common ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhat ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID266b6178-9410-46bb-a8a9-9541125b9efa a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikko ~ hiikkoe ~ hiikkonne" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDb303dad0-1c00-489f-9b91-201ecf5e7de5 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiitte ~ hiittee ~ hiittenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Singular ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDe5b11466-9fd0-4e6b-910d-c3f391bdc476 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkore" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID9f7447b6-77f6-432d-80ce-5db8f5727265 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiitte ~ hiittee ~ hiittenne" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID9fb29d4a-e826-4f94-a303-524a9447b5ce a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikko ~ hiikkoe ~ hiikkonne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Singular ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Accusative ;
+	.
+
+aama:ID402d9173-7ace-45d3-8ac2-f58ba702fc1c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkore (PRED:hiikkoere ~ hiikkore ~ hiikkui’re)" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Accusative ;
+	.
+
+aama:IDbae59a41-63bf-4ee2-81e7-0f875aebf0ed a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "mamoote ~ mamaro" ;
+	sid:gender sid:Common ;
+	sid:number sid:Common ;
+	sid:posClass sid:Adverb ;
+	sid:interrogClass sid:InterrogProWhen ;
+	sid:case sid:Common ;
+	.
+
+aama:IDb54b0cdd-4a9e-47f6-b3fc-c3249579bf53 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikko ~ mama" ;
+	sid:gender sid:Common ;
+	sid:number sid:Common ;
+	sid:posClass sid:Adverb ;
+	sid:interrogClass sid:InterrogProWhere ;
+	sid:case sid:Common ;
+	.
+
+aama:IDa20362cf-e26d-47f5-ab91-82a10ff29075 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "mai ~ maričči" ;
+	sid:gender sid:Common ;
+	sid:number sid:Common ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhat ;
+	sid:case sid:Genitive ;
+	.
+
+aama:IDa2a8c3d1-6f25-4257-8923-1e44d9ca8c29 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkui ~ hiikko ~ hiikkonni" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID47fdf0f5-9998-4398-bf81-8d41b4f5a408 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiitte ~ hiittenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Singular ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Genitive ;
+	.
+
+aama:IDe1374911-e4cd-4938-bc85-d35f831a7ad7 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkuri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID1c4839aa-6140-4425-a0ab-924c386980dc a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "⊤" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID20880511-07b0-4aa2-96f0-adf75ca06732 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkui ~ hikkonni" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Singular ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID792c35c8-b990-4c2d-86b2-f9d6cfa1acf1 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkuri ~ hiikkuiri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Genitive ;
+	.
+
+aama:ID864cab5f-c366-4117-ae72-f8e77ecd818c a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "mai ~ maričči" ;
+	sid:gender sid:Common ;
+	sid:number sid:Common ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhat ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID84a961e3-229e-4b2e-8ca1-55242b92d778 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikku ~ hiikko ~ hiikkonni" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID10b93f89-f65a-4fc7-8d7e-ff2214bdf134 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiitti ~ hiitte ~ hiittenne" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Singular ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID8fef6896-5228-4445-bc75-6929ed0272df a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkuri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:posClass sid:Adnominal ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID082bc35c-5774-4679-aedd-afacb9106da6 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiitti" ;
+	sid:gender sid:Masc ;
+	sid:number sid:Singular ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Nominative ;
+	.
+
+aama:IDdf2df652-9692-488f-becd-b02f460819d4 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikku" ;
+	sid:gender sid:Fem ;
+	sid:number sid:Singular ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID91e2ee34-a99c-4cf0-b85c-82485a92019a a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "hiikkui’ri ~ hiikkuri" ;
+	sid:gender sid:Common ;
+	sid:number sid:Plural ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWhich ;
+	sid:case sid:Nominative ;
+	.
+
+aama:ID588b0fe7-8033-47a1-a4a7-71160ccc4480 a aamas:Term ;
+	aamas:lang aama:Sidaama ;
+	aamas:memberOf sid:sidaama-PInterrog ;
+	sid:pos sid:Pronoun ;
+	sid:pmorphClass sid:ProMorph ;
+	sid:proClass sid:Interrogative ;
+	sid:token "ai ~ aa" ;
+	sid:gender sid:Common ;
+	sid:number sid:Common ;
+	sid:posClass sid:ProInd ;
+	sid:interrogClass sid:InterrogProWho ;
+	sid:case sid:Nominative ;
+	.
