@@ -5,8 +5,7 @@
  :datasource "Kawachi2007"
  :geodemoURL "http://www.ethnologue.com/language/sid"
  :geodemoTXT "Varieties and subdialects of Sidaama are spoken in the 'South central, Southern Nations, Nationalities, and Peoples’ region: northeast of Lake Abaya; Oromia region: southeast of Lake Awasa'."
- :schemata {:lexeme [:haishsh  :hank :it :no :wil],
- :aspect [:Imperfect :PresentPerfect :SimplePerfect],
+ :schemata { :aspect [:Imperfect :PresentPerfect :SimplePerfect],
  :case [:Accusative :Common :Genitive :NomGen :Nominative],
  :clauseType [:ImperativeNegative :MainGeneral :Optative :Subordinate],
  :configuration [:Connective :InfinitiveConj :InfinitiveConn :SubjMarkerRed],
@@ -29,13 +28,15 @@
           :synsemClass [:aspect :case :causative1Causative2 :clausetype :configuration :deixis :derivedStem :direction :interrogClass :middleClass :passiveReckiprocalClass :polarity :pos :posClass :proClass :tamb],
           :inflClass [],
           :otherClass []}
- :lexemes{:haishsh {:lemma "haišš-", :gloss "wash"},
-          :hank {:lemma "hank'-", :gloss "Getangry"},
-          :it {:gloss "[x]", :lemma "[y]"},
-          :it-1 {:lemma "waasa", :gloss "Foot"},
-          :it-2 {:lemma "it-", :gloss "eat"},
-          :no {:gloss "[x]", :lemma "[y]"},
-          :wil {:lemma "wil-", :gloss "cry"}}
+ :lexemes {
+:haishsh   {:pos :Verb, :lemma "haišš-", :gloss "wash", },
+:hank   {:pos :Verb, :lemma "hank'-", :gloss "Getangry", },
+:it   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:it-1   {:pos :Noun, :lemma "waasa", :gloss "Foot", },
+:it-2   {:pos :Verb, :lemma "it-", :gloss "eat", },
+:no   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+:wil   {:pos :Verb, :lemma "wil-", :gloss "cry", },
+}
  :termclusters [
                 {:label "sidaama-PReflPoss"
                  :note "Kawachi2007,Table 3.5"
