@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/sidaama//sidaama-pdgms.edn
+#../aama-data/data/sidaama/sidaama-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,7 +15,7 @@ aama:Sidaama a aamas:Language .
 aama:Sidaama rdfs:label "Sidaama" .
 aama:Sidaama aamas:subfamily "Highland East Cushitic" .
 aama:Sidaama aamas:lpref "sid" .
-aama:Sidaama aamas:dataSource "Kawachi2007" .
+aama:Sidaama aamas:dataSource "Kawachi2007; abbrev. K07" .
 aama:Sidaama aamas:dataSourceNotes "" .
 aama:Sidaama aamas:geodemoURL "http://www.ethnologue.com/language/sid" .
 aama:Sidaama aamas:geodemoTXT "Varieties and subdialects of Sidaama are spoken in the 'South central%% Southern Nations%% Nationalities%% and Peoples’ region: northeast of Lake Abaya; Oromia region: southeast of Lake Awasa'." .
@@ -552,10 +552,10 @@ aama:Sidaama-wil a aamas:Lexeme ;
 sid:sidaama-PReflPoss a aamas:Termcluster ;
 	rdfs:label "sidaama-PReflPoss" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.5" 
+	rdfs:comment "K07t3.5" 
 	.
 
-aama:IDe9b100dd-ad0c-43f1-8d0c-b80f9f0c5223 a aamas:Term ;
+aama:IDc7c69b67-746e-4699-83bd-64146cab2bd7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -568,7 +568,7 @@ aama:IDe9b100dd-ad0c-43f1-8d0c-b80f9f0c5223 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID8240ff8c-5718-4769-b5bd-a1db3e5dc48f a aamas:Term ;
+aama:ID06f8ccc1-50ec-4453-9127-e8f2835def07 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -581,7 +581,7 @@ aama:ID8240ff8c-5718-4769-b5bd-a1db3e5dc48f a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDf19b14b9-2a51-4795-aef6-1c5c23464275 a aamas:Term ;
+aama:IDc12f4ac3-57b6-40b1-b9fe-c47202e78e89 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -594,7 +594,7 @@ aama:IDf19b14b9-2a51-4795-aef6-1c5c23464275 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID83fa8df4-e91f-4417-badc-346b931d0dd1 a aamas:Term ;
+aama:IDe5eb298d-a8e9-4520-84c8-85559a9b8b8c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -607,7 +607,7 @@ aama:ID83fa8df4-e91f-4417-badc-346b931d0dd1 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID4306abc6-e95b-4233-a6dc-503b73802921 a aamas:Term ;
+aama:ID6fe39a04-a4b6-4e43-a529-ab4dbde23a0e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -620,7 +620,7 @@ aama:ID4306abc6-e95b-4233-a6dc-503b73802921 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDda38ef3e-b5b6-422b-ae91-a28e3d1b6837 a aamas:Term ;
+aama:IDcd85f6e4-3cbc-4d2a-bfd6-164a10c6afd4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -633,7 +633,7 @@ aama:IDda38ef3e-b5b6-422b-ae91-a28e3d1b6837 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDe6cc126a-de68-4659-a6dc-e47fc42d9c86 a aamas:Term ;
+aama:IDf14a113a-d21f-46fe-a191-72f880b2be36 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -646,7 +646,7 @@ aama:IDe6cc126a-de68-4659-a6dc-e47fc42d9c86 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID1c05fe12-77ad-461a-b69f-767425a9ee84 a aamas:Term ;
+aama:IDf75f64df-28bc-4396-872b-f4939724d99c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -659,7 +659,7 @@ aama:ID1c05fe12-77ad-461a-b69f-767425a9ee84 a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:ID826d82a7-2ef2-4699-8a5f-5fc6f79acedb a aamas:Term ;
+aama:ID463c3fdc-e976-479b-b161-65ffea6468ad a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -672,7 +672,7 @@ aama:ID826d82a7-2ef2-4699-8a5f-5fc6f79acedb a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:ID6e72fb46-d66c-4526-88b1-c351a9d0bea5 a aamas:Term ;
+aama:IDfd7627d0-4bc3-455a-8c77-b4844b00d9d4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -685,7 +685,7 @@ aama:ID6e72fb46-d66c-4526-88b1-c351a9d0bea5 a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:ID461e0523-16c7-4fee-986b-97c025aefc3c a aamas:Term ;
+aama:ID297d3ccb-e5e8-4c57-b247-d2e63a8260bf a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -698,7 +698,7 @@ aama:ID461e0523-16c7-4fee-986b-97c025aefc3c a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:ID8584d841-44c6-4338-b084-80ab68003d94 a aamas:Term ;
+aama:ID6491ce49-9d63-4b18-a218-e43298a10c0d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -711,7 +711,7 @@ aama:ID8584d841-44c6-4338-b084-80ab68003d94 a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:IDe40d9d02-1d5b-4d92-ab29-7a296924a822 a aamas:Term ;
+aama:IDf26d584e-c6ba-4f84-9fe1-103bd4a2d413 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -724,7 +724,7 @@ aama:IDe40d9d02-1d5b-4d92-ab29-7a296924a822 a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:ID7a5b96b5-0c18-4747-933d-cb73167418e7 a aamas:Term ;
+aama:IDcc3c1752-119b-413b-8e95-35f6a721a2db a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PReflPoss ;
 	sid:pos sid:Pronoun ;
@@ -742,10 +742,10 @@ aama:ID7a5b96b5-0c18-4747-933d-cb73167418e7 a aamas:Term ;
 sid:sidaama-PIndependent a aamas:Termcluster ;
 	rdfs:label "sidaama-PIndependent" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.4" 
+	rdfs:comment "K07t3.4" 
 	.
 
-aama:IDb349aee7-0b7b-44d3-bea1-29d9feff9e11 a aamas:Term ;
+aama:IDaecd1cdd-8833-439c-816d-37c339f9fa0e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -758,7 +758,7 @@ aama:IDb349aee7-0b7b-44d3-bea1-29d9feff9e11 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID31efdee3-7adf-4a98-aa08-3b4044b361b8 a aamas:Term ;
+aama:ID49c5b7f8-44c5-4c3e-971e-cc65d406a074 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -771,7 +771,7 @@ aama:ID31efdee3-7adf-4a98-aa08-3b4044b361b8 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID91ad2a6b-f266-4299-bd8e-830781137e9e a aamas:Term ;
+aama:IDee94be70-8543-4de5-ad84-ce15d1002bb8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -784,7 +784,7 @@ aama:ID91ad2a6b-f266-4299-bd8e-830781137e9e a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDd369340e-cd57-472f-bb53-3f0705340233 a aamas:Term ;
+aama:IDeae19c4c-709e-4143-b85e-e7c9ee3a3db8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -797,7 +797,7 @@ aama:IDd369340e-cd57-472f-bb53-3f0705340233 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID9a38db2a-2db7-4209-a852-95bdfd355651 a aamas:Term ;
+aama:IDfd47795d-8c45-4e09-a755-06a7c36403b5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -810,7 +810,7 @@ aama:ID9a38db2a-2db7-4209-a852-95bdfd355651 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID6053a6ea-292e-4abf-8fd1-6c733d73463b a aamas:Term ;
+aama:IDc51cc4f7-14c5-4124-bb0b-66a2e9bb3373 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -823,7 +823,7 @@ aama:ID6053a6ea-292e-4abf-8fd1-6c733d73463b a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID23fd862d-c7f2-495a-920e-859ee8f96798 a aamas:Term ;
+aama:ID3e5fa1e2-15d0-4e4f-ae01-bcd3b8638ba2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -836,7 +836,7 @@ aama:ID23fd862d-c7f2-495a-920e-859ee8f96798 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDe8d84d67-4196-46b8-8659-030af00677ae a aamas:Term ;
+aama:IDb72602d4-f7f5-47b9-89c2-df5c0ebb1e10 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -849,7 +849,7 @@ aama:IDe8d84d67-4196-46b8-8659-030af00677ae a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDdc959a8f-32a2-4649-bd8f-165b059a2318 a aamas:Term ;
+aama:ID67779be5-cebe-408c-8c41-8ed5ba46710b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -862,7 +862,7 @@ aama:IDdc959a8f-32a2-4649-bd8f-165b059a2318 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID87dde149-ad08-4628-b445-d6467d9cc57d a aamas:Term ;
+aama:IDf2a1cf6e-5a8f-4180-a3d5-b70f6f0f8aba a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -875,7 +875,7 @@ aama:ID87dde149-ad08-4628-b445-d6467d9cc57d a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID8a17ef08-1880-49db-ae9c-f98338c951c4 a aamas:Term ;
+aama:ID20a62f4a-8513-4442-8877-5c422256e7f9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -888,7 +888,7 @@ aama:ID8a17ef08-1880-49db-ae9c-f98338c951c4 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDf9108a91-677b-4563-8ec2-19b54d764365 a aamas:Term ;
+aama:ID1e591733-c829-4fbf-b974-d6f2b4746039 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -901,7 +901,7 @@ aama:IDf9108a91-677b-4563-8ec2-19b54d764365 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDd4b5615c-faa4-40e8-bf34-bc796c6dcf43 a aamas:Term ;
+aama:ID6760b1d8-727d-4ee2-9e39-347458846498 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -914,7 +914,7 @@ aama:IDd4b5615c-faa4-40e8-bf34-bc796c6dcf43 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID8903fc29-86ee-4f7c-804d-175af10ed338 a aamas:Term ;
+aama:ID8a527d8b-d1a1-4080-8b05-3a9635518b9c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -927,7 +927,7 @@ aama:ID8903fc29-86ee-4f7c-804d-175af10ed338 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDc03ba97e-f5fc-4bdb-88d8-38fd4aa2b738 a aamas:Term ;
+aama:IDe3efa7a7-7174-4c8d-9cd7-9865cd92923a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -940,7 +940,7 @@ aama:IDc03ba97e-f5fc-4bdb-88d8-38fd4aa2b738 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID6c0f56f1-de70-411d-887c-31a99f75e253 a aamas:Term ;
+aama:ID79766172-0234-41ac-8bf4-89350c91c1ed a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -953,7 +953,7 @@ aama:ID6c0f56f1-de70-411d-887c-31a99f75e253 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID62b65c2b-2245-46dd-b0d8-41fd3f11f283 a aamas:Term ;
+aama:ID6de6cb6e-2948-4de7-8c72-c8a0482dbad9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -966,7 +966,7 @@ aama:ID62b65c2b-2245-46dd-b0d8-41fd3f11f283 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID9608d1a6-909a-4d1c-9445-0b09005fd1bc a aamas:Term ;
+aama:ID2783b0e1-126f-4d07-b815-ab8fd15de14d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -979,7 +979,7 @@ aama:ID9608d1a6-909a-4d1c-9445-0b09005fd1bc a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID3e25ba2a-5815-4f24-abb8-f6e7130a458b a aamas:Term ;
+aama:ID0d4b0632-035f-4239-a952-93336182ae30 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -992,7 +992,7 @@ aama:ID3e25ba2a-5815-4f24-abb8-f6e7130a458b a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID8e1e4d95-03fa-439f-b285-e5cd2637b053 a aamas:Term ;
+aama:ID88857385-c7f3-4ba8-a4d3-1d0f8c69b1ee a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -1005,7 +1005,7 @@ aama:ID8e1e4d95-03fa-439f-b285-e5cd2637b053 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID2277d8e8-1b7a-4947-bf43-6724b5ca1ff2 a aamas:Term ;
+aama:ID4bd7a39d-3bc5-4cc3-ac8e-5ab5329741f7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PIndependent ;
 	sid:pos sid:Pronoun ;
@@ -1023,10 +1023,10 @@ aama:ID2277d8e8-1b7a-4947-bf43-6724b5ca1ff2 a aamas:Term ;
 sid:sidaama-VSimplePerf-haishsh a aamas:Termcluster ;
 	rdfs:label "sidaama-VSimplePerf-haishsh" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:ID912b48e2-fdb5-4cbb-8c63-651aa7341abe a aamas:Term ;
+aama:IDed7c08a1-de67-49fb-9e21-109f3e1f5bf3 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1039,7 +1039,7 @@ aama:ID912b48e2-fdb5-4cbb-8c63-651aa7341abe a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID7501fe41-41d6-4ea1-9e95-32b651f74d1e a aamas:Term ;
+aama:ID5d7eb106-e26f-4ef8-bca0-20048ad60b28 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1052,7 +1052,7 @@ aama:ID7501fe41-41d6-4ea1-9e95-32b651f74d1e a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID9e9bbfea-a972-4b7a-8f67-ecd5a3aef97c a aamas:Term ;
+aama:IDe1a5dbbc-a92b-4bbf-ab84-a06f552683b4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1065,7 +1065,7 @@ aama:ID9e9bbfea-a972-4b7a-8f67-ecd5a3aef97c a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDc1ea9297-2270-4bd6-9208-85c57bee2e2a a aamas:Term ;
+aama:ID05c87890-c266-4b84-9583-20a833d96465 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1078,7 +1078,7 @@ aama:IDc1ea9297-2270-4bd6-9208-85c57bee2e2a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID57f11ae0-9917-4713-9492-1377d3b4394e a aamas:Term ;
+aama:ID47927335-13a2-4547-8c68-ed35e5392ac7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1091,7 +1091,7 @@ aama:ID57f11ae0-9917-4713-9492-1377d3b4394e a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDbf901ea6-c1fb-48c0-b6ab-66726d5c7b85 a aamas:Term ;
+aama:ID03c998c4-26ed-4053-983d-7c5772e4bf90 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1104,7 +1104,7 @@ aama:IDbf901ea6-c1fb-48c0-b6ab-66726d5c7b85 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID0dd62523-2806-4ab3-88b2-c19e0c2882a6 a aamas:Term ;
+aama:IDfc1029cb-e68b-4669-8ecd-54ba01ac9142 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1117,7 +1117,7 @@ aama:ID0dd62523-2806-4ab3-88b2-c19e0c2882a6 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID2700b4a7-b52f-4032-942a-10c504599520 a aamas:Term ;
+aama:ID4fbab944-a74e-4497-a138-94200b80e3e1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1130,7 +1130,7 @@ aama:ID2700b4a7-b52f-4032-942a-10c504599520 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDb9e40bf4-debf-48da-9d25-44db97e80b3d a aamas:Term ;
+aama:ID156fdad7-3c75-4b9d-9a57-5c606e218571 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1148,10 +1148,10 @@ aama:IDb9e40bf4-debf-48da-9d25-44db97e80b3d a aamas:Term ;
 sid:sidaama-VImperfect-haishsh a aamas:Termcluster ;
 	rdfs:label "sidaama-VImperfect-haishsh" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:IDac62e075-5806-4cf8-bf33-d068754ccb5d a aamas:Term ;
+aama:ID182a54d8-5257-4c55-a115-44c1e3d013e6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1164,7 +1164,7 @@ aama:IDac62e075-5806-4cf8-bf33-d068754ccb5d a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID94f8a119-6bb6-4c5f-9f29-07c99750ccd7 a aamas:Term ;
+aama:ID59671da2-b26f-4efe-83a7-1e6186fcc38f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1177,7 +1177,7 @@ aama:ID94f8a119-6bb6-4c5f-9f29-07c99750ccd7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDb5257c4e-dad7-487a-9723-d530ea03afa7 a aamas:Term ;
+aama:ID11beee56-85c9-4862-998a-8531a9feb0f5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1190,7 +1190,7 @@ aama:IDb5257c4e-dad7-487a-9723-d530ea03afa7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID16d60c14-f9ae-45f8-b2e1-74ecf19e9d35 a aamas:Term ;
+aama:IDe44940e5-dd8f-4a26-ac54-e66a9ace88f0 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1203,7 +1203,7 @@ aama:ID16d60c14-f9ae-45f8-b2e1-74ecf19e9d35 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDe5da240f-913f-4277-9207-bf8f9ae2eaa6 a aamas:Term ;
+aama:ID222e6cac-3fce-4f14-9303-4c1ac8e3b767 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1216,7 +1216,7 @@ aama:IDe5da240f-913f-4277-9207-bf8f9ae2eaa6 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDe447c3bd-ea3b-468a-80e1-11b750c8407b a aamas:Term ;
+aama:ID4e5c85bd-df15-4498-a02c-1be8620ff3ef a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1229,7 +1229,7 @@ aama:IDe447c3bd-ea3b-468a-80e1-11b750c8407b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDd4428992-b09c-42b6-8583-77c88ddfaf8b a aamas:Term ;
+aama:ID1fe16ed3-d1f6-4f9a-b19a-1a225324937b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1242,7 +1242,7 @@ aama:IDd4428992-b09c-42b6-8583-77c88ddfaf8b a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID9a294b6a-5073-4eb9-beeb-4fc3b50c1b4c a aamas:Term ;
+aama:ID4f903523-6781-485f-9895-33ae3e6d867d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1255,7 +1255,7 @@ aama:ID9a294b6a-5073-4eb9-beeb-4fc3b50c1b4c a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID54bd8a41-be5b-43f8-af51-9918b46e6d5e a aamas:Term ;
+aama:ID932bef1d-1b0c-483c-9a2c-0b7ddeb231f6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -1273,10 +1273,10 @@ aama:ID54bd8a41-be5b-43f8-af51-9918b46e6d5e a aamas:Term ;
 sid:sidaama-VImperfect-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VImperfect-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:ID5058690d-1675-4a24-baff-d82ab89f6015 a aamas:Term ;
+aama:IDc9622099-760b-400a-912b-4769e9792daf a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1289,7 +1289,7 @@ aama:ID5058690d-1675-4a24-baff-d82ab89f6015 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDc77635fb-2bf2-4c24-b669-5869d6d1ef4f a aamas:Term ;
+aama:ID2ad4b817-c25c-43e4-b4db-332c99727646 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1302,7 +1302,7 @@ aama:IDc77635fb-2bf2-4c24-b669-5869d6d1ef4f a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID8a126ef6-4157-4800-8969-59cad0bae8d5 a aamas:Term ;
+aama:ID4de8229f-44c1-4d2c-b6e1-0b3f1b80e53f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1315,7 +1315,7 @@ aama:ID8a126ef6-4157-4800-8969-59cad0bae8d5 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID7f84bfe8-bc67-499a-bbed-e2ecd2a94b10 a aamas:Term ;
+aama:IDcffa4565-f902-4432-880e-c82a711462c5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1328,7 +1328,7 @@ aama:ID7f84bfe8-bc67-499a-bbed-e2ecd2a94b10 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID25843f59-456b-4f5c-bdf9-2f76f2c0fbeb a aamas:Term ;
+aama:IDd779943b-6a74-4e4f-85d4-e1a50308e726 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1341,7 +1341,7 @@ aama:ID25843f59-456b-4f5c-bdf9-2f76f2c0fbeb a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID0b54f47a-f634-42d5-9833-a0b6d4ba5cdf a aamas:Term ;
+aama:ID336746c7-cac4-441a-8a34-5f75679a29c7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1354,7 +1354,7 @@ aama:ID0b54f47a-f634-42d5-9833-a0b6d4ba5cdf a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID753e6bd6-86fb-40ec-a13d-511bb49296d1 a aamas:Term ;
+aama:IDe4e45ba4-8dfe-491c-9578-2daa107c01b7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1367,7 +1367,7 @@ aama:ID753e6bd6-86fb-40ec-a13d-511bb49296d1 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID96866785-821b-4111-9896-4fbe3232b7b4 a aamas:Term ;
+aama:ID802ee824-8bf9-4114-b23c-82a7d87c8b8d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1380,7 +1380,7 @@ aama:ID96866785-821b-4111-9896-4fbe3232b7b4 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID08df122c-5dfa-4cec-9cc2-617b88bcf19a a aamas:Term ;
+aama:IDc2bbbcb3-2707-4196-b9be-4dd058ba9578 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VImperfect-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1398,25 +1398,10 @@ aama:ID08df122c-5dfa-4cec-9cc2-617b88bcf19a a aamas:Term ;
 sid:sidaama-VExistence-no a aamas:Termcluster ;
 	rdfs:label "sidaama-VExistence-no" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%(4.181). The existential/locational verb (henceforth%%“the existential
-            verb”) (lit.%%‘to come to exist%%come to be located’)%%which is used to indicate the
-            existence of an entity or thelocation of one entity with respect to another%%is always in
-            a present perfect form%%asshown in (4.181)%%and is incompatible with most of the
-            inflectional suffixes with whichother verbs can usually occur. It expresses the present
-            state of existence or locatedness asthe resultative state of a state-change%%as indicated
-            above in the gloss for this verb(nevertheless%%the present study employs ‘exist’ as its
-            gloss). Thus%%this verb does nottake any other aspect suffix. For example%%it has no
-            simple perfect or imperfect forms(e.g.%%*no-u-mm-a/*no-u-mm-o
-            [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o
-            [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning%%verbs like
-            heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has
-            no forms for the first-person plural and the secondperson plural%%the verb heeɗ- ‘to
-            live’ is used in these cases (1PL:hee’-n-oo-mmo
-            [live-1PL-PRESPERF.1-1PL]%%2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407
-            f)" 
+	rdfs:comment "K07(4.181) :: The existential/locational verb (henceforth%%“the existential verb”) (lit.%%‘to come to exist%%come to be located’)%%which is used to indicate the existence of an entity or thelocation of one entity with respect to another%%is always in a present perfect form%%asshown in (4.181)%%and is incompatible with most of the inflectional suffixes with whichother verbs can usually occur. It expresses the present state of existence or locatedness asthe resultative state of a state-change%%as indicated above in the gloss for this verb(nevertheless%%the present study employs ‘exist’ as its gloss). Thus%%this verb does nottake any other aspect suffix. For example%%it has no simple perfect or imperfect forms(e.g.%%*no-u-mm-a/*no-u-mm-o [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning%%verbs like heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has no forms for the first-person plural and the secondperson plural%%the verb heeɗ- ‘to live’ is used in these cases (1PL:hee’-n-oo-mmo [live-1PL-PRESPERF.1-1PL]%%2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407 f)" 
 	.
 
-aama:ID14ef974a-644d-4b80-84dc-028add45ad1d a aamas:Term ;
+aama:ID02c0d96b-550e-460e-8280-d7d16060aa79 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VExistence-no ;
 	aamas:lexeme aama:Sidaama-no ;
@@ -1428,7 +1413,7 @@ aama:ID14ef974a-644d-4b80-84dc-028add45ad1d a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDde3afd5f-9adb-4801-8805-1e345dc1992b a aamas:Term ;
+aama:IDc6983724-88f8-45b8-b0bc-6d26050e57e8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VExistence-no ;
 	aamas:lexeme aama:Sidaama-no ;
@@ -1440,7 +1425,7 @@ aama:IDde3afd5f-9adb-4801-8805-1e345dc1992b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID6eba17df-3c62-4631-a534-be8b8fc8c9b9 a aamas:Term ;
+aama:ID82636ac3-4b2c-43de-9deb-604fb21da3e4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VExistence-no ;
 	aamas:lexeme aama:Sidaama-no ;
@@ -1452,7 +1437,7 @@ aama:ID6eba17df-3c62-4631-a534-be8b8fc8c9b9 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDf7928be1-916d-48ad-b5f9-7c3e49a09b2a a aamas:Term ;
+aama:IDb76e8ec7-b560-405d-ab5f-9de8ebd85ae7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VExistence-no ;
 	aamas:lexeme aama:Sidaama-no ;
@@ -1464,7 +1449,7 @@ aama:IDf7928be1-916d-48ad-b5f9-7c3e49a09b2a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID36b461e4-70ce-47e3-818c-0cf94bb6401a a aamas:Term ;
+aama:IDff1324b5-b0d0-4e19-ab47-5a5dc3ecedcd a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VExistence-no ;
 	aamas:lexeme aama:Sidaama-no ;
@@ -1476,7 +1461,7 @@ aama:ID36b461e4-70ce-47e3-818c-0cf94bb6401a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID9fcc4b02-cf85-4fce-8d30-10e8433d6066 a aamas:Term ;
+aama:IDfc203111-2904-464f-9a1b-10ac509e80f9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VExistence-no ;
 	aamas:lexeme aama:Sidaama-no ;
@@ -1493,17 +1478,10 @@ aama:ID9fcc4b02-cf85-4fce-8d30-10e8433d6066 a aamas:Term ;
 sid:sidaama-VTensePersNumGenTemplate a aamas:Termcluster ;
 	rdfs:label "sidaama-VTensePersNumGenTemplate" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 4.6. There is a basic template:1:tense%%2:numPers%%3:genM/genF.
-            Verbs can be marked with suffixes for three types of temporal aspects%%the imperfect%%the
-            simple perfect%%and the present perfect%%together with suffixes for theperson/number of
-            the subject. In addition%%the genders of the first- and second-personsingular subjects
-            are also marked with suffixes (M:-o%%F:-a). Template note: :token-genF%%
-            :token-genM%%
-            :token-numPers%%
-            :token-tense." 
+	rdfs:comment "K07t4.6 :: There is a basic template:1:tense%%2:numPers%%3:genM/genF. Verbs can be marked with suffixes for three types of temporal aspects%%the imperfect%%the simple perfect%%and the present perfect%%together with suffixes for theperson/number of the subject. In addition%%the genders of the first- and second-personsingular subjects are also marked with suffixes (M:-o%%F:-a). Template note: :token-genF%% :token-genM%% :token-numPers%% :token-tense." 
 	.
 
-aama:ID43ddb1a2-ae1e-4fe3-8d42-b2807c3507b5 a aamas:Term ;
+aama:ID311ffdfe-2c02-418b-9846-274ad3243996 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1516,7 +1494,7 @@ aama:ID43ddb1a2-ae1e-4fe3-8d42-b2807c3507b5 a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:ID26f91c10-d9dd-414e-88b1-b0370e961688 a aamas:Term ;
+aama:ID953b93d3-93be-48cb-8843-d1aad2c2439a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1529,7 +1507,7 @@ aama:ID26f91c10-d9dd-414e-88b1-b0370e961688 a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:ID9faefefe-b253-431a-a52e-1bbd0e0839f3 a aamas:Term ;
+aama:ID1d9f600d-46b1-4498-98bb-ad89971db38d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1542,7 +1520,7 @@ aama:ID9faefefe-b253-431a-a52e-1bbd0e0839f3 a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:IDfa6b5c17-26a0-4a09-8089-0952b551039f a aamas:Term ;
+aama:ID9f91e93d-d64e-4fc3-9bfc-77e2095f2d9a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1555,7 +1533,7 @@ aama:IDfa6b5c17-26a0-4a09-8089-0952b551039f a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:ID3252b08f-eed9-4737-96c6-b5a945cdccc5 a aamas:Term ;
+aama:IDc8de2f57-ba3a-439c-9d1c-03707bbbb949 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1568,7 +1546,7 @@ aama:ID3252b08f-eed9-4737-96c6-b5a945cdccc5 a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:ID92c00877-f1e2-4655-8db6-4e24b1e62cb3 a aamas:Term ;
+aama:ID0cb408a4-8a1b-4d69-ac0e-56f9d1080cc1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1581,7 +1559,7 @@ aama:ID92c00877-f1e2-4655-8db6-4e24b1e62cb3 a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:IDfb3bdc9e-01e1-4eb7-9513-8f4a2c003171 a aamas:Term ;
+aama:IDa53475bd-1115-4eb1-911d-d433880b74e4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1594,7 +1572,7 @@ aama:IDfb3bdc9e-01e1-4eb7-9513-8f4a2c003171 a aamas:Term ;
 	sid:tam sid:Imperfect ;
 	.
 
-aama:IDca2bef84-5ceb-4e13-b1eb-4822c233b194 a aamas:Term ;
+aama:IDee86dd58-3b71-4900-be6d-5a40bfbee3b4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1607,7 +1585,7 @@ aama:IDca2bef84-5ceb-4e13-b1eb-4822c233b194 a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:IDc0981f7c-be99-4b4d-ac80-b19ce109fd1f a aamas:Term ;
+aama:IDd0392380-fb67-4b49-bcad-7f5504bea2a0 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1620,7 +1598,7 @@ aama:IDc0981f7c-be99-4b4d-ac80-b19ce109fd1f a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:ID6b39a1c1-ee7c-4696-a325-4ba206257cf3 a aamas:Term ;
+aama:ID85d0eca8-de39-4c07-98e0-94b8b6018fc5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1633,7 +1611,7 @@ aama:ID6b39a1c1-ee7c-4696-a325-4ba206257cf3 a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:ID826c2a01-f0e9-473f-a235-560bbb34078e a aamas:Term ;
+aama:ID0bb02a54-d013-4832-b981-63f0b517b10d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1646,7 +1624,7 @@ aama:ID826c2a01-f0e9-473f-a235-560bbb34078e a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:ID7a7a00c6-f6cf-4727-9492-bd16fe0000f5 a aamas:Term ;
+aama:ID6c427421-2f04-40cb-a6a0-19b1fecc8cbe a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1659,7 +1637,7 @@ aama:ID7a7a00c6-f6cf-4727-9492-bd16fe0000f5 a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:IDed91dae7-6074-42b8-b070-a75e8aa6ea8c a aamas:Term ;
+aama:ID25cc21de-709f-4559-a8a1-804ff9c2efb8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1672,7 +1650,7 @@ aama:IDed91dae7-6074-42b8-b070-a75e8aa6ea8c a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:ID95563406-9f22-46bb-ab12-1d09948f225f a aamas:Term ;
+aama:IDe12dcfd6-e1bc-448f-8fa7-339822cca9a1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1685,7 +1663,7 @@ aama:ID95563406-9f22-46bb-ab12-1d09948f225f a aamas:Term ;
 	sid:tam sid:PresentPerfect ;
 	.
 
-aama:IDd05e0253-f24a-4a7c-9670-72af36cae1a1 a aamas:Term ;
+aama:ID6a399965-4e2b-4f34-a3fa-a70f9f2227cc a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1698,7 +1676,7 @@ aama:IDd05e0253-f24a-4a7c-9670-72af36cae1a1 a aamas:Term ;
 	sid:tam sid:SimplePerfect ;
 	.
 
-aama:ID16e2582c-9d7e-46fe-8460-c7f8e6f6b339 a aamas:Term ;
+aama:ID03131e9b-2a67-4d81-b112-d9f7e66c38d3 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1711,7 +1689,7 @@ aama:ID16e2582c-9d7e-46fe-8460-c7f8e6f6b339 a aamas:Term ;
 	sid:tam sid:SimplePerfect ;
 	.
 
-aama:IDcc29b19f-4a29-4967-af26-5c9bdc068fc9 a aamas:Term ;
+aama:ID855b6bdd-889c-4476-9570-3ed98cd11ca6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1724,7 +1702,7 @@ aama:IDcc29b19f-4a29-4967-af26-5c9bdc068fc9 a aamas:Term ;
 	sid:tam sid:SimplePerfect ;
 	.
 
-aama:ID80497746-c88d-4e12-aa46-0cc779681203 a aamas:Term ;
+aama:ID1fa1edd8-88be-4a2c-813f-270568179c11 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1737,7 +1715,7 @@ aama:ID80497746-c88d-4e12-aa46-0cc779681203 a aamas:Term ;
 	sid:tam sid:SimplePerfect ;
 	.
 
-aama:ID86969bb5-90de-4361-b811-af0fca36e8ca a aamas:Term ;
+aama:IDafacf39b-6cd8-4d2b-b84d-77507f61cffe a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1750,7 +1728,7 @@ aama:ID86969bb5-90de-4361-b811-af0fca36e8ca a aamas:Term ;
 	sid:tam sid:SimplePerfect ;
 	.
 
-aama:ID16ee1585-2a14-4542-ad64-0839a0ecc608 a aamas:Term ;
+aama:IDd249829b-4d37-47c4-a268-250fd0c40dbb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1763,7 +1741,7 @@ aama:ID16ee1585-2a14-4542-ad64-0839a0ecc608 a aamas:Term ;
 	sid:tam sid:SimplePerfect ;
 	.
 
-aama:ID2428de23-706f-4755-99f7-be10cf56dcba a aamas:Term ;
+aama:ID04bb911a-d2f4-4100-8588-2a9ae62b406a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VTensePersNumGenTemplate ;
 	sid:pos sid:Verb ;
@@ -1781,10 +1759,10 @@ aama:ID2428de23-706f-4755-99f7-be10cf56dcba a aamas:Term ;
 sid:sidaama-VSimplePerf-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VSimplePerf-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:ID778025c4-ecb0-4729-a86b-26615907cbbe a aamas:Term ;
+aama:IDcb9a3cc1-539e-4cea-9a75-c270cde6ca93 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1797,7 +1775,7 @@ aama:ID778025c4-ecb0-4729-a86b-26615907cbbe a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDb85e0d66-113b-43c2-b201-34156712e406 a aamas:Term ;
+aama:ID274f2232-ef95-497d-8461-6b857de97e25 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1810,7 +1788,7 @@ aama:IDb85e0d66-113b-43c2-b201-34156712e406 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDbf63d886-895e-4cbf-b1d9-8c1f506f5f3f a aamas:Term ;
+aama:ID86cc5bbb-8d96-492d-97bf-c62437b6ae2e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1823,7 +1801,7 @@ aama:IDbf63d886-895e-4cbf-b1d9-8c1f506f5f3f a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDfa9cef02-d8dd-4b5f-b325-e11aa6386e72 a aamas:Term ;
+aama:ID9fd544a9-4238-4be6-b80e-a23c98138d64 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1836,7 +1814,7 @@ aama:IDfa9cef02-d8dd-4b5f-b325-e11aa6386e72 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDd64c7682-d40e-4766-b489-3a226e5fd96f a aamas:Term ;
+aama:ID0d4c17a7-922d-4e04-ab1d-751c22878472 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1849,7 +1827,7 @@ aama:IDd64c7682-d40e-4766-b489-3a226e5fd96f a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDaa530544-6d6c-4aff-bd52-bc50fe6b61d3 a aamas:Term ;
+aama:ID64c32d6b-39eb-4eaf-9aee-253819aef9d8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1862,7 +1840,7 @@ aama:IDaa530544-6d6c-4aff-bd52-bc50fe6b61d3 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDda25e95e-0675-466d-9558-fedd2e1eab7b a aamas:Term ;
+aama:ID05032ef4-c8c2-4b2f-b83f-e654415f95fb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1875,7 +1853,7 @@ aama:IDda25e95e-0675-466d-9558-fedd2e1eab7b a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID2c3da5fc-0aff-41b2-8b28-e23dc149e5b2 a aamas:Term ;
+aama:ID13324e8c-6315-429b-a2c1-fc5236c60b61 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1888,7 +1866,7 @@ aama:ID2c3da5fc-0aff-41b2-8b28-e23dc149e5b2 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID8b2a792d-a2e6-4b42-83c0-05978e44ad5b a aamas:Term ;
+aama:IDb34c1021-2bd7-48df-8794-3c259ea42978 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -1906,11 +1884,10 @@ aama:ID8b2a792d-a2e6-4b42-83c0-05978e44ad5b a aamas:Term ;
 sid:sidaama-VPersNumTenseSuffCorrelation a aamas:Termcluster ;
 	rdfs:label "sidaama-VPersNumTenseSuffCorrelation" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 4.7. each aspect suffix can carry additional information about
-            the person/number of the subject(p. 398)" 
+	rdfs:comment "K07t4.7 :: each aspect suffix can carry additional information about the person/number of the subject(p. 398)" 
 	.
 
-aama:ID8846795c-e0e3-47d0-bd5c-a71e97cfad5f a aamas:Term ;
+aama:ID87ded8ec-4d13-4f6b-a621-7aef7541ce16 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1922,7 +1899,7 @@ aama:ID8846795c-e0e3-47d0-bd5c-a71e97cfad5f a aamas:Term ;
 	sid:aspect sid:Imperfect ;
 	.
 
-aama:ID37937215-225f-45c9-b6d5-948db5d0abf4 a aamas:Term ;
+aama:IDede5e2fd-91e4-49ed-96a8-2c54eff4d05b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1934,7 +1911,7 @@ aama:ID37937215-225f-45c9-b6d5-948db5d0abf4 a aamas:Term ;
 	sid:aspect sid:Imperfect ;
 	.
 
-aama:ID9fb8f160-dfa3-42a2-b2a4-327d7f4f62d6 a aamas:Term ;
+aama:IDf11ceb56-e676-4d1c-b639-2b028ce42108 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1946,7 +1923,7 @@ aama:ID9fb8f160-dfa3-42a2-b2a4-327d7f4f62d6 a aamas:Term ;
 	sid:aspect sid:Imperfect ;
 	.
 
-aama:IDdbbcb9d1-8c81-404f-b6f7-9ef1b6cccb81 a aamas:Term ;
+aama:ID0891ddfc-7744-4af3-9621-fd1ee874a4d2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1958,7 +1935,7 @@ aama:IDdbbcb9d1-8c81-404f-b6f7-9ef1b6cccb81 a aamas:Term ;
 	sid:aspect sid:Imperfect ;
 	.
 
-aama:ID01008a40-079c-4789-aa22-55b6245f133a a aamas:Term ;
+aama:ID26ac5fee-319c-42b9-b727-1627740dcefc a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1970,7 +1947,7 @@ aama:ID01008a40-079c-4789-aa22-55b6245f133a a aamas:Term ;
 	sid:aspect sid:PresentPerfect ;
 	.
 
-aama:IDf6a49eed-ec21-451b-8ca1-ae2837ee9a53 a aamas:Term ;
+aama:IDfee43580-5eee-443a-b1cc-506ffe9e762a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1982,7 +1959,7 @@ aama:IDf6a49eed-ec21-451b-8ca1-ae2837ee9a53 a aamas:Term ;
 	sid:aspect sid:PresentPerfect ;
 	.
 
-aama:ID637f2f77-50d5-4676-a304-a4947f37f9cb a aamas:Term ;
+aama:ID57e10e42-e728-4adb-b484-2c0879e1a99e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -1994,7 +1971,7 @@ aama:ID637f2f77-50d5-4676-a304-a4947f37f9cb a aamas:Term ;
 	sid:aspect sid:PresentPerfect ;
 	.
 
-aama:ID08fdfbde-eca8-4a7e-a2a6-c7a97add5b76 a aamas:Term ;
+aama:IDb2d12707-d794-4048-aea4-ab05b9c1007f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -2006,7 +1983,7 @@ aama:ID08fdfbde-eca8-4a7e-a2a6-c7a97add5b76 a aamas:Term ;
 	sid:aspect sid:PresentPerfect ;
 	.
 
-aama:ID4a4576ae-a8ca-4177-a76c-b02b4c95c6b2 a aamas:Term ;
+aama:IDb90de56e-3459-48f7-8522-5624f0841a55 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -2018,7 +1995,7 @@ aama:ID4a4576ae-a8ca-4177-a76c-b02b4c95c6b2 a aamas:Term ;
 	sid:aspect sid:SimplePerfect ;
 	.
 
-aama:ID4402cc87-b772-4b07-a65d-351c4998318f a aamas:Term ;
+aama:ID0ff2d83e-de4d-4580-8adc-5d1c1ec45450 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -2030,7 +2007,7 @@ aama:ID4402cc87-b772-4b07-a65d-351c4998318f a aamas:Term ;
 	sid:aspect sid:SimplePerfect ;
 	.
 
-aama:ID9438a143-30e3-4bc0-9e39-9981fcf5e2c6 a aamas:Term ;
+aama:IDa2623436-d853-4d5c-aa24-e39119081c0d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -2042,7 +2019,7 @@ aama:ID9438a143-30e3-4bc0-9e39-9981fcf5e2c6 a aamas:Term ;
 	sid:aspect sid:SimplePerfect ;
 	.
 
-aama:ID06bb4742-32f2-4c57-bf5d-82eda323cd39 a aamas:Term ;
+aama:IDe2b4ad3d-818a-47f5-952f-7f34b5e52f03 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -2054,7 +2031,7 @@ aama:ID06bb4742-32f2-4c57-bf5d-82eda323cd39 a aamas:Term ;
 	sid:aspect sid:SimplePerfect ;
 	.
 
-aama:IDa9cb0439-13c6-45c8-8b9f-234f241b132f a aamas:Term ;
+aama:ID3fc37ce3-1ef6-4484-b321-1403343ef5d4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPersNumTenseSuffCorrelation ;
 	sid:pos sid:Verb ;
@@ -2071,11 +2048,10 @@ aama:IDa9cb0439-13c6-45c8-8b9f-234f241b132f a aamas:Term ;
 sid:sidaama-VAffImprtv-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VAffImprtv-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
-            imperative." 
+	rdfs:comment "K07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative." 
 	.
 
-aama:ID0ebd525e-03cb-4fc7-8a5b-34818bc3e501 a aamas:Term ;
+aama:IDbb420ab4-60e1-475e-8482-828ecf317bad a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VAffImprtv-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2088,7 +2064,7 @@ aama:ID0ebd525e-03cb-4fc7-8a5b-34818bc3e501 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID1a579aaf-ac55-4060-b481-a274107bac2a a aamas:Term ;
+aama:IDfeb07ba6-ecb0-4ba6-a7fa-b78b6505686a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VAffImprtv-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2106,15 +2082,10 @@ aama:ID1a579aaf-ac55-4060-b481-a274107bac2a a aamas:Term ;
 sid:sidaama-VSubjMarkerConnConj a aamas:Termcluster ;
 	rdfs:label "sidaama-VSubjMarkerConnConj" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 4.11 Subject Person Suffix (before –CNN or –INF-MANNER). [=nna
-            is a conjunctive enclitic]. There are two basic connective constructions (markers on
-            verb1 for constuctions verb1-and-then verb2or while-verb1%%verb2) and one conjunctive
-            construction (verb1=and verb2)%%all involving a characteristically Cushitic reduced set
-            of person markers. The connective consists of the reduced person markrs followed by
-            –e" 
+	rdfs:comment "K07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1%%verb2) and one conjunctive construction (verb1=and verb2)%%all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e" 
 	.
 
-aama:IDd20511f9-150f-4c08-9142-f6d8991af234 a aamas:Term ;
+aama:ID987c9fc1-6cf4-4e67-ae1f-2abe8935ab5e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2126,7 +2097,7 @@ aama:IDd20511f9-150f-4c08-9142-f6d8991af234 a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:ID8061c0f3-6d14-410b-856a-0d0def534883 a aamas:Term ;
+aama:ID30f45833-3f32-4230-ba38-5ccf5d180c24 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2138,7 +2109,7 @@ aama:ID8061c0f3-6d14-410b-856a-0d0def534883 a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:ID2fa6e23a-de1c-4fa1-a91e-e8bc42b6960e a aamas:Term ;
+aama:ID137bc3b5-395c-45e4-b50d-75cc248caf91 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2150,7 +2121,7 @@ aama:ID2fa6e23a-de1c-4fa1-a91e-e8bc42b6960e a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:IDedac89ec-6ebf-406f-bcc7-bea3ac2f77bb a aamas:Term ;
+aama:ID1adaea1c-3885-4995-94c8-1368e40375cb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2162,7 +2133,7 @@ aama:IDedac89ec-6ebf-406f-bcc7-bea3ac2f77bb a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:ID41c3a792-2f42-4a28-9e47-6274274ee1c3 a aamas:Term ;
+aama:ID1cbbd85e-e5fa-4e70-9562-9bdeaf8fbf0b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2174,7 +2145,7 @@ aama:ID41c3a792-2f42-4a28-9e47-6274274ee1c3 a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:IDcf3344cd-d327-4241-8f81-7d58c5617861 a aamas:Term ;
+aama:ID1c438c94-b392-4d55-8c77-f895a89fc6f9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2186,7 +2157,7 @@ aama:IDcf3344cd-d327-4241-8f81-7d58c5617861 a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:IDabee028e-9b12-4a14-8488-6e2c528ab2f9 a aamas:Term ;
+aama:IDa74efc2b-0da1-4356-aecf-05ced7e25fb5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2198,7 +2169,7 @@ aama:IDabee028e-9b12-4a14-8488-6e2c528ab2f9 a aamas:Term ;
 	sid:configuration sid:Connective ;
 	.
 
-aama:ID06ab61ae-5c34-46f6-ac6b-0ab9799504e9 a aamas:Term ;
+aama:IDd695853d-8572-466d-beae-039386d6a6de a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2210,7 +2181,7 @@ aama:ID06ab61ae-5c34-46f6-ac6b-0ab9799504e9 a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:IDde463894-7285-4d40-8e0d-17e73608bc97 a aamas:Term ;
+aama:ID3e293d9c-1a64-4644-9352-129ac9204382 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2222,7 +2193,7 @@ aama:IDde463894-7285-4d40-8e0d-17e73608bc97 a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:IDaf6a0c6e-a121-4fac-8e19-b8c4b8e69369 a aamas:Term ;
+aama:IDb2dae0e0-e4ad-4da3-8125-7c2e4b75b8f2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2234,7 +2205,7 @@ aama:IDaf6a0c6e-a121-4fac-8e19-b8c4b8e69369 a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:IDbb68938b-9d1b-4ed1-980f-6741e1ae3576 a aamas:Term ;
+aama:IDbd32ee10-daa4-45d1-be9a-f8ffeeb6c674 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2246,7 +2217,7 @@ aama:IDbb68938b-9d1b-4ed1-980f-6741e1ae3576 a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:IDee0b979e-83b1-486f-a36e-defec29ba902 a aamas:Term ;
+aama:ID42f061e4-4b56-4d16-8629-addce3b3e704 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2258,7 +2229,7 @@ aama:IDee0b979e-83b1-486f-a36e-defec29ba902 a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:IDb93bc6c2-5332-4071-81f7-d66c70e7de3d a aamas:Term ;
+aama:ID144f674c-7ace-4251-a80f-15f7d0967d8f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2270,7 +2241,7 @@ aama:IDb93bc6c2-5332-4071-81f7-d66c70e7de3d a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:ID4b190d50-9f5f-431d-a67b-a1bcef6b9d02 a aamas:Term ;
+aama:IDc085a282-976c-4b7c-8276-096ecc8569f6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2282,7 +2253,7 @@ aama:ID4b190d50-9f5f-431d-a67b-a1bcef6b9d02 a aamas:Term ;
 	sid:configuration sid:InfinitiveConj ;
 	.
 
-aama:IDc42b8792-60b8-4c29-a2a7-a25cfcb1165d a aamas:Term ;
+aama:ID4b2e8be4-53cf-4a67-8de1-560a21602798 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2294,7 +2265,7 @@ aama:IDc42b8792-60b8-4c29-a2a7-a25cfcb1165d a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:ID2137093a-0827-44d3-88ec-d3e1134613f9 a aamas:Term ;
+aama:ID4480f0d0-8e8d-4fec-ac11-5bdee8469bf6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2306,7 +2277,7 @@ aama:ID2137093a-0827-44d3-88ec-d3e1134613f9 a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:ID14dd2cb1-e512-454b-953a-7530189f53af a aamas:Term ;
+aama:IDd59d31cc-5721-45c0-8df0-0abbd08fb218 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2318,7 +2289,7 @@ aama:ID14dd2cb1-e512-454b-953a-7530189f53af a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:IDfc0be4e7-beec-4028-abe7-96807429e20d a aamas:Term ;
+aama:IDe2579e6d-00e9-4751-84c0-823a79729fba a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2330,7 +2301,7 @@ aama:IDfc0be4e7-beec-4028-abe7-96807429e20d a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:ID14902127-daf6-4e60-97c8-cab727a83aaa a aamas:Term ;
+aama:ID98560280-e9ed-4d8b-83c6-6e582989cd1b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2342,7 +2313,7 @@ aama:ID14902127-daf6-4e60-97c8-cab727a83aaa a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:ID86ec87ea-24a9-42d3-806e-4b5efa6d6106 a aamas:Term ;
+aama:ID9236ef66-2d66-4af3-a580-d36394e9ce29 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2354,7 +2325,7 @@ aama:ID86ec87ea-24a9-42d3-806e-4b5efa6d6106 a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:ID1e5de88f-037d-4264-817b-60f2dc501251 a aamas:Term ;
+aama:ID6a05f831-b901-4325-a983-5d759f3e3dd8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2366,7 +2337,7 @@ aama:ID1e5de88f-037d-4264-817b-60f2dc501251 a aamas:Term ;
 	sid:configuration sid:InfinitiveConn ;
 	.
 
-aama:IDb2256bc2-63e5-4477-a508-87c124e1da56 a aamas:Term ;
+aama:ID70e681ef-b7ef-40aa-814e-00f84a12cb82 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2378,7 +2349,7 @@ aama:IDb2256bc2-63e5-4477-a508-87c124e1da56 a aamas:Term ;
 	sid:configuration sid:SubjMarkerRed ;
 	.
 
-aama:IDaaa77519-2f47-4650-b070-6b9c9553493b a aamas:Term ;
+aama:IDe490d647-9c10-4baa-a8b4-ede3051b0859 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2390,7 +2361,7 @@ aama:IDaaa77519-2f47-4650-b070-6b9c9553493b a aamas:Term ;
 	sid:configuration sid:SubjMarkerRed ;
 	.
 
-aama:IDb43dbe7a-328b-4d7c-b56b-93b93263c2bb a aamas:Term ;
+aama:ID3cc71bd4-eebc-4172-a39c-b36a84c82134 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2402,7 +2373,7 @@ aama:IDb43dbe7a-328b-4d7c-b56b-93b93263c2bb a aamas:Term ;
 	sid:configuration sid:SubjMarkerRed ;
 	.
 
-aama:IDb418d5ff-b004-4400-89f0-8a0eb18ef314 a aamas:Term ;
+aama:ID8ec3a229-1bf8-434b-948d-3f4e8135f454 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2414,7 +2385,7 @@ aama:IDb418d5ff-b004-4400-89f0-8a0eb18ef314 a aamas:Term ;
 	sid:configuration sid:SubjMarkerRed ;
 	.
 
-aama:ID3c0f9805-8156-4453-bfee-6530708e6f68 a aamas:Term ;
+aama:ID6f4c035d-e4b4-4597-8f1b-0890f27307c4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2426,7 +2397,7 @@ aama:ID3c0f9805-8156-4453-bfee-6530708e6f68 a aamas:Term ;
 	sid:configuration sid:SubjMarkerRed ;
 	.
 
-aama:ID16366d6a-903f-4c1e-96b3-f4d5457487d4 a aamas:Term ;
+aama:ID5f0c2d49-31e4-415c-b543-41c91f55b813 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2438,7 +2409,7 @@ aama:ID16366d6a-903f-4c1e-96b3-f4d5457487d4 a aamas:Term ;
 	sid:configuration sid:SubjMarkerRed ;
 	.
 
-aama:ID0ffae391-9af1-42ac-9790-3eed6d2f5b03 a aamas:Term ;
+aama:IDb0cab1a2-a079-40e1-8873-23f9c898b11d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerConnConj ;
 	sid:pos sid:Verb ;
@@ -2455,14 +2426,10 @@ aama:ID0ffae391-9af1-42ac-9790-3eed6d2f5b03 a aamas:Term ;
 sid:sidaama-VSubjMarkerInfinSub a aamas:Termcluster ;
 	rdfs:label "sidaama-VSubjMarkerInfinSub" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 4.12:Infinitive Suffix Accompanied by the Person Suffix when
-            Followed by –ra. The infinitival subordinate consists of the infinitivemarker
-            –a-%%followed by a special set of person markers (similar to imperfective)%%followed by
-            the subordinating suffix –ra. It is used for a large number of infinitival and purpose
-            clauses. cf. Kawachi2007%%pp. 420-425." 
+	rdfs:comment "K07t4.12 :: Infinitive Suffix Accompanied by the Person Suffix when Followed by –ra :: The infinitival subordinate consists of the infinitivemarker –a-%%followed by a special set of person markers (similar to imperfective)%%followed by the subordinating suffix –ra. It is used for a large number of infinitival and purpose clauses. cf. K07pp. 420-425." 
 	.
 
-aama:IDb86b6380-e3db-48e0-af03-63325852229b a aamas:Term ;
+aama:ID1cfb269c-ec63-4fa3-adfa-b88cb0b73fd8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2473,7 +2440,7 @@ aama:IDb86b6380-e3db-48e0-af03-63325852229b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID267f84eb-6ca0-4a45-9327-5a3193e726f2 a aamas:Term ;
+aama:ID30f6f036-bae5-4127-80f9-aee12a5b98c3 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2484,7 +2451,7 @@ aama:ID267f84eb-6ca0-4a45-9327-5a3193e726f2 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID0347da57-ed1b-40d2-b1cb-850f8f708046 a aamas:Term ;
+aama:ID270ebdce-e06a-4eff-8334-2819b1d72467 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2495,7 +2462,7 @@ aama:ID0347da57-ed1b-40d2-b1cb-850f8f708046 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID93ace566-cfed-4910-a642-f95edc2bf739 a aamas:Term ;
+aama:ID77ad31cb-10e6-4ecd-9eac-0bdbe5d8d26d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2506,7 +2473,7 @@ aama:ID93ace566-cfed-4910-a642-f95edc2bf739 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDbd82fa89-5f5a-45ff-a872-10c6029cc40f a aamas:Term ;
+aama:ID19e6194a-403f-4290-b039-b43ed2acf52e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2517,7 +2484,7 @@ aama:IDbd82fa89-5f5a-45ff-a872-10c6029cc40f a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDf53eb351-23ad-4be2-8640-a52ce16c32fb a aamas:Term ;
+aama:IDcf6918a9-267b-4e92-bac6-166ed0ff4ee6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2528,7 +2495,7 @@ aama:IDf53eb351-23ad-4be2-8640-a52ce16c32fb a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDd3c93659-70a2-4c43-89d6-d6df3db2a9fd a aamas:Term ;
+aama:ID0fa8b678-2c68-4f29-9acf-21bcdf6ed7a0 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2539,7 +2506,7 @@ aama:IDd3c93659-70a2-4c43-89d6-d6df3db2a9fd a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDaf052d3e-db99-4f37-9fe4-4f2da442090f a aamas:Term ;
+aama:IDdc686866-9a7e-4540-9909-0165f6f5d55c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2550,7 +2517,7 @@ aama:IDaf052d3e-db99-4f37-9fe4-4f2da442090f a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID459af963-4424-4332-9d0b-1f6f2e4e56ef a aamas:Term ;
+aama:IDd5a185e5-7a88-498b-885b-4528fc07a07e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerInfinSub ;
 	sid:pos sid:Verb ;
@@ -2566,12 +2533,10 @@ aama:ID459af963-4424-4332-9d0b-1f6f2e4e56ef a aamas:Term ;
 sid:sidaama-PDem a aamas:Termcluster ;
 	rdfs:label "sidaama-PDem" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.6. Demonstratives can be reduplicated in all case and deixis
-            forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted%%the acc
-            form is also the predicative." 
+	rdfs:comment "K07t3.6 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted%%the acc form is also the predicative." 
 	.
 
-aama:ID14dfc405-4792-4e4b-89a9-6b889f7fd7e0 a aamas:Term ;
+aama:ID6fba5b6e-ae2d-433d-a478-764edcac0d7d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDem ;
 	sid:pos sid:Pronoun ;
@@ -2582,7 +2547,7 @@ aama:ID14dfc405-4792-4e4b-89a9-6b889f7fd7e0 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDa9f88c64-3a58-4814-9c1b-a582cd980f28 a aamas:Term ;
+aama:IDfde8e9f5-2a1c-4ea8-a35b-d0133bef7da5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDem ;
 	sid:pos sid:Pronoun ;
@@ -2593,7 +2558,7 @@ aama:IDa9f88c64-3a58-4814-9c1b-a582cd980f28 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID6a69e238-0464-48d0-88c9-5bc24168c9c1 a aamas:Term ;
+aama:ID1b40a5a2-30c6-42b1-9cc1-4d8fbaaf9f02 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDem ;
 	sid:pos sid:Pronoun ;
@@ -2604,7 +2569,7 @@ aama:ID6a69e238-0464-48d0-88c9-5bc24168c9c1 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDe5f840f7-034d-4860-bdcb-0b72bb243d2c a aamas:Term ;
+aama:IDaeb84285-0af7-428d-9f73-fc01771ddc12 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDem ;
 	sid:pos sid:Pronoun ;
@@ -2615,7 +2580,7 @@ aama:IDe5f840f7-034d-4860-bdcb-0b72bb243d2c a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:IDa9eaefb9-4d40-42e1-815e-b847c5598bab a aamas:Term ;
+aama:IDb00fda13-7d06-4b0e-816e-dd436c1d0cca a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDem ;
 	sid:pos sid:Pronoun ;
@@ -2626,7 +2591,7 @@ aama:IDa9eaefb9-4d40-42e1-815e-b847c5598bab a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:IDa81a075a-39fa-4448-811d-1a3483a2bf38 a aamas:Term ;
+aama:IDef106404-e68a-4d63-87f8-fd429c68bd2e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDem ;
 	sid:pos sid:Pronoun ;
@@ -2642,11 +2607,10 @@ aama:IDa81a075a-39fa-4448-811d-1a3483a2bf38 a aamas:Term ;
 sid:sidaama-VSimplePerfSuffStructure-wil a aamas:Termcluster ;
 	rdfs:label "sidaama-VSimplePerfSuffStructure-wil" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 4.19. [the V in token-structure is a contextually conditioned
-            epenthetic vowel]" 
+	rdfs:comment "K07t4.19 :: [the V in token-structure is a contextually conditioned epenthetic vowel]" 
 	.
 
-aama:ID5b89809f-cb19-4d6f-97db-de67b22feb68 a aamas:Term ;
+aama:ID2b433057-b706-44ab-870b-60ac4b622547 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2660,7 +2624,7 @@ aama:ID5b89809f-cb19-4d6f-97db-de67b22feb68 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDde029a74-df1d-4cab-a969-d59bfc10bc17 a aamas:Term ;
+aama:ID10bcf3e7-5ab9-48b5-b59a-e307b162cb3f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2674,7 +2638,7 @@ aama:IDde029a74-df1d-4cab-a969-d59bfc10bc17 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDb5f4156a-de9a-4b80-853c-791121a847f7 a aamas:Term ;
+aama:IDd50c9a7c-bec4-4772-8afc-cbb7cc33fe80 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2688,7 +2652,7 @@ aama:IDb5f4156a-de9a-4b80-853c-791121a847f7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDff7d6391-cf62-4fc5-8593-ec37bcf7c5ef a aamas:Term ;
+aama:ID382f5ada-3c01-4aa1-8835-90ed3cab4c33 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2702,7 +2666,7 @@ aama:IDff7d6391-cf62-4fc5-8593-ec37bcf7c5ef a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID4cc2b959-6ead-4dca-a44e-731d7c71ff3b a aamas:Term ;
+aama:ID9cfa1358-b6bd-498d-ba87-ff7bd1ca901e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2716,7 +2680,7 @@ aama:ID4cc2b959-6ead-4dca-a44e-731d7c71ff3b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID6bbad5df-d96c-4e62-9aed-13009852c0d7 a aamas:Term ;
+aama:IDe7013c27-2776-45ab-89aa-48c8721fb2c6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2730,7 +2694,7 @@ aama:ID6bbad5df-d96c-4e62-9aed-13009852c0d7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDd8520808-d208-4769-8ac0-d47d72ec637b a aamas:Term ;
+aama:ID9074c68d-7daf-4e89-b4c2-8d74157fe462 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2744,7 +2708,7 @@ aama:IDd8520808-d208-4769-8ac0-d47d72ec637b a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDc6e8fcfc-1c02-4348-80e2-f6ff96842d57 a aamas:Term ;
+aama:IDeb163886-c7dc-4903-ae76-db6b71fd50cb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2758,7 +2722,7 @@ aama:IDc6e8fcfc-1c02-4348-80e2-f6ff96842d57 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID9208a49e-c2ef-4a47-816c-b60f33df050a a aamas:Term ;
+aama:ID14ddc34c-6e86-48bf-9554-76a9fb2dc142 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSimplePerfSuffStructure-wil ;
 	aamas:lexeme aama:Sidaama-wil ;
@@ -2777,10 +2741,10 @@ aama:ID9208a49e-c2ef-4a47-816c-b60f33df050a a aamas:Term ;
 sid:sidaama-VInfinitiveSub-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VInfinitiveSub-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:ID327843c3-556d-4958-96ec-be2a66b319e8 a aamas:Term ;
+aama:IDa9c82cd8-6ff2-4664-9631-31c351526d1b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2793,7 +2757,7 @@ aama:ID327843c3-556d-4958-96ec-be2a66b319e8 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID4fe9f6d8-ce00-4891-bbfb-148f3005a952 a aamas:Term ;
+aama:ID5550558b-c78c-4526-b3a1-33923046b3ba a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2806,7 +2770,7 @@ aama:ID4fe9f6d8-ce00-4891-bbfb-148f3005a952 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID5ab94481-439b-4113-8adf-f54a093dc245 a aamas:Term ;
+aama:IDdda1e05c-74c1-459e-aa2a-0df95626544c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2819,7 +2783,7 @@ aama:ID5ab94481-439b-4113-8adf-f54a093dc245 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID076fc729-887b-440b-8d79-ffa6f9605b14 a aamas:Term ;
+aama:IDa64b1df2-e9c3-4648-b258-b33e16e7b04c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2832,7 +2796,7 @@ aama:ID076fc729-887b-440b-8d79-ffa6f9605b14 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID75bae3bc-6456-4287-955c-9decb2e452ab a aamas:Term ;
+aama:IDea45e00b-40bb-4700-b8e6-ba20fe0753f1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2845,7 +2809,7 @@ aama:ID75bae3bc-6456-4287-955c-9decb2e452ab a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID49efdba0-43a0-499f-8d6e-5c443292abed a aamas:Term ;
+aama:IDf5ef84f0-ef02-4dc3-9315-a28dbdbb3145 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2858,7 +2822,7 @@ aama:ID49efdba0-43a0-499f-8d6e-5c443292abed a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID1db53130-d5cc-4c68-ac6e-31717022f0cd a aamas:Term ;
+aama:IDa506bab0-1c26-40a0-8ca3-c85203ffca72 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2871,7 +2835,7 @@ aama:ID1db53130-d5cc-4c68-ac6e-31717022f0cd a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDb2bc8f3a-e49c-4c30-9fd2-dccfa4afccf2 a aamas:Term ;
+aama:ID00beaa47-3b06-4b23-b57c-32b8769d6d60 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2884,7 +2848,7 @@ aama:IDb2bc8f3a-e49c-4c30-9fd2-dccfa4afccf2 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID0a406e81-6d02-4507-bc54-8e2cbf388e14 a aamas:Term ;
+aama:ID1d214e18-5d47-4519-b104-ef35ae726aca a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveSub-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2902,10 +2866,10 @@ aama:ID0a406e81-6d02-4507-bc54-8e2cbf388e14 a aamas:Term ;
 sid:sidaama-VInfinitiveConj-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VInfinitiveConj-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:IDfc47865c-1fe2-4c8f-86d9-23b253f3487c a aamas:Term ;
+aama:ID752607e5-785f-40a1-a763-3f724edfc783 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2918,7 +2882,7 @@ aama:IDfc47865c-1fe2-4c8f-86d9-23b253f3487c a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDa6f6361f-777c-4664-b387-796e39aee019 a aamas:Term ;
+aama:ID1f955fcc-bb45-4fab-8f6a-d21da693a162 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2931,7 +2895,7 @@ aama:IDa6f6361f-777c-4664-b387-796e39aee019 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID0a0a4844-3614-4b40-a527-ff41c9dfa02b a aamas:Term ;
+aama:ID2a0c2e32-9685-4bbd-b68e-78f63f108503 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2944,7 +2908,7 @@ aama:ID0a0a4844-3614-4b40-a527-ff41c9dfa02b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID83a1ecb7-1a51-40da-8a73-c8ae89abf30c a aamas:Term ;
+aama:IDa90deefd-3370-45ea-b5bd-cf711c9e00f2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2957,7 +2921,7 @@ aama:ID83a1ecb7-1a51-40da-8a73-c8ae89abf30c a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDde076919-0f71-4ce0-b9a7-101230383ebd a aamas:Term ;
+aama:IDf67334a1-9e82-455b-98fc-e0922c5b3ea4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2970,7 +2934,7 @@ aama:IDde076919-0f71-4ce0-b9a7-101230383ebd a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID983dd6d1-86a5-4378-bea6-4b589dded144 a aamas:Term ;
+aama:ID49595bbc-d5c0-46e7-8b79-58aea04bbcea a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -2983,7 +2947,7 @@ aama:ID983dd6d1-86a5-4378-bea6-4b589dded144 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID2422c505-efbe-4366-b180-d4264330928a a aamas:Term ;
+aama:ID3f831686-c38b-42ad-aaa8-38c188b601b6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConj-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3001,10 +2965,10 @@ aama:ID2422c505-efbe-4366-b180-d4264330928a a aamas:Term ;
 sid:sidaama-VConnective-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VConnective-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:ID7698e669-1966-4d13-bb18-3e9bda1f0eec a aamas:Term ;
+aama:ID340dcb97-a3a2-4c3a-b781-75e3b0406ac6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3017,7 +2981,7 @@ aama:ID7698e669-1966-4d13-bb18-3e9bda1f0eec a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDebbc3eb9-2eec-4812-909e-658a3755043a a aamas:Term ;
+aama:IDd1eae4ee-719b-4149-8607-3450dff66c6a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3030,7 +2994,7 @@ aama:IDebbc3eb9-2eec-4812-909e-658a3755043a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDc2f070be-4039-41d6-b8d8-a196bbfed704 a aamas:Term ;
+aama:IDf1994c68-6436-4c13-b86b-04f34558f591 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3043,7 +3007,7 @@ aama:IDc2f070be-4039-41d6-b8d8-a196bbfed704 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID8266d54b-a398-4d5e-aff5-214efb5a771f a aamas:Term ;
+aama:IDcf5a37e2-a5a4-4732-9504-d1cb5ebe423b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3056,7 +3020,7 @@ aama:ID8266d54b-a398-4d5e-aff5-214efb5a771f a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID929d72d9-e32c-4bff-9221-4fbcd478a7f5 a aamas:Term ;
+aama:IDb2d6968d-4c55-4fe9-bf23-e2e88f021789 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3069,7 +3033,7 @@ aama:ID929d72d9-e32c-4bff-9221-4fbcd478a7f5 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID8ddfc830-1991-4627-a403-4b6d85eb9c27 a aamas:Term ;
+aama:ID86aa3e0e-0cf9-49c1-a4b4-23ac1996ebef a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3082,7 +3046,7 @@ aama:ID8ddfc830-1991-4627-a403-4b6d85eb9c27 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDdaa48ec9-5bb9-4c9f-8d28-a5382547cbc0 a aamas:Term ;
+aama:IDec21a4d1-3695-4fe5-a4b2-22fae0a390f4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VConnective-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3100,11 +3064,10 @@ aama:IDdaa48ec9-5bb9-4c9f-8d28-a5382547cbc0 a aamas:Term ;
 sid:sidaama-VNegImprtv-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VNegImprtv-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
-            imperative." 
+	rdfs:comment "K07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative." 
 	.
 
-aama:ID7ae29a97-4dbe-4670-b282-9fc10a61443d a aamas:Term ;
+aama:IDf6343150-a52a-45ff-b4d1-5485eabf155a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VNegImprtv-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3117,7 +3080,7 @@ aama:ID7ae29a97-4dbe-4670-b282-9fc10a61443d a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID44bdfb5f-f2a6-4cac-8276-8c05402aa201 a aamas:Term ;
+aama:IDc3d29664-e206-4738-ad4f-778313807fba a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VNegImprtv-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3135,13 +3098,10 @@ aama:ID44bdfb5f-f2a6-4cac-8276-8c05402aa201 a aamas:Term ;
 sid:sidaama-PDemSpec a aamas:Termcluster ;
 	rdfs:label "sidaama-PDemSpec" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.8 Glosses:this place%%that place%%the place over there.
-            Demonstratives can be reduplicated in all case and deixis forms to indicate intensity –
-            e.g. kawa kawa very close. Unless otherwise noted%%the acc form is also the
-            predicative." 
+	rdfs:comment "K07t3.8 ::  Glosses:this place%%that place%%the place over there. Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted%%the acc form is also the predicative." 
 	.
 
-aama:ID1b4fd781-f8c3-43e4-9fbe-6837230f8e8b a aamas:Term ;
+aama:ID5f208900-4ef5-4255-be92-113eb01b5dec a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpec ;
 	sid:pos sid:Pronoun ;
@@ -3152,7 +3112,7 @@ aama:ID1b4fd781-f8c3-43e4-9fbe-6837230f8e8b a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID07199844-8dc9-46f7-8b8c-2ea8a0fac688 a aamas:Term ;
+aama:ID80d9f818-46d7-4a4c-bcaa-8063cd946f8c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpec ;
 	sid:pos sid:Pronoun ;
@@ -3163,7 +3123,7 @@ aama:ID07199844-8dc9-46f7-8b8c-2ea8a0fac688 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID4b3236a7-febb-4519-9305-4010d6f68461 a aamas:Term ;
+aama:ID86dff84e-3d3b-4ded-91b0-ee1459934727 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpec ;
 	sid:pos sid:Pronoun ;
@@ -3174,7 +3134,7 @@ aama:ID4b3236a7-febb-4519-9305-4010d6f68461 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID756985b7-1710-4d42-b2b4-64239c10b474 a aamas:Term ;
+aama:IDefd132da-a9e0-49db-a9d0-182bb5bea18b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpec ;
 	sid:pos sid:Pronoun ;
@@ -3185,7 +3145,7 @@ aama:ID756985b7-1710-4d42-b2b4-64239c10b474 a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:IDb862a1ef-607e-4726-a291-71c4e9e7ccb5 a aamas:Term ;
+aama:IDc97d9f16-1b2a-4238-a155-f5a275b47092 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpec ;
 	sid:pos sid:Pronoun ;
@@ -3196,7 +3156,7 @@ aama:IDb862a1ef-607e-4726-a291-71c4e9e7ccb5 a aamas:Term ;
 	sid:case sid:NomGen ;
 	.
 
-aama:ID69d5d564-c4d9-4ded-9045-89e962e012bc a aamas:Term ;
+aama:IDcbae90c6-b938-4a65-aa56-dd1651f92b93 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpec ;
 	sid:pos sid:Pronoun ;
@@ -3212,10 +3172,10 @@ aama:ID69d5d564-c4d9-4ded-9045-89e962e012bc a aamas:Term ;
 sid:sidaama-VPresProg-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VPresProg-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%(4.182). The verb no- can also be a component of two aspectualmarkers%% they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.%%‘by doing sth%%came to exist’)%%as in (4.182) also%%they can be used to constitute the present continuous verb form with the connective formof another verb (lit.%%‘did sth and came to exist’)%%as in (4.183). In each of them%%the firstpersonand second-person plural forms are irregular. When used in either of these ways%%the subject is indicated on a suffix (1SG%%3SG.M:-ø%%2SG%%3SG.F/3PL:-t%%1PL:-n(t)%%2PL:-ti(n) the&gt;initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also%% the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject%%asindicated in (4.181) (for the second-person plural%%the existential verb cannot be used ineither aspect).(p. 409)" 
+	rdfs:comment "K07(4.182) :: The verb no- can also be a component of two aspectualmarkers%% they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.%%‘by doing sth%%came to exist’)%%as in (4.182) also%%they can be used to constitute the present continuous verb form with the connective formof another verb (lit.%%‘did sth and came to exist’)%%as in (4.183). In each of them%%the firstpersonand second-person plural forms are irregular. When used in either of these ways%%the subject is indicated on a suffix (1SG%%3SG.M:-ø%%2SG%%3SG.F/3PL:-t%%1PL:-n(t)%%2PL:-ti(n) the&gt;initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also%% the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject%%asindicated in (4.181) (for the second-person plural%%the existential verb cannot be used ineither aspect).(p. 409)" 
 	.
 
-aama:ID2e432376-5497-4a64-b00d-37158cb1d3a7 a aamas:Term ;
+aama:IDd9f3e09b-9ad2-4973-8587-5b2602774166 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3227,7 +3187,7 @@ aama:ID2e432376-5497-4a64-b00d-37158cb1d3a7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID435d2790-5670-4a9c-9395-912410408188 a aamas:Term ;
+aama:ID365545f9-9208-4a8e-bf2e-5b9a9fb021d6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3239,7 +3199,7 @@ aama:ID435d2790-5670-4a9c-9395-912410408188 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID01f5c59d-f7f8-475c-a71c-f80007bc2c2c a aamas:Term ;
+aama:IDbcf40dac-81bb-4c52-9a1b-935642bb175e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3251,7 +3211,7 @@ aama:ID01f5c59d-f7f8-475c-a71c-f80007bc2c2c a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID929211b4-fcc6-4efb-825e-8fd066cf229a a aamas:Term ;
+aama:ID2f94d655-f664-4006-a047-b5ce33b4095c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3263,7 +3223,7 @@ aama:ID929211b4-fcc6-4efb-825e-8fd066cf229a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID5ed307b9-53a7-442e-a465-cf746cf799b3 a aamas:Term ;
+aama:ID09b42e2c-27d3-4f90-a6fb-c01bf4938e4d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3275,7 +3235,7 @@ aama:ID5ed307b9-53a7-442e-a465-cf746cf799b3 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID05095e6e-d046-4431-8fac-4b58a51807b6 a aamas:Term ;
+aama:ID0ac62adf-e067-4ae1-9667-f60b67a65961 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3287,7 +3247,7 @@ aama:ID05095e6e-d046-4431-8fac-4b58a51807b6 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID76200a7d-6879-4197-9fc3-ea43da9694f9 a aamas:Term ;
+aama:IDc4f609e2-3ed9-487b-91a0-6e14a2bece40 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3299,7 +3259,7 @@ aama:ID76200a7d-6879-4197-9fc3-ea43da9694f9 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID106c66a9-b60a-4ec5-b6f5-b1bfc3d23b50 a aamas:Term ;
+aama:ID4ae3a0cb-90f4-4dd4-8b47-7b09c1c5a651 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3311,7 +3271,7 @@ aama:ID106c66a9-b60a-4ec5-b6f5-b1bfc3d23b50 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID8841abef-7d10-48ac-bbb2-a6dc7e659896 a aamas:Term ;
+aama:ID3e352852-f5e8-4d60-bec7-e1871bfdd5fa a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresProg-it ;
 	aamas:lexeme aama:Sidaama-it ;
@@ -3328,10 +3288,10 @@ aama:ID8841abef-7d10-48ac-bbb2-a6dc7e659896 a aamas:Term ;
 sid:sidaama-PDemSpecAdv a aamas:Termcluster ;
 	rdfs:label "sidaama-PDemSpecAdv" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.9." 
+	rdfs:comment "K07t3.9" 
 	.
 
-aama:ID5d936e60-51e3-4e9c-8187-c0ba196c44ac a aamas:Term ;
+aama:ID9c4ec6a3-8364-4d10-b4d1-f9fbac4fcb73 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3342,7 +3302,7 @@ aama:ID5d936e60-51e3-4e9c-8187-c0ba196c44ac a aamas:Term ;
 	sid:deixis sid:Here ;
 	.
 
-aama:ID8b3d62f8-2ded-4ca7-bfa0-41bdc54e7273 a aamas:Term ;
+aama:IDc98a905b-b8c7-4571-9d8f-047ec711cf4c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3353,7 +3313,7 @@ aama:ID8b3d62f8-2ded-4ca7-bfa0-41bdc54e7273 a aamas:Term ;
 	sid:deixis sid:Here ;
 	.
 
-aama:ID683e90e8-0605-4902-80be-0eb202ed9466 a aamas:Term ;
+aama:IDedaaae38-2ee3-4570-b9b1-c08d49f83257 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3364,7 +3324,7 @@ aama:ID683e90e8-0605-4902-80be-0eb202ed9466 a aamas:Term ;
 	sid:deixis sid:Here ;
 	.
 
-aama:IDae32364c-c6ee-4d37-b49a-714610584fda a aamas:Term ;
+aama:IDaad4a865-a12c-430f-8d82-dc861a20c668 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3375,7 +3335,7 @@ aama:IDae32364c-c6ee-4d37-b49a-714610584fda a aamas:Term ;
 	sid:deixis sid:There ;
 	.
 
-aama:IDaf6a84a8-4003-41a9-8632-81c53ee136e5 a aamas:Term ;
+aama:IDb1fe94c2-f311-485d-8903-15c27c618449 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3386,7 +3346,7 @@ aama:IDaf6a84a8-4003-41a9-8632-81c53ee136e5 a aamas:Term ;
 	sid:deixis sid:There ;
 	.
 
-aama:ID54bfc609-77f2-47cd-88bf-d03d76ab0f5a a aamas:Term ;
+aama:ID5a5c8e2e-eab7-4c22-9200-b18cf3dbb2ce a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3397,7 +3357,7 @@ aama:ID54bfc609-77f2-47cd-88bf-d03d76ab0f5a a aamas:Term ;
 	sid:deixis sid:There ;
 	.
 
-aama:IDeccfd916-0dd5-4aac-b491-05aa11b81a87 a aamas:Term ;
+aama:ID441d5680-6d51-4e05-b00e-e25b0b843d0b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3408,7 +3368,7 @@ aama:IDeccfd916-0dd5-4aac-b491-05aa11b81a87 a aamas:Term ;
 	sid:deixis sid:overThere ;
 	.
 
-aama:IDf3d7bb27-599e-4f06-ad7a-98951618086a a aamas:Term ;
+aama:ID983b8cbb-2451-4f7f-bda4-8cc0cb6828a7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3419,7 +3379,7 @@ aama:IDf3d7bb27-599e-4f06-ad7a-98951618086a a aamas:Term ;
 	sid:deixis sid:overThere ;
 	.
 
-aama:ID480c5fbf-a803-4306-ab81-b4438bab51ad a aamas:Term ;
+aama:IDd867f9df-2c5e-4fb5-a98c-5b40a233783a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemSpecAdv ;
 	sid:pos sid:Pronoun ;
@@ -3435,10 +3395,10 @@ aama:ID480c5fbf-a803-4306-ab81-b4438bab51ad a aamas:Term ;
 sid:sidaama-VPresPerf-haishsh a aamas:Termcluster ;
 	rdfs:label "sidaama-VPresPerf-haishsh" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:ID22839165-f19a-412f-81d1-d72bb4740b32 a aamas:Term ;
+aama:IDd34c9043-64f5-427a-90ca-720dd385e253 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3451,7 +3411,7 @@ aama:ID22839165-f19a-412f-81d1-d72bb4740b32 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID6252d850-00b6-4d84-9c5c-470822b78ae9 a aamas:Term ;
+aama:ID026898ec-09e1-484c-90ff-1199a84b7f16 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3464,7 +3424,7 @@ aama:ID6252d850-00b6-4d84-9c5c-470822b78ae9 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID3f571a64-1ad1-4266-ae2d-ea8353f6c462 a aamas:Term ;
+aama:IDaba744c1-07dd-45d5-b261-cebc1d6d5e84 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3477,7 +3437,7 @@ aama:ID3f571a64-1ad1-4266-ae2d-ea8353f6c462 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID9268971b-db44-4ca1-9b98-0e758d8c3d86 a aamas:Term ;
+aama:IDf50f9771-eb8b-4e53-a78f-8e8416033d55 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3490,7 +3450,7 @@ aama:ID9268971b-db44-4ca1-9b98-0e758d8c3d86 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID93b81fdd-ccdf-4969-aaa1-c24afd78c06e a aamas:Term ;
+aama:ID0798d535-911c-4fd3-a6fa-c112ba28589d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3503,7 +3463,7 @@ aama:ID93b81fdd-ccdf-4969-aaa1-c24afd78c06e a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID27e56e0d-bacb-4807-9ea1-c66cbb886e1b a aamas:Term ;
+aama:ID80adcf68-0fd3-4e6f-b053-275995d158fe a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3516,7 +3476,7 @@ aama:ID27e56e0d-bacb-4807-9ea1-c66cbb886e1b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID1dc5bf39-cfc6-4d32-b2ba-2ae8df957344 a aamas:Term ;
+aama:IDecdee0ad-9934-4327-b455-f5860108aca1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3529,7 +3489,7 @@ aama:ID1dc5bf39-cfc6-4d32-b2ba-2ae8df957344 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID80a5c149-3854-4fbd-906a-f5ff267c30f5 a aamas:Term ;
+aama:ID4cac63a4-dcb8-413c-a664-2cf37b5132f9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3542,7 +3502,7 @@ aama:ID80a5c149-3854-4fbd-906a-f5ff267c30f5 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID9099a1c2-7704-4a71-96c9-6b4c57ba83cc a aamas:Term ;
+aama:ID6d133663-8512-4558-b75c-4ae7e1dd465d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-haishsh ;
 	sid:vmorphClass sid:Finite ;
@@ -3560,10 +3520,10 @@ aama:ID9099a1c2-7704-4a71-96c9-6b4c57ba83cc a aamas:Term ;
 sid:sidaama-PDemAdv a aamas:Termcluster ;
 	rdfs:label "sidaama-PDemAdv" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.7" 
+	rdfs:comment "K07t3.7" 
 	.
 
-aama:ID01eb1545-8b0e-4bd8-a1a4-e43e586fb87a a aamas:Term ;
+aama:IDc3aaf26e-d593-4d40-90f2-5de61583200a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3574,7 +3534,7 @@ aama:ID01eb1545-8b0e-4bd8-a1a4-e43e586fb87a a aamas:Term ;
 	sid:deixis sid:Here ;
 	.
 
-aama:IDbe71dc2d-b67c-4377-b74e-c38759155e80 a aamas:Term ;
+aama:ID42ac6a60-710f-484f-b601-dab35838c919 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3585,7 +3545,7 @@ aama:IDbe71dc2d-b67c-4377-b74e-c38759155e80 a aamas:Term ;
 	sid:deixis sid:Here ;
 	.
 
-aama:IDa3419357-3688-4662-8bd4-675f21fdfd16 a aamas:Term ;
+aama:IDe96f3444-4041-4b12-b26c-48f53d5bd577 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3596,7 +3556,7 @@ aama:IDa3419357-3688-4662-8bd4-675f21fdfd16 a aamas:Term ;
 	sid:deixis sid:Here ;
 	.
 
-aama:IDf8b94306-cd2f-4f11-9858-f967ce2f7dda a aamas:Term ;
+aama:ID11a35673-98f0-404a-bab2-4d80d04c599b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3607,7 +3567,7 @@ aama:IDf8b94306-cd2f-4f11-9858-f967ce2f7dda a aamas:Term ;
 	sid:deixis sid:There ;
 	.
 
-aama:IDde1ba516-5f8d-429a-b1ab-a4fb37e8a512 a aamas:Term ;
+aama:ID05e19274-3f42-4561-b34c-9175d10e9bb6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3618,7 +3578,7 @@ aama:IDde1ba516-5f8d-429a-b1ab-a4fb37e8a512 a aamas:Term ;
 	sid:deixis sid:There ;
 	.
 
-aama:ID5dd1050f-ef07-4bc5-967f-3c4cb30fbcaa a aamas:Term ;
+aama:ID50fa92d1-e137-42fd-8c7e-27e168d2a484 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3629,7 +3589,7 @@ aama:ID5dd1050f-ef07-4bc5-967f-3c4cb30fbcaa a aamas:Term ;
 	sid:deixis sid:There ;
 	.
 
-aama:IDa82e3f71-1c4c-444e-b48c-a6aa6d69c13d a aamas:Term ;
+aama:ID63759875-c524-4da0-99b1-1266a2db3ef2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3640,7 +3600,7 @@ aama:IDa82e3f71-1c4c-444e-b48c-a6aa6d69c13d a aamas:Term ;
 	sid:deixis sid:overThere ;
 	.
 
-aama:ID481cffeb-6171-4fb2-b1b4-00aea8722be0 a aamas:Term ;
+aama:ID02748e75-dd56-433b-a930-db56e4a3283d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3651,7 +3611,7 @@ aama:ID481cffeb-6171-4fb2-b1b4-00aea8722be0 a aamas:Term ;
 	sid:deixis sid:overThere ;
 	.
 
-aama:ID00ce77b2-e58f-4e56-975d-0dd2f8c67c95 a aamas:Term ;
+aama:ID8ad5427a-cda4-4644-9007-57d91e1112c2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdv ;
 	sid:pos sid:Pronoun ;
@@ -3667,10 +3627,10 @@ aama:ID00ce77b2-e58f-4e56-975d-0dd2f8c67c95 a aamas:Term ;
 sid:sidaama-PDemAreaAdnom a aamas:Termcluster ;
 	rdfs:label "sidaama-PDemAreaAdnom" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.14" 
+	rdfs:comment "K07t3.14" 
 	.
 
-aama:IDd2c6ecb2-f337-4207-af44-77f2a4e06b03 a aamas:Term ;
+aama:ID25de46bc-a36c-40a8-9bed-959b1028190c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAreaAdnom ;
 	sid:pos sid:Pronoun ;
@@ -3681,7 +3641,7 @@ aama:IDd2c6ecb2-f337-4207-af44-77f2a4e06b03 a aamas:Term ;
 	sid:deixis sid:ThatArea ;
 	.
 
-aama:IDab17cc44-5cdd-47e0-b29e-69ce79b8be8b a aamas:Term ;
+aama:IDddd8297b-4016-49cc-b740-c23f9057820f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAreaAdnom ;
 	sid:pos sid:Pronoun ;
@@ -3692,7 +3652,7 @@ aama:IDab17cc44-5cdd-47e0-b29e-69ce79b8be8b a aamas:Term ;
 	sid:deixis sid:ThisArea ;
 	.
 
-aama:IDbee0051c-dc25-4c89-9dee-d931e13f14c9 a aamas:Term ;
+aama:ID995e8df2-2d1a-4589-947c-d45b7fab75ae a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAreaAdnom ;
 	sid:pos sid:Pronoun ;
@@ -3708,11 +3668,10 @@ aama:IDbee0051c-dc25-4c89-9dee-d931e13f14c9 a aamas:Term ;
 sid:sidaama-VDervStem a aamas:Termcluster ;
 	rdfs:label "sidaama-VDervStem" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%sect. #4.2.1.3. (on phonology of denomDeadj and middle%%cf.
-            2.2.1)" 
+	rdfs:comment "K07#4.2.1.3 ::  (on phonology of denomDeadj and middle%%cf. 2.2.1)" 
 	.
 
-aama:IDfbfa99c0-bf15-48c4-ad26-a4e35012254b a aamas:Term ;
+aama:IDb98c310b-bd6a-4688-830c-40bb26b09cac a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VDervStem ;
 	sid:pos sid:Verb ;
@@ -3721,7 +3680,7 @@ aama:IDfbfa99c0-bf15-48c4-ad26-a4e35012254b a aamas:Term ;
 	sid:derivedStem sid:Causative1 ;
 	.
 
-aama:ID9b40e4ca-c122-4a60-9699-d9c32c9a7a08 a aamas:Term ;
+aama:ID90c390de-5ffa-420b-9321-bb4c55c1b269 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VDervStem ;
 	sid:pos sid:Verb ;
@@ -3730,7 +3689,7 @@ aama:ID9b40e4ca-c122-4a60-9699-d9c32c9a7a08 a aamas:Term ;
 	sid:derivedStem sid:Causative2 ;
 	.
 
-aama:IDccfa9e34-b57f-4207-b683-b53993622f0c a aamas:Term ;
+aama:ID3e94947b-41f6-4456-9655-84bf7ed0dfe8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VDervStem ;
 	sid:pos sid:Verb ;
@@ -3739,7 +3698,7 @@ aama:IDccfa9e34-b57f-4207-b683-b53993622f0c a aamas:Term ;
 	sid:derivedStem sid:DenominalDeadjectival ;
 	.
 
-aama:ID5b3c8475-0dc6-4b85-a632-9cde8d480a73 a aamas:Term ;
+aama:ID851df76c-bf1a-45d5-841b-b5bb711a7267 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VDervStem ;
 	sid:pos sid:Verb ;
@@ -3748,7 +3707,7 @@ aama:ID5b3c8475-0dc6-4b85-a632-9cde8d480a73 a aamas:Term ;
 	sid:derivedStem sid:MiddleClass ;
 	.
 
-aama:ID580ee38a-5fce-4955-98de-032dd7ea9330 a aamas:Term ;
+aama:IDeb080b63-c103-4167-9e3a-ae62c7811b7a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VDervStem ;
 	sid:pos sid:Verb ;
@@ -3757,7 +3716,7 @@ aama:ID580ee38a-5fce-4955-98de-032dd7ea9330 a aamas:Term ;
 	sid:derivedStem sid:Passive ;
 	.
 
-aama:IDabc3bd3f-7175-4ffb-9e82-8f61a46c6e19 a aamas:Term ;
+aama:ID5e01b08f-5e67-4643-928b-a1e8ee328be2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VDervStem ;
 	sid:pos sid:Verb ;
@@ -3771,10 +3730,10 @@ aama:IDabc3bd3f-7175-4ffb-9e82-8f61a46c6e19 a aamas:Term ;
 sid:sidaama-VInfinitiveConn-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VInfinitiveConn-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:IDc760c846-bf40-457d-8414-2973f7d4ac2d a aamas:Term ;
+aama:ID9d396441-9084-42a1-8e4d-412e2e6cfd70 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3787,7 +3746,7 @@ aama:IDc760c846-bf40-457d-8414-2973f7d4ac2d a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID971f13d1-544c-4194-9c56-54d679cc9b66 a aamas:Term ;
+aama:ID240911d5-8af2-4aab-b356-8ae21c443d6e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3800,7 +3759,7 @@ aama:ID971f13d1-544c-4194-9c56-54d679cc9b66 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDa4ce97c8-59d6-4f16-9bc9-bf8ba7a904c7 a aamas:Term ;
+aama:IDc2cd6afc-56a6-4477-8683-b3f3cc92333a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3813,7 +3772,7 @@ aama:IDa4ce97c8-59d6-4f16-9bc9-bf8ba7a904c7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID068eb799-0ad5-4611-8ffe-9391e20f3c76 a aamas:Term ;
+aama:IDb5e457b0-998b-44d3-9e71-f9f853295f5d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3826,7 +3785,7 @@ aama:ID068eb799-0ad5-4611-8ffe-9391e20f3c76 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDcde52c50-61be-4e0a-bcd8-2ec62bf3d22e a aamas:Term ;
+aama:ID686ae3f6-abac-4f7b-89d9-134932552bfe a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3839,7 +3798,7 @@ aama:IDcde52c50-61be-4e0a-bcd8-2ec62bf3d22e a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID98ebf4d1-d777-4c46-bfd6-d654056864d2 a aamas:Term ;
+aama:IDca6ed053-b263-41cd-8f54-52bec2f0a55f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3852,7 +3811,7 @@ aama:ID98ebf4d1-d777-4c46-bfd6-d654056864d2 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID6374c975-c328-4335-a168-d58e50fe1917 a aamas:Term ;
+aama:IDa07d267d-361b-4d3f-be32-f853adb3397b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VInfinitiveConn-it ;
 	sid:vmorphClass sid:Finite ;
@@ -3870,10 +3829,10 @@ aama:ID6374c975-c328-4335-a168-d58e50fe1917 a aamas:Term ;
 sid:sidaama-VSubjMarkerMain a aamas:Termcluster ;
 	rdfs:label "sidaama-VSubjMarkerMain" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10%%4.13%%4.15" 
+	rdfs:comment "K07t4.8;4.9;4.10;4.13;4.15" 
 	.
 
-aama:ID032b0508-5e67-46bc-9057-0496c19da714 a aamas:Term ;
+aama:ID94e89e4d-4cb1-4e7c-8536-3032f0af77b6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3886,7 +3845,7 @@ aama:ID032b0508-5e67-46bc-9057-0496c19da714 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID5e54fba1-b4c5-48c0-9838-0e1e72b69b76 a aamas:Term ;
+aama:IDc81b6a2b-3317-4620-9511-2a461da325c9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3899,7 +3858,7 @@ aama:ID5e54fba1-b4c5-48c0-9838-0e1e72b69b76 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID492dac1d-8711-4e72-9d26-d23a62909c67 a aamas:Term ;
+aama:ID3112fdec-4e1f-4e1a-b2d3-e864ff2dea60 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3912,7 +3871,7 @@ aama:ID492dac1d-8711-4e72-9d26-d23a62909c67 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID23a0666d-8bbb-44f7-b7eb-7d57cabcf01c a aamas:Term ;
+aama:ID55c45fe5-c908-464c-aba2-7137659e75db a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3925,7 +3884,7 @@ aama:ID23a0666d-8bbb-44f7-b7eb-7d57cabcf01c a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID67279729-8a52-4e83-bb89-8e6ef1e8bf48 a aamas:Term ;
+aama:IDeba26fd2-f184-4fed-b545-68cebf1d16d8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3938,7 +3897,7 @@ aama:ID67279729-8a52-4e83-bb89-8e6ef1e8bf48 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDf3037763-bccb-4e58-ac0a-4299444788c2 a aamas:Term ;
+aama:IDbef326a0-9841-4824-9f6c-bdd494c226c5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3951,7 +3910,7 @@ aama:IDf3037763-bccb-4e58-ac0a-4299444788c2 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID5fd62da4-9dbe-4d79-8753-df025f33c47a a aamas:Term ;
+aama:ID9bd8f66e-bdd8-4420-a694-336886c9d4f6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3964,7 +3923,7 @@ aama:ID5fd62da4-9dbe-4d79-8753-df025f33c47a a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID720bee36-61e0-41e1-8c20-da6a87d45821 a aamas:Term ;
+aama:IDb35548a4-a132-48c7-93de-fe506d91b51b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3977,7 +3936,7 @@ aama:ID720bee36-61e0-41e1-8c20-da6a87d45821 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID321f6219-5cc0-4ebf-83d4-af669e1905c8 a aamas:Term ;
+aama:IDad43c7ba-e556-4b6a-b253-5a66ccbb434b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -3990,7 +3949,7 @@ aama:ID321f6219-5cc0-4ebf-83d4-af669e1905c8 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID0e5264aa-f008-4f14-bf70-8237912b0614 a aamas:Term ;
+aama:ID69d9ee09-7612-482d-889f-c4e7cd0493fe a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4003,7 +3962,7 @@ aama:ID0e5264aa-f008-4f14-bf70-8237912b0614 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDf289639f-0e68-4061-90be-dce4c15fb1ec a aamas:Term ;
+aama:IDf76cec32-dfb2-4bbf-a05a-551d9c0fc6f2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4016,7 +3975,7 @@ aama:IDf289639f-0e68-4061-90be-dce4c15fb1ec a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID47b5994d-0906-4048-b924-efc815be98a1 a aamas:Term ;
+aama:ID084b1624-240d-44b1-bfa6-039f5c8ae1e1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4029,7 +3988,7 @@ aama:ID47b5994d-0906-4048-b924-efc815be98a1 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID3dafe637-8e25-4e84-8186-86f5dd1318e5 a aamas:Term ;
+aama:ID99eb8813-d671-4ad1-ab28-04af6e74e342 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4042,7 +4001,7 @@ aama:ID3dafe637-8e25-4e84-8186-86f5dd1318e5 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID8a33392c-d54b-4871-86dc-d96ecd229263 a aamas:Term ;
+aama:IDa4247c45-4755-40c7-86aa-475c50972d63 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4055,7 +4014,7 @@ aama:ID8a33392c-d54b-4871-86dc-d96ecd229263 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID4bf71835-0267-424a-9861-debb1c51af6f a aamas:Term ;
+aama:IDeb0d0224-9213-4be7-99dd-7d3d051853f8 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4068,7 +4027,7 @@ aama:ID4bf71835-0267-424a-9861-debb1c51af6f a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID9390dc72-c0a2-4a91-9376-3be75b90d3e1 a aamas:Term ;
+aama:IDdee34c7b-bd20-4cfa-8324-14b137feb68e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4081,7 +4040,7 @@ aama:ID9390dc72-c0a2-4a91-9376-3be75b90d3e1 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID8215071e-4c41-47a3-a797-28235d0f4733 a aamas:Term ;
+aama:ID951766c2-4dd5-4d94-9a08-0fffdcf4b5dc a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4094,7 +4053,7 @@ aama:ID8215071e-4c41-47a3-a797-28235d0f4733 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID773876a4-e7ae-4a32-a4e2-db44c8275631 a aamas:Term ;
+aama:IDdd5bc7a0-6cb0-40a5-bb39-18cd6e3f3126 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4107,7 +4066,7 @@ aama:ID773876a4-e7ae-4a32-a4e2-db44c8275631 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID355a89f1-82b9-49d5-90cb-8cfff8db1f2c a aamas:Term ;
+aama:IDd431704c-1ebf-43f4-af6c-8e9f6a54e942 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4120,7 +4079,7 @@ aama:ID355a89f1-82b9-49d5-90cb-8cfff8db1f2c a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID60755c19-c6e8-4fa9-9848-72f98dd943f5 a aamas:Term ;
+aama:ID1867c547-fc0e-4ab5-95b0-8db07ed9443b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4133,7 +4092,7 @@ aama:ID60755c19-c6e8-4fa9-9848-72f98dd943f5 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID02408335-470a-40e5-97f3-4ad424f81ffb a aamas:Term ;
+aama:ID5b19976b-f7ee-4808-83f6-b9c7d68b144b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4146,7 +4105,7 @@ aama:ID02408335-470a-40e5-97f3-4ad424f81ffb a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID91fd6dbd-a4cc-4942-aa78-aedc72cb51b6 a aamas:Term ;
+aama:ID043661dd-a3d8-4a06-9bdb-7285dd8d8427 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4159,7 +4118,7 @@ aama:ID91fd6dbd-a4cc-4942-aa78-aedc72cb51b6 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID576c66f0-ef4e-4af6-8537-87b3ea1be786 a aamas:Term ;
+aama:ID6bf23cb0-1318-4711-a7e4-6e830d362fd7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4172,7 +4131,7 @@ aama:ID576c66f0-ef4e-4af6-8537-87b3ea1be786 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID95766563-3899-4a47-9866-7a3b5889780b a aamas:Term ;
+aama:ID18efd875-a3f5-4637-b209-b6b20103a382 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4185,7 +4144,7 @@ aama:ID95766563-3899-4a47-9866-7a3b5889780b a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID6248a516-44fe-4b2f-8a9a-9a865b1a738e a aamas:Term ;
+aama:ID6df0c996-c2af-48c3-82f0-68a133fa54eb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4198,7 +4157,7 @@ aama:ID6248a516-44fe-4b2f-8a9a-9a865b1a738e a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDa4b75108-a950-4c84-8d14-2a4943b6dea9 a aamas:Term ;
+aama:ID31673fad-596e-4af6-a116-e633a968c659 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4211,7 +4170,7 @@ aama:IDa4b75108-a950-4c84-8d14-2a4943b6dea9 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDd7aa0fa2-6f6d-478a-aef0-b4337d47bc12 a aamas:Term ;
+aama:IDaa8811b7-e8b8-46ef-bdca-5a5e237984c6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4224,7 +4183,7 @@ aama:IDd7aa0fa2-6f6d-478a-aef0-b4337d47bc12 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDb7caabe8-d679-4886-b9b5-c0c57eb3cae5 a aamas:Term ;
+aama:ID33c886c4-9248-4a8b-b86e-f7f5eca50f99 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4237,7 +4196,7 @@ aama:IDb7caabe8-d679-4886-b9b5-c0c57eb3cae5 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDcaa90d0c-6650-4c12-88de-99bdde768318 a aamas:Term ;
+aama:IDf72f90e0-44a3-4c9c-b536-758df2cc75f9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4250,7 +4209,7 @@ aama:IDcaa90d0c-6650-4c12-88de-99bdde768318 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID565aaa42-46ac-4262-9c2f-f931a786463a a aamas:Term ;
+aama:ID23297256-2e43-4f09-ba4d-d89724f19769 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4263,7 +4222,7 @@ aama:ID565aaa42-46ac-4262-9c2f-f931a786463a a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID99f2147a-07d1-41bc-acd4-919e3d31386d a aamas:Term ;
+aama:ID701c30d3-d5e5-43e6-8ffc-e9f852da4ec7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4276,7 +4235,7 @@ aama:ID99f2147a-07d1-41bc-acd4-919e3d31386d a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDf6ecbe22-82fc-43a7-adb7-9da8f41e586c a aamas:Term ;
+aama:ID624b3bf6-907b-4568-b392-1c4bab750a0b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4289,7 +4248,7 @@ aama:IDf6ecbe22-82fc-43a7-adb7-9da8f41e586c a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDfea8c7bf-366f-4535-b8e1-8db31a6eb862 a aamas:Term ;
+aama:IDa164b891-6cb9-4b25-8c2f-180053b463a7 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4302,7 +4261,7 @@ aama:IDfea8c7bf-366f-4535-b8e1-8db31a6eb862 a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:IDc99a29e3-0187-4521-8076-7a7ee0be3aae a aamas:Term ;
+aama:IDe351d496-7d36-415f-be1f-c37be990b545 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4315,7 +4274,7 @@ aama:IDc99a29e3-0187-4521-8076-7a7ee0be3aae a aamas:Term ;
 	sid:polarity sid:Affirmative ;
 	.
 
-aama:ID7b0d74c7-68f0-4819-82d4-5d2e6e69c520 a aamas:Term ;
+aama:ID9d9c2944-5b8f-4dec-b3f4-4ba92408493b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4328,7 +4287,7 @@ aama:ID7b0d74c7-68f0-4819-82d4-5d2e6e69c520 a aamas:Term ;
 	sid:polarity sid:Negative ;
 	.
 
-aama:ID20209aa4-423f-4985-a434-b81f23e58dd2 a aamas:Term ;
+aama:ID1e242248-1439-410d-8365-825ca7e89661 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VSubjMarkerMain ;
 	sid:pos sid:Verb ;
@@ -4346,23 +4305,10 @@ aama:ID20209aa4-423f-4985-a434-b81f23e58dd2 a aamas:Term ;
 sid:sidaama-VContinuous-hank a aamas:Termcluster ;
 	rdfs:label "sidaama-VContinuous-hank" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%(4.182). The verb no- can also be a component of two aspectual
-            markers%% they can be used to constitute the present-progressive form of another verb
-            with the infinitive form followedby the instrumental case suffix -nni (lit.%%‘by doing
-            sth%%came to exist’)%%as in (4.182) also%%they can be used to constitute the present
-            continuous verb form with the connective formof another verb (lit.%%‘did sth and came to
-            exist’)%%as in (4.183). In each of them%%the firstpersonand second-person plural forms are
-            irregular. When used in either of these ways%%the subject is indicated on a suffix
-            (1SG%%3SG.M:-ø%%2SG%%3SG.F/3PL:-t%%1PL:-n(t)%%2PL:-ti(n) the&gt;initial t of the suffix can
-            be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a
-            consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the
-            connective suffix -e also%% the existential verb thatfollows either of these suffixes
-            inflects for the person/number/gender of the subject%%asindicated in (4.181) (for the
-            second-person plural%%the existential verb cannot be used ineither aspect).(p.
-            409)" 
+	rdfs:comment "K07(4.182) :: The verb no- can also be a component of two aspectual markers%% they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.%%‘by doing sth%%came to exist’)%%as in (4.182) also%%they can be used to constitute the present continuous verb form with the connective formof another verb (lit.%%‘did sth and came to exist’)%%as in (4.183). In each of them%%the firstpersonand second-person plural forms are irregular. When used in either of these ways%%the subject is indicated on a suffix (1SG%%3SG.M:-ø%%2SG%%3SG.F/3PL:-t%%1PL:-n(t)%%2PL:-ti(n) the&gt;initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also%% the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject%%asindicated in (4.181) (for the second-person plural%%the existential verb cannot be used ineither aspect).(p. 409)" 
 	.
 
-aama:IDdd21226f-6238-448e-aa5d-dde93e4a643d a aamas:Term ;
+aama:IDa9af4eb3-be3a-4a35-9dee-33951b7e934e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4374,7 +4320,7 @@ aama:IDdd21226f-6238-448e-aa5d-dde93e4a643d a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID4c20a774-bfcd-4a7a-ad6e-c5e61ef4d275 a aamas:Term ;
+aama:IDf830c4d7-144a-4f8a-b03e-63021d46a317 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4386,7 +4332,7 @@ aama:ID4c20a774-bfcd-4a7a-ad6e-c5e61ef4d275 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID7cdac33a-587f-41cb-8f57-ccd890dfa96f a aamas:Term ;
+aama:ID0422536f-3855-4de1-b81c-e5a8e75e0d8e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4398,7 +4344,7 @@ aama:ID7cdac33a-587f-41cb-8f57-ccd890dfa96f a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID15461e25-36d9-4d2f-9e4e-16a80dd23599 a aamas:Term ;
+aama:IDdb480963-c2c4-4755-8a9e-6d33d2f50ac4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4410,7 +4356,7 @@ aama:ID15461e25-36d9-4d2f-9e4e-16a80dd23599 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDf681507a-e29e-4dda-84bc-8a629676b72b a aamas:Term ;
+aama:IDb9953ba8-bfdf-4ae0-8b5d-7f616c6197b6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4422,7 +4368,7 @@ aama:IDf681507a-e29e-4dda-84bc-8a629676b72b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID905891c3-f24e-47da-ae45-bc174c8929f1 a aamas:Term ;
+aama:ID93682c56-d5aa-4181-81ee-6927b1e52da2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4434,7 +4380,7 @@ aama:ID905891c3-f24e-47da-ae45-bc174c8929f1 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID32be5261-49c6-46f1-b95f-17e5f6442668 a aamas:Term ;
+aama:IDfcc76a17-4af3-4747-b6df-6faa7e17495f a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4446,7 +4392,7 @@ aama:ID32be5261-49c6-46f1-b95f-17e5f6442668 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDee2920c3-2f6f-479d-a97b-3d1921f1f8c8 a aamas:Term ;
+aama:ID34b446fa-5fa4-4c6f-a864-64de34503d9a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4458,7 +4404,7 @@ aama:IDee2920c3-2f6f-479d-a97b-3d1921f1f8c8 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID51dc9ece-8f95-4ed6-b4e5-08cfde3d6225 a aamas:Term ;
+aama:ID249074e3-2acf-4bdd-806c-415ad058c3c5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VContinuous-hank ;
 	aamas:lexeme aama:Sidaama-hank ;
@@ -4475,10 +4421,10 @@ aama:ID51dc9ece-8f95-4ed6-b4e5-08cfde3d6225 a aamas:Term ;
 sid:sidaama-VPresPerf-it a aamas:Termcluster ;
 	rdfs:label "sidaama-VPresPerf-it" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Tables 4.8%%4.9%%4.10" 
+	rdfs:comment "K07t4.8;4.9;4.10" 
 	.
 
-aama:IDb680ac7c-a9ed-45dc-96a4-5727b028e800 a aamas:Term ;
+aama:ID1ea9447c-4075-4d5c-ae2e-d5875aceab58 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4491,7 +4437,7 @@ aama:IDb680ac7c-a9ed-45dc-96a4-5727b028e800 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID382f61a8-1449-4b51-a259-2810f6f2095b a aamas:Term ;
+aama:IDdc4f5fad-dc94-4dbf-9734-02176448125a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4504,7 +4450,7 @@ aama:ID382f61a8-1449-4b51-a259-2810f6f2095b a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID08f66d20-8117-4a90-9f1d-0c23eabe37d4 a aamas:Term ;
+aama:ID13993652-0830-4a90-a8f0-7a03135de6c1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4517,7 +4463,7 @@ aama:ID08f66d20-8117-4a90-9f1d-0c23eabe37d4 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID810fea2c-7f66-415d-9ea7-30ed5923b133 a aamas:Term ;
+aama:ID442a322e-6815-4e65-b382-a7e7c306789c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4530,7 +4476,7 @@ aama:ID810fea2c-7f66-415d-9ea7-30ed5923b133 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDc57bfe32-532b-4e77-8b26-f71e1de7a3bd a aamas:Term ;
+aama:ID255be86b-40d9-4c19-840c-d8e31dd892d4 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4543,7 +4489,7 @@ aama:IDc57bfe32-532b-4e77-8b26-f71e1de7a3bd a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID99c4ba5d-612d-4ad5-9296-cad98eb96fad a aamas:Term ;
+aama:ID43ffffa3-2e2d-4cee-aab1-00497bd52722 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4556,7 +4502,7 @@ aama:ID99c4ba5d-612d-4ad5-9296-cad98eb96fad a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDb34de2d0-ac0e-4bb8-9e43-593dc03bb64b a aamas:Term ;
+aama:ID9f19bbf2-b199-46f3-b794-30f8e89b3a34 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4569,7 +4515,7 @@ aama:IDb34de2d0-ac0e-4bb8-9e43-593dc03bb64b a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID990530ac-4aab-475c-a931-d882102185f5 a aamas:Term ;
+aama:ID4e8f4966-8212-4f55-a82b-9ba4090d3e05 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4582,7 +4528,7 @@ aama:ID990530ac-4aab-475c-a931-d882102185f5 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID2ce61755-892d-4a76-9505-a90e71acb056 a aamas:Term ;
+aama:ID055796c3-1676-40e2-b809-a379bf7cd779 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VPresPerf-it ;
 	sid:vmorphClass sid:Finite ;
@@ -4600,12 +4546,10 @@ aama:ID2ce61755-892d-4a76-9505-a90e71acb056 a aamas:Term ;
 sid:sidaama-PDemAdnom a aamas:Termcluster ;
 	rdfs:label "sidaama-PDemAdnom" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.10%%3.11. Demonstratives can be reduplicated in all case and
-            deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
-            noted%%the acc form is also the predicative." 
+	rdfs:comment "K07t3.10%%3.11 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted%%the acc form is also the predicative." 
 	.
 
-aama:IDb56db6c8-f2d7-41eb-a81f-8ffa3461ee92 a aamas:Term ;
+aama:ID45d8152b-2316-4ab4-87eb-a834e1c2753e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4618,7 +4562,7 @@ aama:IDb56db6c8-f2d7-41eb-a81f-8ffa3461ee92 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID4387d98f-ae3c-4d51-a024-eb098dc6e98a a aamas:Term ;
+aama:IDb42d3a44-6eab-4048-9029-04f0309e85c5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4631,7 +4575,7 @@ aama:ID4387d98f-ae3c-4d51-a024-eb098dc6e98a a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID5af8102b-ccd6-4513-9b89-a2952d724e48 a aamas:Term ;
+aama:ID7e2b455a-34aa-4b6e-8c5e-cf1df1960a67 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4644,7 +4588,7 @@ aama:ID5af8102b-ccd6-4513-9b89-a2952d724e48 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDad344cb5-1321-420a-a969-9cbc606a9509 a aamas:Term ;
+aama:ID1ed67167-e2b8-4267-bd4a-3fdbefb54a19 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4657,7 +4601,7 @@ aama:IDad344cb5-1321-420a-a969-9cbc606a9509 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDb0fc8a71-fe4b-4305-af6a-90f9a2c3303f a aamas:Term ;
+aama:ID33ff0985-0023-4d13-be1e-b2983695e438 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4670,7 +4614,7 @@ aama:IDb0fc8a71-fe4b-4305-af6a-90f9a2c3303f a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID9ab56834-eab3-44c5-be9d-eacea8149513 a aamas:Term ;
+aama:IDea942f7f-7e3c-4110-ac94-e4ac9c58c852 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4683,7 +4627,7 @@ aama:ID9ab56834-eab3-44c5-be9d-eacea8149513 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDc668b966-b34a-4b2a-8576-b00da46839fa a aamas:Term ;
+aama:ID191c91c8-4bad-402e-b313-55017b402cfb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4696,7 +4640,7 @@ aama:IDc668b966-b34a-4b2a-8576-b00da46839fa a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID29cb7f23-aa5a-4b7b-b5b6-9e514a60e06e a aamas:Term ;
+aama:ID8877ce29-e582-4527-9fe3-94e66b4b501d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4709,7 +4653,7 @@ aama:ID29cb7f23-aa5a-4b7b-b5b6-9e514a60e06e a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID70fe96ac-4239-452d-9c82-9bae9e4e7afd a aamas:Term ;
+aama:ID295641f6-f42d-4ced-8b84-7860a2e0f424 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4722,7 +4666,7 @@ aama:ID70fe96ac-4239-452d-9c82-9bae9e4e7afd a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDf451d3e4-1ea4-4071-af7a-508652bfcc38 a aamas:Term ;
+aama:IDc6ae64f0-b31d-47a6-bf74-4e2d1488c3c2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4735,7 +4679,7 @@ aama:IDf451d3e4-1ea4-4071-af7a-508652bfcc38 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID2f73508f-9b07-4449-9a8a-a9f9bbfa32fa a aamas:Term ;
+aama:IDf8eda6ad-dc6c-41d2-8b68-dcec0522b92d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4748,7 +4692,7 @@ aama:ID2f73508f-9b07-4449-9a8a-a9f9bbfa32fa a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID952a93bf-3498-4a8f-b2ce-60c41ce1ea5b a aamas:Term ;
+aama:IDb09f27f9-680e-49ac-92c5-752786d14434 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4761,7 +4705,7 @@ aama:ID952a93bf-3498-4a8f-b2ce-60c41ce1ea5b a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDa8e77a21-89c3-4cb2-a808-9869072a595e a aamas:Term ;
+aama:IDe18e8891-98b5-46b9-9d37-e22feaf1811c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4774,7 +4718,7 @@ aama:IDa8e77a21-89c3-4cb2-a808-9869072a595e a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID2ab90abf-614a-419b-87ac-89ed3fa5b119 a aamas:Term ;
+aama:ID82b94b3c-2351-429e-af45-46019843dcf3 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4787,7 +4731,7 @@ aama:ID2ab90abf-614a-419b-87ac-89ed3fa5b119 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID91ddd636-47a5-4068-8faf-14639d476a53 a aamas:Term ;
+aama:IDe7a434f6-b9c5-4873-bbe8-bc6d5d5ce473 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4800,7 +4744,7 @@ aama:ID91ddd636-47a5-4068-8faf-14639d476a53 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID70c2618c-de82-488c-9900-57a5813eaaa9 a aamas:Term ;
+aama:ID814ff312-086f-4e76-af32-0767233a33ec a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4813,7 +4757,7 @@ aama:ID70c2618c-de82-488c-9900-57a5813eaaa9 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID02762892-d686-46a0-9263-f0933f580fe3 a aamas:Term ;
+aama:ID244147e5-8864-4b69-8ac1-47b256fe2b30 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4826,7 +4770,7 @@ aama:ID02762892-d686-46a0-9263-f0933f580fe3 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID6f6ac750-6100-4bdb-a857-27cb89a2d591 a aamas:Term ;
+aama:ID68846c19-23dd-4626-9d8c-e1e9f855c308 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4839,7 +4783,7 @@ aama:ID6f6ac750-6100-4bdb-a857-27cb89a2d591 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID3d06d7ae-e6ad-4ce6-b26b-b18b897831bd a aamas:Term ;
+aama:IDc0ecfba5-9520-4bee-b865-52600afae60a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4852,7 +4796,7 @@ aama:ID3d06d7ae-e6ad-4ce6-b26b-b18b897831bd a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDd277d651-8aca-41f3-9c77-fd177e12ff5c a aamas:Term ;
+aama:ID7e3667c6-e55d-45ab-8cf3-f302205a636c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4865,7 +4809,7 @@ aama:IDd277d651-8aca-41f3-9c77-fd177e12ff5c a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDdfca3c0b-8502-4bab-ac84-825dfdfe9a4f a aamas:Term ;
+aama:ID781849a9-9c77-43bb-b24c-d5dbd02f75f9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4878,7 +4822,7 @@ aama:IDdfca3c0b-8502-4bab-ac84-825dfdfe9a4f a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDefd4de08-02ef-4fd5-a93d-1a538f02742b a aamas:Term ;
+aama:IDa8d9f209-e0a2-456f-b445-9f43e7712464 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4891,7 +4835,7 @@ aama:IDefd4de08-02ef-4fd5-a93d-1a538f02742b a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID62c48df2-08b8-4770-9016-1ffaf6a8191b a aamas:Term ;
+aama:IDef892ad4-b4df-4809-982d-3a29f24a49e3 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4904,7 +4848,7 @@ aama:ID62c48df2-08b8-4770-9016-1ffaf6a8191b a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDf20b95da-f6e0-4deb-901c-d089da517949 a aamas:Term ;
+aama:ID9cb5f5f0-661b-43fa-8dae-1bf6cf2c00eb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4917,7 +4861,7 @@ aama:IDf20b95da-f6e0-4deb-901c-d089da517949 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDaca5392f-123a-45bc-867c-dd8af2a54cf7 a aamas:Term ;
+aama:IDc4ecbb59-150e-490d-91cb-2ef6d7601958 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4930,7 +4874,7 @@ aama:IDaca5392f-123a-45bc-867c-dd8af2a54cf7 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID055579f4-ea72-4fc1-9164-a48b829fce72 a aamas:Term ;
+aama:ID2ec0ee7c-74ce-4775-8231-61cf0247c387 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4943,7 +4887,7 @@ aama:ID055579f4-ea72-4fc1-9164-a48b829fce72 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDcce581c3-110b-4d95-844b-688ff33e1bcf a aamas:Term ;
+aama:ID1ea34e33-b60a-445e-ad8c-7e376dba6bd1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PDemAdnom ;
 	sid:pos sid:Pronoun ;
@@ -4961,10 +4905,10 @@ aama:IDcce581c3-110b-4d95-844b-688ff33e1bcf a aamas:Term ;
 sid:sidaama-PObjSuff a aamas:Termcluster ;
 	rdfs:label "sidaama-PObjSuff" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 4.16" 
+	rdfs:comment "K07t4.16" 
 	.
 
-aama:ID7e34e82d-cb1d-4bc9-b95f-354ba22aa04a a aamas:Term ;
+aama:ID684fc4cf-e0d1-422f-9b65-f254b0985d64 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -4976,7 +4920,7 @@ aama:ID7e34e82d-cb1d-4bc9-b95f-354ba22aa04a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID1c33a3c7-4187-4db7-8504-131fc893cb8a a aamas:Term ;
+aama:ID978ddbed-b30f-4ada-b591-c2c0e07c6e57 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -4988,7 +4932,7 @@ aama:ID1c33a3c7-4187-4db7-8504-131fc893cb8a a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID0b4b05bd-8f34-4695-b118-f16800f4dcf7 a aamas:Term ;
+aama:ID64e3a3e9-1bc6-4f68-825d-b44191bade6a a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -5000,7 +4944,7 @@ aama:ID0b4b05bd-8f34-4695-b118-f16800f4dcf7 a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:ID6cc9de30-7a9b-4643-83e0-30f4ea63ad4d a aamas:Term ;
+aama:ID7bad6072-ee88-4b50-b20a-f3cb7596abce a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -5012,7 +4956,7 @@ aama:ID6cc9de30-7a9b-4643-83e0-30f4ea63ad4d a aamas:Term ;
 	sid:number sid:Singular ;
 	.
 
-aama:IDfb9a6386-8e37-441e-a5c3-cde8a2315de2 a aamas:Term ;
+aama:IDbebbb179-26d5-49a0-ae36-9394bf16ec3d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -5024,7 +4968,7 @@ aama:IDfb9a6386-8e37-441e-a5c3-cde8a2315de2 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:ID153a8680-e5c0-48f8-8c06-eb4e5792bcf3 a aamas:Term ;
+aama:ID051c1aa0-88ec-4a91-bdc3-478c6f3b5dbb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -5036,7 +4980,7 @@ aama:ID153a8680-e5c0-48f8-8c06-eb4e5792bcf3 a aamas:Term ;
 	sid:number sid:Plural ;
 	.
 
-aama:IDe622577e-8641-41c5-ade2-e366905f0b99 a aamas:Term ;
+aama:ID7e9149d6-c934-41b3-87c7-4026320e8961 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PObjSuff ;
 	sid:pos sid:Pronoun ;
@@ -5053,16 +4997,10 @@ aama:IDe622577e-8641-41c5-ade2-e366905f0b99 a aamas:Term ;
 sid:sidaama-VVerbNegation a aamas:Termcluster ;
 	rdfs:label "sidaama-VVerbNegation" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%## 3.2.2.4%%4.2.2.3.5%%4.2.2.3.7. Sidaama has the simplest negative
-            morphology of any Cushitic or Omotic language. A specific negative form exists only for
-            the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di=
-            which can attach to the verb%%or in fact to any foregrounded sentence constituent. For
-            subordinate clause negation a suffix –kki is attached to the verb form. There is also a
-            negative suffix –nke which attaches to the optative%%including the 1 pl optative%%which
-            acts as a 1 pl imperative" 
+	rdfs:comment "K07##3.2.2.4;4.2.2.3.5;4.2.2.3.7 :: Sidaama has the simplest negative morphology of any Cushitic or Omotic language. A specific negative form exists only for the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di= which can attach to the verb%%or in fact to any foregrounded sentence constituent. For subordinate clause negation a suffix –kki is attached to the verb form. There is also a negative suffix –nke which attaches to the optative%%including the 1 pl optative%% which acts as a 1 pl imperative" 
 	.
 
-aama:ID8f45ef8e-ecfe-4d7e-a3ce-753c68e0f778 a aamas:Term ;
+aama:IDf78a8a85-35dd-4cce-98ff-ec6c2d7e65a9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VVerbNegation ;
 	sid:pos sid:Verb ;
@@ -5074,7 +5012,7 @@ aama:ID8f45ef8e-ecfe-4d7e-a3ce-753c68e0f778 a aamas:Term ;
 	sid:clauseType sid:ImperativeNegative ;
 	.
 
-aama:IDb66faa2a-a607-4a70-a02b-60de1488556e a aamas:Term ;
+aama:ID21c49e4b-7b10-4d91-8bfb-08120679b7aa a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VVerbNegation ;
 	sid:pos sid:Verb ;
@@ -5086,7 +5024,7 @@ aama:IDb66faa2a-a607-4a70-a02b-60de1488556e a aamas:Term ;
 	sid:clauseType sid:ImperativeNegative ;
 	.
 
-aama:ID9c56fde5-2f26-4d4d-b584-23f1d39c6441 a aamas:Term ;
+aama:ID8f25bbcf-61a5-4c86-b736-3f87621f9e4c a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VVerbNegation ;
 	sid:pos sid:Verb ;
@@ -5098,7 +5036,7 @@ aama:ID9c56fde5-2f26-4d4d-b584-23f1d39c6441 a aamas:Term ;
 	sid:clauseType sid:MainGeneral ;
 	.
 
-aama:IDaf42e16e-0e85-4a08-8c39-1dfcc39d3803 a aamas:Term ;
+aama:ID30d2f739-7dcf-43fc-acd2-eee6da6ce833 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VVerbNegation ;
 	sid:pos sid:Verb ;
@@ -5110,7 +5048,7 @@ aama:IDaf42e16e-0e85-4a08-8c39-1dfcc39d3803 a aamas:Term ;
 	sid:clauseType sid:Optative ;
 	.
 
-aama:ID50dbab5e-8832-4303-a6eb-6047d8e0cbda a aamas:Term ;
+aama:IDeb3f7999-bd04-48d4-8c7d-198a12183c14 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-VVerbNegation ;
 	sid:pos sid:Verb ;
@@ -5127,12 +5065,10 @@ aama:ID50dbab5e-8832-4303-a6eb-6047d8e0cbda a aamas:Term ;
 sid:sidaama-PInterrog a aamas:Termcluster ;
 	rdfs:label "sidaama-PInterrog" ;
 	aamas:lang aama:Sidaama ;
-	rdfs:comment "Kawachi2007%%Table 3.15%%3.16. Demonstratives can be reduplicated in all case and
-            deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
-            noted%%the acc form is also the predicative." 
+	rdfs:comment "K07t3.15%%3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted%%the acc form is also the predicative." 
 	.
 
-aama:ID398e9a6b-2419-4bd9-85a3-dd0cee30bbc2 a aamas:Term ;
+aama:IDa0583437-3f9f-4003-84be-8fd585338313 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5146,7 +5082,7 @@ aama:ID398e9a6b-2419-4bd9-85a3-dd0cee30bbc2 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDb232644d-2cf3-473b-a19e-eeb6e6393196 a aamas:Term ;
+aama:IDdafe474a-bdd2-4e27-98df-d5cd9f4da5d0 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5160,7 +5096,7 @@ aama:IDb232644d-2cf3-473b-a19e-eeb6e6393196 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID6a1265e2-3140-41c1-a22f-a8cfaa18b13e a aamas:Term ;
+aama:IDeafbf267-5699-4ff7-863a-e6afcc964ef9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5174,7 +5110,7 @@ aama:ID6a1265e2-3140-41c1-a22f-a8cfaa18b13e a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID1dd4d085-3be9-4e2d-9c9c-be9d637b1ae7 a aamas:Term ;
+aama:IDc19ba0db-2bf3-4ba9-a52f-c975d3252147 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5188,7 +5124,7 @@ aama:ID1dd4d085-3be9-4e2d-9c9c-be9d637b1ae7 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID833d79bc-a367-4f3e-9469-e4ebad85417a a aamas:Term ;
+aama:IDaf421922-2990-42ed-bba3-66f88c21a649 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5202,7 +5138,7 @@ aama:ID833d79bc-a367-4f3e-9469-e4ebad85417a a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDd981ac8b-502f-4fa8-8e77-67be4247e835 a aamas:Term ;
+aama:ID42d47fc9-fc03-42f8-b00c-db7e9d15f843 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5216,7 +5152,7 @@ aama:IDd981ac8b-502f-4fa8-8e77-67be4247e835 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:ID4ca02cb5-61d5-487a-97ff-096fdac7cc01 a aamas:Term ;
+aama:ID679a3435-9c63-4803-94fb-d755b0cf7a72 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5230,7 +5166,7 @@ aama:ID4ca02cb5-61d5-487a-97ff-096fdac7cc01 a aamas:Term ;
 	sid:case sid:Accusative ;
 	.
 
-aama:IDee7feda9-5324-4889-88c7-aae0ba32cbb7 a aamas:Term ;
+aama:IDbe59943c-48a5-4161-9b35-582a929998f5 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5244,7 +5180,7 @@ aama:IDee7feda9-5324-4889-88c7-aae0ba32cbb7 a aamas:Term ;
 	sid:case sid:Common ;
 	.
 
-aama:IDdce240f2-7e3d-4719-a695-90df7f251496 a aamas:Term ;
+aama:ID2d818580-eebe-416f-be4e-72f1238c2a5b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5258,7 +5194,7 @@ aama:IDdce240f2-7e3d-4719-a695-90df7f251496 a aamas:Term ;
 	sid:case sid:Common ;
 	.
 
-aama:IDd5f5d6ab-b82d-4c47-b185-1aefeb17d208 a aamas:Term ;
+aama:ID6ab37f17-87d0-459a-9129-caaaaabce50b a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5272,7 +5208,7 @@ aama:IDd5f5d6ab-b82d-4c47-b185-1aefeb17d208 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDe34d6f7d-a745-40b5-9860-22853ffa6962 a aamas:Term ;
+aama:ID5cfaf9d2-7c33-40d5-8b50-e7471c16078e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5286,7 +5222,7 @@ aama:IDe34d6f7d-a745-40b5-9860-22853ffa6962 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDa5e7a977-539b-46de-a585-922b4e05e51d a aamas:Term ;
+aama:ID5be5497d-3064-4095-915b-8a0457d97adb a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5300,7 +5236,7 @@ aama:IDa5e7a977-539b-46de-a585-922b4e05e51d a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID64230985-7324-469b-898f-6cacdf63cd21 a aamas:Term ;
+aama:IDeb2f0868-9ee2-4ad4-add7-34e13576a215 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5314,7 +5250,7 @@ aama:ID64230985-7324-469b-898f-6cacdf63cd21 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:IDbd661c5c-e780-4dcb-a0e5-bb0e23c5193a a aamas:Term ;
+aama:ID43b25073-4a0d-48d3-a39c-1b2d3b98d970 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5328,7 +5264,7 @@ aama:IDbd661c5c-e780-4dcb-a0e5-bb0e23c5193a a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID2ec00269-72a5-47d5-9476-a1f228f93e22 a aamas:Term ;
+aama:ID4c938e5a-e979-412e-b380-351f5a2f4605 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5342,7 +5278,7 @@ aama:ID2ec00269-72a5-47d5-9476-a1f228f93e22 a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID14b8b650-31aa-4c34-a152-a810825f618e a aamas:Term ;
+aama:ID945cb162-130a-4653-abd3-cbf1593af9e2 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5356,7 +5292,7 @@ aama:ID14b8b650-31aa-4c34-a152-a810825f618e a aamas:Term ;
 	sid:case sid:Genitive ;
 	.
 
-aama:ID7d8949af-fa19-4339-b8e2-e4dd3ce7aa9c a aamas:Term ;
+aama:ID705a574b-09e3-46d3-8a55-b0db7ae1c452 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5370,7 +5306,7 @@ aama:ID7d8949af-fa19-4339-b8e2-e4dd3ce7aa9c a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID5ecc7ca9-7a0f-4b11-bd37-2ef3b548e784 a aamas:Term ;
+aama:ID35b22f22-30b6-45ca-ba74-1df80be001b6 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5384,7 +5320,7 @@ aama:ID5ecc7ca9-7a0f-4b11-bd37-2ef3b548e784 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID9a4a5c70-d9d7-46b0-8178-9a5ba0f69b13 a aamas:Term ;
+aama:IDbbbf9395-596b-4406-ac2a-fe659ec666b0 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5398,7 +5334,7 @@ aama:ID9a4a5c70-d9d7-46b0-8178-9a5ba0f69b13 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDdd601af0-02bf-48b4-9c90-f35a8916cd02 a aamas:Term ;
+aama:ID778cf0cb-38c3-4c44-bbd5-11dd3343775d a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5412,7 +5348,7 @@ aama:IDdd601af0-02bf-48b4-9c90-f35a8916cd02 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDd529208f-b83a-4df6-872c-1bbf1c544ebd a aamas:Term ;
+aama:ID50f93272-5125-49c3-aacf-ff14d703d1b9 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5426,7 +5362,7 @@ aama:IDd529208f-b83a-4df6-872c-1bbf1c544ebd a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDdbfc7b9d-7469-4a64-9a1e-363270207de8 a aamas:Term ;
+aama:IDada0fab7-4616-4924-98d9-4b8e4d03ed0e a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5440,7 +5376,7 @@ aama:IDdbfc7b9d-7469-4a64-9a1e-363270207de8 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:IDa458031e-1a85-4ab0-a6dc-d604a5061751 a aamas:Term ;
+aama:ID2a427d09-af22-4c08-aee0-9a351e2857d1 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;
@@ -5454,7 +5390,7 @@ aama:IDa458031e-1a85-4ab0-a6dc-d604a5061751 a aamas:Term ;
 	sid:case sid:Nominative ;
 	.
 
-aama:ID0caeb0a4-4316-4ee7-9147-edfe327c2e4a a aamas:Term ;
+aama:ID7c7c184a-de64-48c9-a642-e247a65ce119 a aamas:Term ;
 	aamas:lang aama:Sidaama ;
 	aamas:memberOf sid:sidaama-PInterrog ;
 	sid:pos sid:Pronoun ;

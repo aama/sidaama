@@ -2,44 +2,44 @@
  :lang :sidaama
  :subfamily "Highland East Cushitic"
  :sgpref "sid"
- :datasource "Kawachi2007"
+ :datasource "Kawachi2007; abbrev. K07"
  :geodemoURL "http://www.ethnologue.com/language/sid"
  :geodemoTXT "Varieties and subdialects of Sidaama are spoken in the 'South central, Southern Nations, Nationalities, and Peoples’ region: northeast of Lake Abaya; Oromia region: southeast of Lake Awasa'."
  :schemata { :aspect [:Imperfect :PresentPerfect :SimplePerfect],
- :case [:Accusative :Common :Genitive :NomGen :Nominative],
- :clauseType [:ImperativeNegative :MainGeneral :Optative :Subordinate],
- :configuration [:Connective :InfinitiveConj :InfinitiveConn :SubjMarkerRed],
- :deixis [:Here :ThatArea :There :ThisArea :overThere],
- :derivedStem [:Causative1 :Causative2 :DenominalDeadjectival :MiddleClass :Passive :Reciprocal],
- :direction [:DirAT :DirFROM :DirTO],
- :gender [:Common :Fem :Masc],
- :interrogClass [:InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWhich :InterrogProWho],
- :number [:Common :Plural :Singular],
- :person [:Common :Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Pronoun :Verb],
- :posClass [:Adnominal :Adverb :ProInd],
- :proClass [:DemAdnom :DemAdv :DemAreaAdnom :DemSpec :DemSpecAdv :Demonstrative :Independent :Interrogative :ObjSuff :ReflPoss],
- :tam [:Connective :Continuous :Imperative :Imperfect :InfinitiveConj :InfinitiveConn :InfinitiveSub :Optative :PresentPerfect :PresentProgressive :SimplePerfect],
- :vmorphClass [:DervStem :Existence :Finite :PersNumTenseSuff :SubjMarkerConnConj :SubjMarkerInfinSub :SubjMarkerMain :SuffStructure :TensePersNumGenTemplate :VerbNegation]
- }
+            :case [:Accusative :Common :Genitive :NomGen :Nominative],
+            :clauseType [:ImperativeNegative :MainGeneral :Optative :Subordinate],
+            :configuration [:Connective :InfinitiveConj :InfinitiveConn :SubjMarkerRed],
+            :deixis [:Here :ThatArea :There :ThisArea :overThere],
+            :derivedStem [:Causative1 :Causative2 :DenominalDeadjectival :MiddleClass :Passive :Reciprocal],
+            :direction [:DirAT :DirFROM :DirTO],
+            :gender [:Common :Fem :Masc],
+            :interrogClass [:InterrogProWhat :InterrogProWhen :InterrogProWhere :InterrogProWhich :InterrogProWho],
+            :number [:Common :Plural :Singular],
+            :person [:Common :Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Pronoun :Verb],
+            :posClass [:Adnominal :Adverb :ProInd],
+            :proClass [:DemAdnom :DemAdv :DemAreaAdnom :DemSpec :DemSpecAdv :Demonstrative :Independent :Interrogative :ObjSuff :ReflPoss],
+            :tam [:Connective :Continuous :Imperative :Imperfect :InfinitiveConj :InfinitiveConn :InfinitiveSub :Optative :PresentPerfect :PresentProgressive :SimplePerfect],
+            :vmorphClass [:DervStem :Existence :Finite :PersNumTenseSuff :SubjMarkerConnConj :SubjMarkerInfinSub :SubjMarkerMain :SuffStructure :TensePersNumGenTemplate :VerbNegation]
+            }
  :pclass {:pngClass [:person :number :gender],
           :synsemClass [:aspect :case :causative1Causative2 :clausetype :configuration :deixis :derivedStem :direction :interrogClass :middleClass :passiveReckiprocalClass :polarity :pos :posClass :proClass :tamb],
           :inflClass [],
           :otherClass []}
  :lexemes {
-:haishsh   {:pos :Verb, :lemma "haišš-", :gloss "wash", },
-:hank   {:pos :Verb, :lemma "hank'-", :gloss "Getangry", },
-:it   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:it-1   {:pos :Noun, :lemma "waasa", :gloss "Foot", },
-:it-2   {:pos :Verb, :lemma "it-", :gloss "eat", },
-:no   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
-:wil   {:pos :Verb, :lemma "wil-", :gloss "cry", },
-}
+           :haishsh   {:pos :Verb, :lemma "haišš-", :gloss "wash", },
+           :hank   {:pos :Verb, :lemma "hank'-", :gloss "Getangry", },
+           :it   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :it-1   {:pos :Noun, :lemma "waasa", :gloss "Foot", },
+           :it-2   {:pos :Verb, :lemma "it-", :gloss "eat", },
+           :no   {:pos :Verb, :lemma "[y]", :gloss "[x]", },
+           :wil   {:pos :Verb, :lemma "wil-", :gloss "cry", },
+           }
  :termclusters [
                 {:label "sidaama-PReflPoss"
-                 :note "Kawachi2007,Table 3.5"
+                 :note "K07t3.5"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ReflPoss}
                  :terms [[:case :number :person :gender :token],
@@ -59,7 +59,7 @@
                          [:NomGen :Plural :Person3 :Common "um-i-nsa"]]
                  }
                 {:label "sidaama-PIndependent"
-                 :note "Kawachi2007,Table 3.4"
+                 :note "K07t3.4"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:case :number :person :gender :token],
@@ -86,7 +86,7 @@
                          [:Nominative :Plural :Person3 :Common "ínsa"]]
                  }
                 {:label "sidaama-VSimplePerf-haishsh"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :haishsh,
                           :pos :Verb,
@@ -103,7 +103,7 @@
                          [:Plural :Person3 :Common "hais̆s̆-i-t-u"]]
                  }
                 {:label "sidaama-VImperfect-haishsh"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :haishsh,
                           :pos :Verb,
@@ -120,7 +120,7 @@
                          [:Plural :Person3 :Common "hais̆s̆-i-t-anno"]]
                  }
                 {:label "sidaama-VImperfect-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -137,22 +137,7 @@
                          [:Plural :Person3 :Common "it-t-anno"]]
                  }
                 {:label "sidaama-VExistence-no"
-                 :note "Kawachi2007,(4.181). The existential/locational verb (henceforth,“the existential
-            verb”) (lit.,‘to come to exist,come to be located’),which is used to indicate the
-            existence of an entity or thelocation of one entity with respect to another,is always in
-            a present perfect form,asshown in (4.181),and is incompatible with most of the
-            inflectional suffixes with whichother verbs can usually occur. It expresses the present
-            state of existence or locatedness asthe resultative state of a state-change,as indicated
-            above in the gloss for this verb(nevertheless,the present study employs ‘exist’ as its
-            gloss). Thus,this verb does nottake any other aspect suffix. For example,it has no
-            simple perfect or imperfect forms(e.g.,*no-u-mm-a/*no-u-mm-o
-            [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o
-            [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning,verbs like
-            heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has
-            no forms for the first-person plural and the secondperson plural,the verb heeɗ- ‘to
-            live’ is used in these cases (1PL:hee’-n-oo-mmo
-            [live-1PL-PRESPERF.1-1PL],2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407
-            f)"
+                 :note "K07(4.181) :: The existential/locational verb (henceforth,“the existential verb”) (lit.,‘to come to exist,come to be located’),which is used to indicate the existence of an entity or thelocation of one entity with respect to another,is always in a present perfect form,asshown in (4.181),and is incompatible with most of the inflectional suffixes with whichother verbs can usually occur. It expresses the present state of existence or locatedness asthe resultative state of a state-change,as indicated above in the gloss for this verb(nevertheless,the present study employs ‘exist’ as its gloss). Thus,this verb does nottake any other aspect suffix. For example,it has no simple perfect or imperfect forms(e.g.,*no-u-mm-a/*no-u-mm-o [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning,verbs like heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has no forms for the first-person plural and the secondperson plural,the verb heeɗ- ‘to live’ is used in these cases (1PL:hee’-n-oo-mmo [live-1PL-PRESPERF.1-1PL],2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407 f)"
                  :common {:lexeme :no,
                           :pos :Verb,
                           :vmorphClass :Existence}
@@ -165,14 +150,7 @@
                          [:Plural :Person3 :Common "no"]]
                  }
                 {:label "sidaama-VTensePersNumGenTemplate"
-                 :note "Kawachi2007,Table 4.6. There is a basic template:1:tense,2:numPers,3:genM/genF.
-            Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the
-            simple perfect,and the present perfect,together with suffixes for theperson/number of
-            the subject. In addition,the genders of the first- and second-personsingular subjects
-            are also marked with suffixes (M:-o,F:-a). Template note: :token-genF,
-            :token-genM,
-            :token-numPers,
-            :token-tense."
+                 :note "K07t4.6 :: There is a basic template:1:tense,2:numPers,3:genM/genF. Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the simple perfect,and the present perfect,together with suffixes for theperson/number of the subject. In addition,the genders of the first- and second-personsingular subjects are also marked with suffixes (M:-o,F:-a). Template note: :token-genF, :token-genM, :token-numPers, :token-tense."
                  :common {:pos :Verb,
                           :vmorphClass :TensePersNumGenTemplate}
                  :terms [[:tam :number :person :gender :token :token-note-template],
@@ -199,7 +177,7 @@
                          [:SimplePerfect :Plural :Person3 :Common " : Common : -t : -u" " + Common + -t + -u"]]
                  }
                 {:label "sidaama-VSimplePerf-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -216,8 +194,7 @@
                          [:Plural :Person3 :Common "it-t-u"]]
                  }
                 {:label "sidaama-VPersNumTenseSuffCorrelation"
-                 :note "Kawachi2007,Table 4.7. each aspect suffix can carry additional information about
-            the person/number of the subject(p. 398)"
+                 :note "K07t4.7 :: each aspect suffix can carry additional information about the person/number of the subject(p. 398)"
                  :common {:pos :Verb,
                           :vmorphClass :PersNumTenseSuff}
                  :terms [[:aspect :number :person :gender :token],
@@ -236,8 +213,7 @@
                          [:SimplePerfect :Plural :Person3 :Common "-u"]]
                  }
                 {:label "sidaama-VAffImprtv-it"
-                 :note "Kawachi2007,Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
-            imperative."
+                 :note "K07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative."
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :person :Person2,
@@ -249,12 +225,7 @@
                          [:Plural "it-Ce"]]
                  }
                 {:label "sidaama-VSubjMarkerConnConj"
-                 :note "Kawachi2007,Table 4.11 Subject Person Suffix (before –CNN or –INF-MANNER). [=nna
-            is a conjunctive enclitic]. There are two basic connective constructions (markers on
-            verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive
-            construction (verb1=and verb2),all involving a characteristically Cushitic reduced set
-            of person markers. The connective consists of the reduced person markrs followed by
-            –e"
+                 :note "K07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive construction (verb1=and verb2),all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e"
                  :common {:pos :Verb,
                           :vmorphClass :SubjMarkerConnConj}
                  :terms [[:configuration :number :person :gender :token],
@@ -288,11 +259,7 @@
                          [:SubjMarkerRed :Plural :Person3 :Common "-t"]]
                  }
                 {:label "sidaama-VSubjMarkerInfinSub"
-                 :note "Kawachi2007,Table 4.12:Infinitive Suffix Accompanied by the Person Suffix when
-            Followed by –ra. The infinitival subordinate consists of the infinitivemarker
-            –a-,followed by a special set of person markers (similar to imperfective),followed by
-            the subordinating suffix –ra. It is used for a large number of infinitival and purpose
-            clauses. cf. Kawachi2007,pp. 420-425."
+                 :note "K07t4.12 :: Infinitive Suffix Accompanied by the Person Suffix when Followed by –ra :: The infinitival subordinate consists of the infinitivemarker –a-,followed by a special set of person markers (similar to imperfective),followed by the subordinating suffix –ra. It is used for a large number of infinitival and purpose clauses. cf. K07pp. 420-425."
                  :common {:pos :Verb,
                           :vmorphClass :SubjMarkerInfinSub}
                  :terms [[:number :person :gender :token],
@@ -307,9 +274,7 @@
                          [:Plural :Person3 :Common "-t-a-ra"]]
                  }
                 {:label "sidaama-PDem"
-                 :note "Kawachi2007,Table 3.6. Demonstratives can be reduplicated in all case and deixis
-            forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc
-            form is also the predicative."
+                 :note "K07t3.6 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative."
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Demonstrative}
                  :terms [[:case :deixis :token],
@@ -321,8 +286,7 @@
                          [:NomGen :overThere "ka’-i"]]
                  }
                 {:label "sidaama-VSimplePerfSuffStructure-wil"
-                 :note "Kawachi2007,Table 4.19. [the V in token-structure is a contextually conditioned
-            epenthetic vowel]"
+                 :note "K07t4.19 :: [the V in token-structure is a contextually conditioned epenthetic vowel]"
                  :common {:lexeme :wil,
                           :pos :Verb,
                           :tam :SimplePerfect,
@@ -339,7 +303,7 @@
                          [:Plural :Person3 :Common "insa wi’l-i-t-u" "cry-V-3pl-simplePerf+3pl"]]
                  }
                 {:label "sidaama-VInfinitiveSub-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -356,7 +320,7 @@
                          [:Plural :Person3 :Common "it-t-a-ra"]]
                  }
                 {:label "sidaama-VInfinitiveConj-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -371,7 +335,7 @@
                          [:Plural :Person3 :Common "it-t-a=nna"]]
                  }
                 {:label "sidaama-VConnective-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -386,8 +350,7 @@
                          [:Plural :Person3 :Common "it-t-e"]]
                  }
                 {:label "sidaama-VNegImprtv-it"
-                 :note "Kawachi2007,Tables 4.13. The stem-final consonant is reduplicated in the aff 2 pl
-            imperative."
+                 :note "K07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative."
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :person :Person2,
@@ -399,10 +362,7 @@
                          [:Plural "it-tinoonte"]]
                  }
                 {:label "sidaama-PDemSpec"
-                 :note "Kawachi2007,Table 3.8 Glosses:this place,that place,the place over there.
-            Demonstratives can be reduplicated in all case and deixis forms to indicate intensity –
-            e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the
-            predicative."
+                 :note "K07t3.8 ::  Glosses:this place,that place,the place over there. Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative."
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DemSpec}
                  :terms [[:case :deixis :token],
@@ -414,7 +374,7 @@
                          [:NomGen :overThere "ka’ičč-i"]]
                  }
                 {:label "sidaama-VPresProg-it"
-                 :note "Kawachi2007,(4.182). The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective formof another verb (lit.,‘did sth and came to exist’),as in (4.183). In each of them,the firstpersonand second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n) the>initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also, the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)"
+                 :note "K07(4.182) :: The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective formof another verb (lit.,‘did sth and came to exist’),as in (4.183). In each of them,the firstpersonand second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n) the>initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also, the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)"
                  :common {:lexeme :it,
                           :pos :Verb,
                           :tam :PresentProgressive}
@@ -430,7 +390,7 @@
                          [:Plural :Person3 :Common "insa waasa it-t-a-nni no"]]
                  }
                 {:label "sidaama-PDemSpecAdv"
-                 :note "Kawachi2007,Table 3.9."
+                 :note "K07t3.9"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DemSpecAdv}
                  :terms [[:deixis :direction :token],
@@ -445,7 +405,7 @@
                          [:overThere :DirTO "ka’ičč-i-ra"]]
                  }
                 {:label "sidaama-VPresPerf-haishsh"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :haishsh,
                           :pos :Verb,
@@ -462,7 +422,7 @@
                          [:Plural :Person3 :Common "hais̆s̆-i-t-ino"]]
                  }
                 {:label "sidaama-PDemAdv"
-                 :note "Kawachi2007,Table 3.7"
+                 :note "K07t3.7"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DemAdv}
                  :terms [[:deixis :direction :token],
@@ -477,7 +437,7 @@
                          [:overThere :DirTO "ka’-i-ra ~ ka’a"]]
                  }
                 {:label "sidaama-PDemAreaAdnom"
-                 :note "Kawachi2007,Table 3.14"
+                 :note "K07t3.14"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DemAreaAdnom}
                  :terms [[:deixis :gender :token],
@@ -486,8 +446,7 @@
                          [:ThisArea :Fem "tewi ~ tewiidi"]]
                  }
                 {:label "sidaama-VDervStem"
-                 :note "Kawachi2007,sect. #4.2.1.3. (on phonology of denomDeadj and middle,cf.
-            2.2.1)"
+                 :note "K07#4.2.1.3 ::  (on phonology of denomDeadj and middle,cf. 2.2.1)"
                  :common {:pos :Verb,
                           :vmorphClass :DervStem}
                  :terms [[:derivedStem :token],
@@ -499,7 +458,7 @@
                          [:Reciprocal "-am-"]]
                  }
                 {:label "sidaama-VInfinitiveConn-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -514,7 +473,7 @@
                          [:Plural :Person3 :Common "it-t-a-nni"]]
                  }
                 {:label "sidaama-VSubjMarkerMain"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10,4.13,4.15"
+                 :note "K07t4.8;4.9;4.10;4.13;4.15"
                  :common {:pos :Verb,
                           :vmorphClass :SubjMarkerMain}
                  :terms [[:polarity :tam :number :person :gender :token],
@@ -556,20 +515,7 @@
                          [:Negative :Imperative :Plural :Person2 :Common "-tinoonte"]]
                  }
                 {:label "sidaama-VContinuous-hank"
-                 :note "Kawachi2007,(4.182). The verb no- can also be a component of two aspectual
-            markers, they can be used to constitute the present-progressive form of another verb
-            with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing
-            sth,came to exist’),as in (4.182) also,they can be used to constitute the present
-            continuous verb form with the connective formof another verb (lit.,‘did sth and came to
-            exist’),as in (4.183). In each of them,the firstpersonand second-person plural forms are
-            irregular. When used in either of these ways,the subject is indicated on a suffix
-            (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n) the>initial t of the suffix can
-            be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a
-            consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the
-            connective suffix -e also, the existential verb thatfollows either of these suffixes
-            inflects for the person/number/gender of the subject,asindicated in (4.181) (for the
-            second-person plural,the existential verb cannot be used ineither aspect).(p.
-            409)"
+                 :note "K07(4.182) :: The verb no- can also be a component of two aspectual markers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective formof another verb (lit.,‘did sth and came to exist’),as in (4.183). In each of them,the firstpersonand second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n) the>initial t of the suffix can be preceded by the epenthetic vowel i when thesuffix is attached to a root ending in a consonant-cluster like hank’-) immediatelypreceding the infinitive suffix -a or the connective suffix -e also, the existential verb thatfollows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)"
                  :common {:lexeme :hank,
                           :pos :Verb,
                           :tam :Continuous}
@@ -585,7 +531,7 @@
                          [:Plural :Person3 :Common "insa hank’-i-t-e no"]]
                  }
                 {:label "sidaama-VPresPerf-it"
-                 :note "Kawachi2007,Tables 4.8,4.9,4.10"
+                 :note "K07t4.8;4.9;4.10"
                  :common {:vmorphClass :Finite,
                           :lexeme :it,
                           :pos :Verb,
@@ -602,9 +548,7 @@
                          [:Plural :Person3 :Common "it-i-t-ino"]]
                  }
                 {:label "sidaama-PDemAdnom"
-                 :note "Kawachi2007,Table 3.10,3.11. Demonstratives can be reduplicated in all case and
-            deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
-            noted,the acc form is also the predicative."
+                 :note "K07t3.10,3.11 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative." 
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :DemAdnom}
                  :terms [[:case :deixis :number :gender :token],
@@ -637,7 +581,7 @@
                          [:Nominative :overThere :Common :Fem "tii’i"]]
                  }
                 {:label "sidaama-PObjSuff"
-                 :note "Kawachi2007,Table 4.16"
+                 :note "K07t4.16"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :ObjSuff}
                  :terms [[:number :person :gender :token],
@@ -650,13 +594,7 @@
                          [:Plural :Person3 :Common "-nsa"]]
                  }
                 {:label "sidaama-VVerbNegation"
-                 :note "Kawachi2007,## 3.2.2.4,4.2.2.3.5,4.2.2.3.7. Sidaama has the simplest negative
-            morphology of any Cushitic or Omotic language. A specific negative form exists only for
-            the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di=
-            which can attach to the verb,or in fact to any foregrounded sentence constituent. For
-            subordinate clause negation a suffix –kki is attached to the verb form. There is also a
-            negative suffix –nke which attaches to the optative,including the 1 pl optative,which
-            acts as a 1 pl imperative"
+                 :note "K07##3.2.2.4;4.2.2.3.5;4.2.2.3.7 :: Sidaama has the simplest negative morphology of any Cushitic or Omotic language. A specific negative form exists only for the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di= which can attach to the verb,or in fact to any foregrounded sentence constituent. For subordinate clause negation a suffix –kki is attached to the verb form. There is also a negative suffix –nke which attaches to the optative,including the 1 pl optative, which acts as a 1 pl imperative"
                  :common {:pos :Verb,
                           :vmorphClass :VerbNegation}
                  :terms [[:clauseType :number :person :token :token-note],
@@ -667,9 +605,7 @@
                          [:Subordinate :Common :Common "-kki" "suffixes to subordinate clause verb"]]
                  }
                 {:label "sidaama-PInterrog"
-                 :note "Kawachi2007,Table 3.15,3.16. Demonstratives can be reduplicated in all case and
-            deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise
-            noted,the acc form is also the predicative."
+                 :note "K07t3.15,3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative." 
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Interrogative}
                  :terms [[:case :interrogClass :posClass :number :gender :token],
@@ -698,6 +634,6 @@
                          [:Nominative :InterrogProWhich :ProInd :Plural :Common "hiikkui’ri ~ hiikkuri"],
                          [:Nominative :InterrogProWho :ProInd :Common :Common "ai ~ aa"]]
                  } ]
-                }
- 
- 
+ }
+
+
