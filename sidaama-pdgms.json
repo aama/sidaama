@@ -1,20 +1,31 @@
 {
   "lang": "sidaama",
-  "subfamily": "Highland East Cushitic",
+  "subfamily": "cushitic east highland",
   "lgpref": "sid",
-  "datasource": "Kawachi, Kazuhira. 2007. 'A Grammar of Sidaama (Sidamo), a Cushitic Language of Ethiopia'. PhD Dissertation. State University of New York at Buffalo; [K07]",
+  "datasource": "Kawachi, Kazuhira. 2007. 'A Grammar of Sidaama (Sidamo), a Cushitic Language of Ethiopia'. PhD Dissertation. State University of New York at Buffalo; [KK07]; Kawachi, Kazuhira 2020. 'Sidaama'. Chapter 47, pp. 542-5453 in Vossen, Rainer, and Gerrit J. Dimmendaal (eds), The Oxford Handbook of African Languages, Oxford Handbooks (2020; online edn, Oxford Academic, 7 May 2020),[KK20]",
   "datasourceNotes": "",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e a o u; ii ee aa oo uu"},
+    "Prosody": {
+      "Type": "pitch",
+      "Tone": "'v́(v)' high; 'v(v)' non-high"}},
   "geodemoURL": "http://www.ethnologue.com/language/sid",
   "geodemoTXT": "Varieties and subdialects of Sidaama are spoken in the ZZSouth central, Southern Nations, Nationalities, and Peoples’ region: northeast of Lake Abaya; Oromia region: southeast of Lake Awasa.",
   "schemata": {
   "aspect": [
-    "Imperfect",
+    "Impperfect",
     "PresentPerfect",
     "SimplePerfect"
   ],
   "case": [
     "Accusative",
-    "Common",
     "Genitive",
     "NomGen",
     "Nominative"
@@ -84,6 +95,7 @@
   "number": [
     "Common",
     "Plural",
+    "Sg_Pl",
     "Singular"
   ],
   "person": [
@@ -94,15 +106,16 @@
   ],
   "polarity": [
     "Affirmative",
+    "Afirmative",
     "Negative"
   ],
   "pos": [
+    "Adverb",
     "Pronoun",
     "Verb"
   ],
   "posClass": [
     "Adnominal",
-    "Adverb",
     "ProInd"
   ],
   "proClass": [
@@ -140,7 +153,7 @@
   "hank": {
     "pos": "Verb",
     "lemma": "hank-",
-    "gloss": "Getangry"
+    "gloss": "get angry"
   },
   "it": {
     "pos": "Verb",
@@ -161,46 +174,84 @@
   "pdgmPropOrder": ["pos", "morphClass", "proClass", "lexeme", "tam", "polarity"],
   "termclusters": [
   {
-    "label": "sid-PronounDemAdnom",
-    "note": "K07t3.10,3.11 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "label": "sid-AdverbInterrogative",
+    "note": "KK07t3.15,3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
     "common": {
-      "pos": "Pronoun",
-      "proClass": "DemAdnom"
+      "pos": "Adverb",
+      "proClass": "Interrogative"
     },
     "terms": [
-      ["case" ,"deixis" ,"number" ,"gender" ,"token"],
-      ["Accusative" ,"Here" ,"Plural" ,"Common" ,"kore"],
-      ["Accusative" ,"Here" ,"Common" ,"Masc" ,"ko ~ konne ~ koe"],
-      ["Accusative" ,"Here" ,"Common" ,"Fem" ,"te ~ tenne"],
-      ["Accusative" ,"There" ,"Plural" ,"Common" ,"hakkore"],
-      ["Accusative" ,"There" ,"Common" ,"Masc" ,"hakko ~ hakkonne ~ hakkoe"],
-      ["Accusative" ,"There" ,"Common" ,"Fem" ,"hatte ~ hattenne"],
-      ["Accusative" ,"overThere" ,"Plural" ,"Common" ,"⊤"],
-      ["Accusative" ,"overThere" ,"Common" ,"Masc" ,"ko’o ~ ko’onne"],
-      ["Accusative" ,"overThere" ,"Common" ,"Fem" ,"te’e ~ te’enne"],
-      ["Genitive" ,"Here" ,"Plural" ,"Common" ,"kore ~ kuri ~ koori ~ kuwi"],
-      ["Genitive" ,"Here" ,"Common" ,"Masc" ,"ko ~ konni ~ koi"],
-      ["Genitive" ,"Here" ,"Common" ,"Fem" ,"te ~ tenne ~ teyi"],
-      ["Genitive" ,"There" ,"Plural" ,"Common" ,"hakkuri"],
-      ["Genitive" ,"There" ,"Common" ,"Masc" ,"hakko ~ hakkunni ~ hakkonni ~ hakkui ~ hakkoe"],
-      ["Genitive" ,"There" ,"Common" ,"Fem" ,"hatte ~ hattenne"],
-      ["Genitive" ,"overThere" ,"Plural" ,"Common" ,"ku’uri"],
-      ["Genitive" ,"overThere" ,"Common" ,"Masc" ,"ko’o ~ ko’onni ~ ku’ui ~ ko’ui"],
-      ["Genitive" ,"overThere" ,"Common" ,"Fem" ,"te’e ~ te’enne"],
-      ["Nominative" ,"Here" ,"Singular" ,"Masc" ,"ko ~ kuni ~ kuyi"],
-      ["Nominative" ,"Here" ,"Plural" ,"Common" ,"kuri"],
-      ["Nominative" ,"Here" ,"Common" ,"Fem" ,"te ~ tini ~ tiyi"],
-      ["Nominative" ,"There" ,"Plural" ,"Common" ,"hakkuri"],
-      ["Nominative" ,"There" ,"Common" ,"Masc" ,"hakku ~ hakko"],
-      ["Nominative" ,"There" ,"Common" ,"Fem" ,"hatti ~ hattenne"],
-      ["Nominative" ,"overThere" ,"Plural" ,"Common" ,"ku’uri"],
-      ["Nominative" ,"overThere" ,"Common" ,"Masc" ,"ku’u"],
-      ["Nominative" ,"overThere" ,"Common" ,"Fem" ,"tii’i"]
+      ["interrogClass" ,"token"],
+      ["InterrogProWhen" ,"mamoote ~ mamaro"],
+      ["InterrogProWhere" ,"hiikko ~ mama"]
+    ]
+  },
+  {
+    "label": "sid-PronounDemAdnom",
+    "note": "KK07t3.10,3.11 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "DemAdnom",
+      "case": "Accusative"
+    },
+    "terms": [
+      ["deixis" ,"number" ,"gender" ,"token"],
+      ["Here" ,"Plural" ,"Common" ,"kore"],
+      ["Here" ,"Common" ,"Masc" ,"ko ~ konne ~ koe"],
+      ["Here" ,"Common" ,"Fem" ,"te ~ tenne"],
+      ["There" ,"Plural" ,"Common" ,"hakkore"],
+      ["There" ,"Common" ,"Masc" ,"hakko ~ hakkonne ~ hakkoe"],
+      ["There" ,"Common" ,"Fem" ,"hatte ~ hattenne"],
+      ["overThere" ,"Plural" ,"Common" ,"⊤"],
+      ["overThere" ,"Common" ,"Masc" ,"ko’o ~ ko’onne"],
+      ["overThere" ,"Common" ,"Fem" ,"te’e ~ te’enne"]
+    ]
+  },
+  {
+    "label": "sid-PronounDemAdnom",
+    "note": "KK07t3.10,3.11 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "DemAdnom",
+      "case": "Genitive"
+    },
+    "terms": [
+      ["deixis" ,"number" ,"gender" ,"token"],
+      ["Here" ,"Plural" ,"Common" ,"kore ~ kuri ~ koori ~ kuwi"],
+      ["Here" ,"Common" ,"Masc" ,"ko ~ konni ~ koi"],
+      ["Here" ,"Common" ,"Fem" ,"te ~ tenne ~ teyi"],
+      ["There" ,"Plural" ,"Common" ,"hakkuri"],
+      ["There" ,"Common" ,"Masc" ,"hakko ~ hakkunni ~ hakkonni ~ hakkui ~ hakkoe"],
+      ["There" ,"Common" ,"Fem" ,"hatte ~ hattenne"],
+      ["overThere" ,"Plural" ,"Common" ,"ku’uri"],
+      ["overThere" ,"Common" ,"Masc" ,"ko’o ~ ko’onni ~ ku’ui ~ ko’ui"],
+      ["overThere" ,"Common" ,"Fem" ,"te’e ~ te’enne"]
+    ]
+  },
+  {
+    "label": "sid-PronounDemAdnom",
+    "note": "KK07t3.10,3.11 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "DemAdnom",
+      "case": "Nominative"
+    },
+    "terms": [
+      ["deixis" ,"number" ,"gender" ,"token"],
+      ["Here" ,"Singular" ,"Masc" ,"ko ~ kuni ~ kuyi"],
+      ["Here" ,"Plural" ,"Common" ,"kuri"],
+      ["Here" ,"Common" ,"Fem" ,"te ~ tini ~ tiyi"],
+      ["There" ,"Plural" ,"Common" ,"hakkuri"],
+      ["There" ,"Common" ,"Masc" ,"hakku ~ hakko"],
+      ["There" ,"Common" ,"Fem" ,"hatti ~ hattenne"],
+      ["overThere" ,"Plural" ,"Common" ,"ku’uri"],
+      ["overThere" ,"Common" ,"Masc" ,"ku’u"],
+      ["overThere" ,"Common" ,"Fem" ,"tii’i"]
     ]
   },
   {
     "label": "sid-PronounDemAdv",
-    "note": "K07t3.7",
+    "note": "KK07t3.7",
     "common": {
       "pos": "Pronoun",
       "proClass": "DemAdv"
@@ -220,7 +271,7 @@
   },
   {
     "label": "sid-PronounDemAreaAdnom",
-    "note": "K07t3.14",
+    "note": "KK07t3.14",
     "common": {
       "pos": "Pronoun",
       "proClass": "DemAreaAdnom"
@@ -234,24 +285,37 @@
   },
   {
     "label": "sid-PronounDemSpec",
-    "note": "K07t3.8 ::  Glosses:this place,that place,the place over there. Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "note": "KK07t3.8 ::  Glosses:this place,that place,the place over there. Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
     "common": {
       "pos": "Pronoun",
-      "proClass": "DemSpec"
+      "proClass": "DemSpec",
+      "case": "NomGen"
     },
     "terms": [
-      ["case" ,"deixis" ,"token"],
-      ["Accusative" ,"Here" ,"kawiččo"],
-      ["Accusative" ,"There" ,"hakkiččo"],
-      ["Accusative" ,"overThere" ,"ka’iččo"],
-      ["NomGen" ,"Here" ,"kawičč-i"],
-      ["NomGen" ,"There" ,"hakkičč-i"],
-      ["NomGen" ,"overThere" ,"ka’ičč-i"]
+      ["deixis" ,"token"],
+      ["Here" ,"kawičč-i"],
+      ["There" ,"hakkičč-i"],
+      ["overThere" ,"ka’ičč-i"]
+    ]
+  },
+  {
+    "label": "sid-PronounDemSpec",
+    "note": "KK07t3.8 ::  Glosses:this place,that place,the place over there. Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "DemSpec",
+      "case": "Accusative"
+    },
+    "terms": [
+      ["deixis" ,"token"],
+      ["Here" ,"kawiččo"],
+      ["There" ,"hakkiččo"],
+      ["overThere" ,"ka’iččo"]
     ]
   },
   {
     "label": "sid-PronounDemSpecAdv",
-    "note": "K07t3.9",
+    "note": "KK07t3.9",
     "common": {
       "pos": "Pronoun",
       "proClass": "DemSpecAdv"
@@ -271,91 +335,153 @@
   },
   {
     "label": "sid-PronounDemonstrative",
-    "note": "K07t3.6 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "note": "KK07t3.6 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Demonstrative"
+      "proClass": "Demonstrative",
+      "case": "Accusative"
     },
     "terms": [
-      ["case" ,"deixis" ,"token"],
-      ["Accusative" ,"Here" ,"kawa"],
-      ["Accusative" ,"There" ,"hakka"],
-      ["Accusative" ,"overThere" ,"ka’a"],
-      ["NomGen" ,"Here" ,"kaw-i"],
-      ["NomGen" ,"There" ,"hakk-i"],
-      ["NomGen" ,"overThere" ,"ka’-i"]
+      ["deixis" ,"token"],
+      ["Here" ,"kawa"],
+      ["There" ,"hakka"],
+      ["overThere" ,"ka’a"]
+    ]
+  },
+  {
+    "label": "sid-PronounDemonstrative",
+    "note": "KK07t3.6 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Demonstrative",
+      "case": "NomGen"
+    },
+    "terms": [
+      ["deixis" ,"token"],
+      ["Here" ,"kaw-i"],
+      ["There" ,"hakk-i"],
+      ["overThere" ,"ka’-i"]
     ]
   },
   {
     "label": "sid-PronounIndependent",
-    "note": "K07t3.4",
+    "note": "KK07t3.4",
     "common": {
       "pos": "Pronoun",
+      "case": "Accusative",
       "proClass": "Independent"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"gender" ,"token"],
-      ["Accusative" ,"Singular" ,"Person1" ,"Common" ,"ané"],
-      ["Accusative" ,"Singular" ,"Person2" ,"Common" ,"até"],
-      ["Accusative" ,"Singular" ,"Person3" ,"Masc" ,"isó"],
-      ["Accusative" ,"Singular" ,"Person3" ,"Fem" ,"isé"],
-      ["Accusative" ,"Plural" ,"Person1" ,"Common" ,"ninké"],
-      ["Accusative" ,"Plural" ,"Person2" ,"Common" ,"ki’né"],
-      ["Accusative" ,"Plural" ,"Person3" ,"Common" ,"insá"],
-      ["Genitive" ,"Singular" ,"Person1" ,"Common" ,"ané"],
-      ["Genitive" ,"Singular" ,"Person2" ,"Common" ,"até"],
-      ["Genitive" ,"Singular" ,"Person3" ,"Masc" ,"isí"],
-      ["Genitive" ,"Singular" ,"Person3" ,"Fem" ,"isé"],
-      ["Genitive" ,"Plural" ,"Person1" ,"Common" ,"ninké"],
-      ["Genitive" ,"Plural" ,"Person2" ,"Common" ,"ki’né"],
-      ["Genitive" ,"Plural" ,"Person3" ,"Common" ,"insá"],
-      ["Nominative" ,"Singular" ,"Person1" ,"Common" ,"áni"],
-      ["Nominative" ,"Singular" ,"Person2" ,"Common" ,"áti"],
-      ["Nominative" ,"Singular" ,"Person3" ,"Masc" ,"ísi"],
-      ["Nominative" ,"Singular" ,"Person3" ,"Fem" ,"íse"],
-      ["Nominative" ,"Plural" ,"Person1" ,"Common" ,"nínke"],
-      ["Nominative" ,"Plural" ,"Person2" ,"Common" ,"kí’ne"],
-      ["Nominative" ,"Plural" ,"Person3" ,"Common" ,"ínsa"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"ané"],
+      ["Singular" ,"Person2" ,"Common" ,"até"],
+      ["Singular" ,"Person3" ,"Masc" ,"isó"],
+      ["Singular" ,"Person3" ,"Fem" ,"isé"],
+      ["Plural" ,"Person1" ,"Common" ,"ninké"],
+      ["Plural" ,"Person2" ,"Common" ,"ki’né"],
+      ["Plural" ,"Person3" ,"Common" ,"insá"]
+    ]
+  },
+  {
+    "label": "sid-PronounIndependent",
+    "note": "KK07t3.4",
+    "common": {
+      "pos": "Pronoun",
+      "case": "Genitive",
+      "proClass": "Independent"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Plural" ,"Person3" ,"Common" ,"insá"],
+      ["Singular" ,"Person1" ,"Common" ,"ané"],
+      ["Singular" ,"Person2" ,"Common" ,"até"],
+      ["Singular" ,"Person3" ,"Masc" ,"isí"],
+      ["Singular" ,"Person3" ,"Fem" ,"isé"],
+      ["Plural" ,"Person1" ,"Common" ,"ninké"],
+      ["Plural" ,"Person2" ,"Common" ,"ki’né"],
+      ["Plural" ,"Person3" ,"Common" ,"insá"]
+    ]
+  },
+  {
+    "label": "sid-PronounIndependent",
+    "note": "KK07t3.4",
+    "common": {
+      "pos": "Pronoun",
+      "case": "Nominative",
+      "proClass": "Independent"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"áni"],
+      ["Singular" ,"Person2" ,"Common" ,"áti"],
+      ["Singular" ,"Person3" ,"Masc" ,"ísi"],
+      ["Singular" ,"Person3" ,"Fem" ,"íse"],
+      ["Plural" ,"Person1" ,"Common" ,"nínke"],
+      ["Plural" ,"Person2" ,"Common" ,"kí’ne"],
+      ["Plural" ,"Person3" ,"Common" ,"ínsa"]
     ]
   },
   {
     "label": "sid-PronounInterrogative",
-    "note": "K07t3.15,3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "note": "KK07t3.15,3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
     "common": {
       "pos": "Pronoun",
+      "case": "Accusative",
       "proClass": "Interrogative"
     },
     "terms": [
-      ["case" ,"interrogClass" ,"posClass" ,"number" ,"gender" ,"token"],
-      ["Accusative" ,"InterrogProWhat" ,"ProInd" ,"Common" ,"Common" ,"ma ~ mariččo"],
-      ["Accusative" ,"InterrogProWhich" ,"Adnominal" ,"Singular" ,"Masc" ,"hiikko ~ hiikkoe ~ hiikkonne"],
-      ["Accusative" ,"InterrogProWhich" ,"Adnominal" ,"Singular" ,"Fem" ,"hiitte ~ hiittee ~ hiittenne"],
-      ["Accusative" ,"InterrogProWhich" ,"Adnominal" ,"Plural" ,"Common" ,"hiikkore"],
-      ["Accusative" ,"InterrogProWhich" ,"ProInd" ,"Singular" ,"Masc" ,"hiitte ~ hiittee ~ hiittenne"],
-      ["Accusative" ,"InterrogProWhich" ,"ProInd" ,"Singular" ,"Fem" ,"hiikko ~ hiikkoe ~ hiikkonne"],
-      ["Accusative" ,"InterrogProWhich" ,"ProInd" ,"Plural" ,"Common" ,"hiikkore (PRED:hiikkoere ~ hiikkore ~ hiikkui’re)"],
-      ["Common" ,"InterrogProWhen" ,"Adverb" ,"Common" ,"Common" ,"mamoote ~ mamaro"],
-      ["Common" ,"InterrogProWhere" ,"Adverb" ,"Common" ,"Common" ,"hiikko ~ mama"],
-      ["Genitive" ,"InterrogProWhat" ,"ProInd" ,"Common" ,"Common" ,"mai ~ maričči"],
-      ["Genitive" ,"InterrogProWhich" ,"Adnominal" ,"Singular" ,"Masc" ,"hiikkui ~ hiikko ~ hiikkonni"],
-      ["Genitive" ,"InterrogProWhich" ,"Adnominal" ,"Singular" ,"Fem" ,"hiitte ~ hiittenne"],
-      ["Genitive" ,"InterrogProWhich" ,"Adnominal" ,"Plural" ,"Common" ,"hiikkuri"],
-      ["Genitive" ,"InterrogProWhich" ,"ProInd" ,"Singular" ,"Masc" ,"⊤"],
-      ["Genitive" ,"InterrogProWhich" ,"ProInd" ,"Singular" ,"Fem" ,"hiikkui ~ hikkonni"],
-      ["Genitive" ,"InterrogProWhich" ,"ProInd" ,"Plural" ,"Common" ,"hiikkuri ~ hiikkuiri"],
-      ["Nominative" ,"InterrogProWhat" ,"ProInd" ,"Common" ,"Common" ,"mai ~ maričči"],
-      ["Nominative" ,"InterrogProWhich" ,"Adnominal" ,"Singular" ,"Masc" ,"hiikku ~ hiikko ~ hiikkonni"],
-      ["Nominative" ,"InterrogProWhich" ,"Adnominal" ,"Singular" ,"Fem" ,"hiitti ~ hiitte ~ hiittenne"],
-      ["Nominative" ,"InterrogProWhich" ,"Adnominal" ,"Plural" ,"Common" ,"hiikkuri"],
-      ["Nominative" ,"InterrogProWhich" ,"ProInd" ,"Singular" ,"Masc" ,"hiitti"],
-      ["Nominative" ,"InterrogProWhich" ,"ProInd" ,"Singular" ,"Fem" ,"hiikku"],
-      ["Nominative" ,"InterrogProWhich" ,"ProInd" ,"Plural" ,"Common" ,"hiikkui’ri ~ hiikkuri"],
-      ["Nominative" ,"InterrogProWho" ,"ProInd" ,"Common" ,"Common" ,"ai ~ aa"]
+      ["interrogClass" ,"posClass" ,"number" ,"gender" ,"token"],
+      ["InterrogProWhat" ,"ProInd" ,"Common" ,"Common" ,"ma ~ mariččo"],
+      ["InterrogProWhich" ,"Adnominal" ,"Singular" ,"Masc" ,"hiikko ~ hiikkoe ~ hiikkonne"],
+      ["InterrogProWhich" ,"Adnominal" ,"Singular" ,"Fem" ,"hiitte ~ hiittee ~ hiittenne"],
+      ["InterrogProWhich" ,"Adnominal" ,"Plural" ,"Common" ,"hiikkore"],
+      ["InterrogProWhich" ,"ProInd" ,"Singular" ,"Masc" ,"hiitte ~ hiittee ~ hiittenne"],
+      ["InterrogProWhich" ,"ProInd" ,"Singular" ,"Fem" ,"hiikko ~ hiikkoe ~ hiikkonne"],
+      ["InterrogProWhich" ,"ProInd" ,"Plural" ,"Common" ,"hiikkore (PRED:hiikkoere ~ hiikkore ~ hiikkui’re)"]
+    ]
+  },
+  {
+    "label": "sid-PronounInterrogative",
+    "note": "KK07t3.15,3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "case": "Nominative",
+      "proClass": "Interrogative"
+    },
+    "terms": [
+      ["interrogClass" ,"posClass" ,"number" ,"gender" ,"token"],
+      ["InterrogProWhat" ,"ProInd" ,"Common" ,"Common" ,"mai ~ maričči"],
+      ["InterrogProWhich" ,"Adnominal" ,"Singular" ,"Masc" ,"hiikku ~ hiikko ~ hiikkonni"],
+      ["InterrogProWhich" ,"Adnominal" ,"Singular" ,"Fem" ,"hiitti ~ hiitte ~ hiittenne"],
+      ["InterrogProWhich" ,"Adnominal" ,"Plural" ,"Common" ,"hiikkuri"],
+      ["InterrogProWhich" ,"ProInd" ,"Singular" ,"Masc" ,"hiitti"],
+      ["InterrogProWhich" ,"ProInd" ,"Singular" ,"Fem" ,"hiikku"],
+      ["InterrogProWhich" ,"ProInd" ,"Plural" ,"Common" ,"hiikkui’ri ~ hiikkuri"],
+      ["InterrogProWho" ,"ProInd" ,"Common" ,"Common" ,"ai ~ aa"]
+    ]
+  },
+  {
+    "label": "sid-PronounInterrogative",
+    "note": "KK07t3.15,3.16 :: Demonstratives can be reduplicated in all case and deixis forms to indicate intensity – e.g. kawa kawa very close. Unless otherwise noted,the acc form is also the predicative.",
+    "common": {
+      "pos": "Pronoun",
+      "case": "Genitive",
+      "proClass": "Interrogative"
+    },
+    "terms": [
+      ["interrogClass" ,"posClass" ,"number" ,"gender" ,"token"],
+      ["InterrogProWhat" ,"ProInd" ,"Common" ,"Common" ,"mai ~ maričči"],
+      ["InterrogProWhich" ,"Adnominal" ,"Singular" ,"Masc" ,"hiikkui ~ hiikko ~ hiikkonni"],
+      ["InterrogProWhich" ,"Adnominal" ,"Singular" ,"Fem" ,"hiitte ~ hiittenne"],
+      ["InterrogProWhich" ,"Adnominal" ,"Plural" ,"Common" ,"hiikkuri"],
+      ["InterrogProWhich" ,"ProInd" ,"Singular" ,"Masc" ,"⊤"],
+      ["InterrogProWhich" ,"ProInd" ,"Singular" ,"Fem" ,"hiikkui ~ hikkonni"],
+      ["InterrogProWhich" ,"ProInd" ,"Plural" ,"Common" ,"hiikkuri ~ hiikkuiri"]
     ]
   },
   {
     "label": "sid-PronounObjSuff",
-    "note": "K07t4.16",
+    "note": "KK07t4.16",
     "common": {
       "pos": "Pronoun",
       "proClass": "ObjSuff"
@@ -373,32 +499,45 @@
   },
   {
     "label": "sid-PronounReflPoss",
-    "note": "K07t3.5",
+    "note": "KK07t3.5",
     "common": {
       "pos": "Pronoun",
+      "case": "Accusative",
       "proClass": "ReflPoss"
     },
     "terms": [
-      ["case" ,"number" ,"person" ,"gender" ,"token"],
-      ["Accusative" ,"Singular" ,"Person1" ,"Common" ,"umo-’ya"],
-      ["Accusative" ,"Singular" ,"Person2" ,"Common" ,"umo-kki"],
-      ["Accusative" ,"Singular" ,"Person3" ,"Masc" ,"umo-si"],
-      ["Accusative" ,"Singular" ,"Person3" ,"Fem" ,"umo-se"],
-      ["Accusative" ,"Plural" ,"Person1" ,"Common" ,"umo-nke"],
-      ["Accusative" ,"Plural" ,"Person2" ,"Common" ,"umo-’ne"],
-      ["Accusative" ,"Plural" ,"Person3" ,"Common" ,"umo-nsa"],
-      ["NomGen" ,"Singular" ,"Person1" ,"Common" ,"um-i-’ya"],
-      ["NomGen" ,"Singular" ,"Person2" ,"Common" ,"um-i-kki"],
-      ["NomGen" ,"Singular" ,"Person3" ,"Masc" ,"um-i-si"],
-      ["NomGen" ,"Singular" ,"Person3" ,"Fem" ,"um-i-se"],
-      ["NomGen" ,"Plural" ,"Person1" ,"Common" ,"um-i-nke"],
-      ["NomGen" ,"Plural" ,"Person2" ,"Common" ,"um-i-’ne"],
-      ["NomGen" ,"Plural" ,"Person3" ,"Common" ,"um-i-nsa"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"umo-’ya"],
+      ["Singular" ,"Person2" ,"Common" ,"umo-kki"],
+      ["Singular" ,"Person3" ,"Masc" ,"umo-si"],
+      ["Singular" ,"Person3" ,"Fem" ,"umo-se"],
+      ["Plural" ,"Person1" ,"Common" ,"umo-nke"],
+      ["Plural" ,"Person2" ,"Common" ,"umo-’ne"],
+      ["Plural" ,"Person3" ,"Common" ,"umo-nsa"]
+    ]
+  },
+  {
+    "label": "sid-PronounReflPoss",
+    "note": "KK07t3.5",
+    "common": {
+      "pos": "Pronoun",
+      "case": "NomGen",
+      "proClass": "ReflPoss"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"um-i-’ya"],
+      ["Singular" ,"Person2" ,"Common" ,"um-i-kki"],
+      ["Singular" ,"Person3" ,"Masc" ,"um-i-si"],
+      ["Singular" ,"Person3" ,"Fem" ,"um-i-se"],
+      ["Plural" ,"Person1" ,"Common" ,"um-i-nke"],
+      ["Plural" ,"Person2" ,"Common" ,"um-i-’ne"],
+      ["Plural" ,"Person3" ,"Common" ,"um-i-nsa"]
     ]
   },
   {
     "label": "sid-Verb-haishsh-Imperfect",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "haishsh",
       "pos": "Verb",
@@ -419,7 +558,7 @@
   },
   {
     "label": "sid-Verb-haishsh-PresentPerfect",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "haishsh",
       "pos": "Verb",
@@ -440,7 +579,7 @@
   },
   {
     "label": "sid-Verb-haishsh-SimplePerfect",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "haishsh",
       "pos": "Verb",
@@ -461,7 +600,7 @@
   },
   {
     "label": "sid-Verb-hank-Continuous",
-    "note": "K07(4.182) :: The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective form of another verb (lit.,‘did sth and came to exist’), as in (4.183). In each of them,the first-person and second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n). The initial t of the suffix can be preceded by the epenthetic vowel i when the suffix is attached to a root ending in a consonant-cluster (like hank’-) immediately preceding the infinitive suffix -a or the connective suffix -e also, the existential verb that follows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)",
+    "note": "KK07(4.182) :: The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective form of another verb (lit.,‘did sth and came to exist’), as in (4.183). In each of them,the first-person and second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n). The initial t of the suffix can be preceded by the epenthetic vowel i when the suffix is attached to a root ending in a consonant-cluster (like hank’-) immediately preceding the infinitive suffix -a or the connective suffix -e also, the existential verb that follows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)",
     "common": {
       "lexeme": "hank",
       "pos": "Verb",
@@ -482,7 +621,7 @@
   },
   {
     "label": "sid-Verb-it-Connective",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -501,7 +640,7 @@
   },
   {
     "label": "sid-Verb-it-ImperativeAffirmative",
-    "note": "K07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative.",
+    "note": "KK07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative.",
     "common": {
       "lexeme": "it",
       "polarity": "Affirmative",
@@ -516,7 +655,7 @@
   },
   {
     "label": "sid-Verb-it-ImperativeNegative",
-    "note": "K07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative.",
+    "note": "KK07t4.13 :: The stem-final consonant is reduplicated in the aff 2 pl imperative.",
     "common": {
       "lexeme": "it",
       "polarity": "Negative",
@@ -531,7 +670,7 @@
   },
   {
     "label": "sid-Verb-it-Imperfect",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -552,7 +691,7 @@
   },
   {
     "label": "sid-Verb-it-InfinitiveConj",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -571,7 +710,7 @@
   },
   {
     "label": "sid-Verb-it-InfinitiveConn",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -590,7 +729,7 @@
   },
   {
     "label": "sid-Verb-it-InfinitiveSub",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -611,7 +750,7 @@
   },
   {
     "label": "sid-Verb-it-PresentPerfect",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -632,7 +771,7 @@
   },
   {
     "label": "sid-Verb-it-PresentProgressive",
-    "note": "K07(4.182) :: The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective form of another verb (lit.,‘did sth and came to exist’), as in (4.183). In each of them,the first-person and second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n). The initial t of the suffix can be preceded by the epenthetic vowel i when the suffix is attached to a root ending in a consonant-cluster (like hank’-) immediately preceding the infinitive suffix -a or the connective suffix -e also, the existential verb that follows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)",
+    "note": "KK07(4.182) :: The verb no- can also be a component of two aspectualmarkers, they can be used to constitute the present-progressive form of another verb with the infinitive form followedby the instrumental case suffix -nni (lit.,‘by doing sth,came to exist’),as in (4.182) also,they can be used to constitute the present continuous verb form with the connective form of another verb (lit.,‘did sth and came to exist’), as in (4.183). In each of them,the first-person and second-person plural forms are irregular. When used in either of these ways,the subject is indicated on a suffix (1SG,3SG.M:-ø,2SG,3SG.F/3PL:-t,1PL:-n(t),2PL:-ti(n). The initial t of the suffix can be preceded by the epenthetic vowel i when the suffix is attached to a root ending in a consonant-cluster (like hank’-) immediately preceding the infinitive suffix -a or the connective suffix -e also, the existential verb that follows either of these suffixes inflects for the person/number/gender of the subject,asindicated in (4.181) (for the second-person plural,the existential verb cannot be used ineither aspect).(p. 409)",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -653,7 +792,7 @@
   },
   {
     "label": "sid-Verb-it-SimplePerfect",
-    "note": "K07t4.8;4.9;4.10",
+    "note": "KK07t4.8;4.9;4.10",
     "common": {
       "lexeme": "it",
       "pos": "Verb",
@@ -673,8 +812,8 @@
     ]
   },
   {
-    "label": "sid-Verbmorph-DervStem-",
-    "note": "K07#4.2.1.3 ::  (on phonology of denomDeadj and middle,cf. 2.2.1)",
+    "label": "sid-morphVerb-DervStem",
+    "note": "KK07#4.2.1.3 ::  (on phonology of denomDeadj and middle,cf. 2.2.1)",
     "common": {
       "pos": "Verb",
       "morphClass": "DervStem"
@@ -690,8 +829,8 @@
     ]
   },
   {
-    "label": "sid-Verbmorph-Existence--no-",
-    "note": "K07(4.181) :: The existential/locational verb (henceforth,“the existential verb”) (lit.,‘to come to exist,come to be located’),which is used to indicate the existence of an entity or thelocation of one entity with respect to another,is always in a present perfect form,asshown in (4.181),and is incompatible with most of the inflectional suffixes with whichother verbs can usually occur. It expresses the present state of existence or locatedness asthe resultative state of a state-change,as indicated above in the gloss for this verb(nevertheless,the present study employs ‘exist’ as its gloss). Thus,this verb does nottake any other aspect suffix. For example,it has no simple perfect or imperfect forms(e.g.,*no-u-mm-a/*no-u-mm-o [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning,verbs like heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has no forms for the first-person plural and the secondperson plural,the verb heeɗ- ‘to live’ is used in these cases (1PL:hee’-n-oo-mmo [live-1PL-PRESPERF.1-1PL],2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407 f)",
+    "label": "sid-morphVerb-Existence-no-",
+    "note": "KK07(4.181) :: The existential/locational verb (henceforth,“the existential verb”) (lit.,‘to come to exist,come to be located’),which is used to indicate the existence of an entity or thelocation of one entity with respect to another,is always in a present perfect form,asshown in (4.181),and is incompatible with most of the inflectional suffixes with whichother verbs can usually occur. It expresses the present state of existence or locatedness asthe resultative state of a state-change,as indicated above in the gloss for this verb(nevertheless,the present study employs ‘exist’ as its gloss). Thus,this verb does nottake any other aspect suffix. For example,it has no simple perfect or imperfect forms(e.g.,*no-u-mm-a/*no-u-mm-o [exist-SIMPLEPERF.1-1SG-F/exist-SIMPLEPERF.1-1SG-M]or*no-ee-mm-a/*no-ee-mm-o [exist-IMPERFECT.1-1SG-F/exist-IMPERFECT.1-1SG-M]) (for theimperfect meaning,verbs like heeɗ- ‘to live’ and keeš- ‘to stay’ are used instead).Because the existential verb has no forms for the first-person plural and the secondperson plural,the verb heeɗ- ‘to live’ is used in these cases (1PL:hee’-n-oo-mmo [live-1PL-PRESPERF.1-1PL],2PL:hee-ɗin-onni [live-2PL-PRESPERF.2PL]).(pp. 407 f)",
     "common": {
       "lexeme": "no",
       "pos": "Verb",
@@ -708,71 +847,133 @@
     ]
   },
   {
-    "label": "sid-Verbmorph-PersNumTenseSuff-",
-    "note": "K07t4.7 :: each aspect suffix can carry additional information about the person/number of the subject(p. 398)",
+    "label": "sid-morphVerb-PersNumTenseSuff",
+    "note": "KK07t4.7 :: each aspect suffix can carry additional information about the person/number of the subject(p. 398)",
     "common": {
       "pos": "Verb",
+      "aspect": "Impperfect",
       "morphClass": "PersNumTenseSuff"
     },
     "terms": [
-      ["aspect" ,"number" ,"person" ,"gender" ,"token"],
-      ["Imperfect" ,"Singular" ,"Person2" ,"Common" ,"-a"],
-      ["Imperfect" ,"Plural" ,"Person2" ,"Common" ,"-anni"],
-      ["Imperfect" ,"Common" ,"Person1" ,"Common" ,"-ee"],
-      ["Imperfect" ,"Common" ,"Person3" ,"Common" ,"-anno"],
-      ["PresentPerfect" ,"Singular" ,"Person1" ,"Common" ,"-oo"],
-      ["PresentPerfect" ,"Singular" ,"Person2" ,"Common" ,"-oo"],
-      ["PresentPerfect" ,"Plural" ,"Person2" ,"Common" ,"-oonni"],
-      ["PresentPerfect" ,"Common" ,"Person3" ,"Common" ,"-ino"],
-      ["SimplePerfect" ,"Singular" ,"Person1" ,"Common" ,"-u"],
-      ["SimplePerfect" ,"Singular" ,"Person2" ,"Common" ,"-i"],
-      ["SimplePerfect" ,"Singular" ,"Person3" ,"Masc" ,"-i"],
-      ["SimplePerfect" ,"Plural" ,"Person3" ,"Fem" ,"-u"],
-      ["SimplePerfect" ,"Plural" ,"Person3" ,"Common" ,"-u"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"-a"],
+      ["Plural" ,"Person2" ,"Common" ,"-anni"],
+      ["Sg_Pl" ,"Person1" ,"Common" ,"-ee"],
+      ["Sg_Pl" ,"Person3" ,"Common" ,"-anno"]
     ]
   },
   {
-    "label": "sid-Verbmorph-SubjMarkerConnConj-",
-    "note": "K07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive construction (verb1=and verb2),all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e",
+    "label": "sid-morphVerb-PersNumTenseSuff",
+    "note": "KK07t4.7 :: each aspect suffix can carry additional information about the person/number of the subject(p. 398)",
     "common": {
       "pos": "Verb",
+      "aspect": "PresentPerfect",
+      "morphClass": "PersNumTenseSuff"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-oo"],
+      ["Singular" ,"Person2" ,"Common" ,"-oo"],
+      ["Plural" ,"Person2" ,"Common" ,"-oonni"],
+      ["Sg_Pl" ,"Person3" ,"Common" ,"-ino"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-PersNumTenseSuff",
+    "note": "KK07t4.7 :: each aspect suffix can carry additional information about the person/number of the subject(p. 398)",
+    "common": {
+      "pos": "Verb",
+      "aspect": "SimplePerfect",
+      "morphClass": "PersNumTenseSuff"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-u"],
+      ["Singular" ,"Person2" ,"Common" ,"-i"],
+      ["Singular" ,"Person3" ,"Masc" ,"-i"],
+      ["Plural" ,"Person3" ,"Fem" ,"-u"],
+      ["Plural" ,"Person3" ,"Common" ,"-u"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerConnConj",
+    "note": "KK07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive construction (verb1=and verb2),all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e",
+    "common": {
+      "pos": "Verb",
+      "configuration": "Connective",
       "morphClass": "SubjMarkerConnConj"
     },
     "terms": [
-      ["configuration" ,"number" ,"person" ,"gender" ,"token"],
-      ["Connective" ,"Singular" ,"Person1" ,"Common" ,"-Ø-e"],
-      ["Connective" ,"Singular" ,"Person2" ,"Common" ,"-t-e"],
-      ["Connective" ,"Singular" ,"Person3" ,"Masc" ,"-Ø-e"],
-      ["Connective" ,"Singular" ,"Person3" ,"Fem" ,"-t-e"],
-      ["Connective" ,"Plural" ,"Person1" ,"Common" ,"-n-e"],
-      ["Connective" ,"Plural" ,"Person2" ,"Common" ,"-tin-e"],
-      ["Connective" ,"Plural" ,"Person3" ,"Common" ,"-t-e"],
-      ["InfinitiveConj" ,"Singular" ,"Person1" ,"Common" ,"-Ø-a=nna"],
-      ["InfinitiveConj" ,"Singular" ,"Person2" ,"Common" ,"-t-a=nna"],
-      ["InfinitiveConj" ,"Singular" ,"Person3" ,"Masc" ,"-Ø-a=nna"],
-      ["InfinitiveConj" ,"Singular" ,"Person3" ,"Fem" ,"-t-a=nna"],
-      ["InfinitiveConj" ,"Plural" ,"Person1" ,"Common" ,"-n-a=nna"],
-      ["InfinitiveConj" ,"Plural" ,"Person2" ,"Common" ,"-tin-a=nna"],
-      ["InfinitiveConj" ,"Plural" ,"Person3" ,"Common" ,"-t-a=nna"],
-      ["InfinitiveConn" ,"Singular" ,"Person1" ,"Common" ,"-Ø-a-nni"],
-      ["InfinitiveConn" ,"Singular" ,"Person2" ,"Common" ,"-t-a-nni"],
-      ["InfinitiveConn" ,"Singular" ,"Person3" ,"Masc" ,"-Ø-a-nni"],
-      ["InfinitiveConn" ,"Singular" ,"Person3" ,"Fem" ,"-t-a-nni"],
-      ["InfinitiveConn" ,"Plural" ,"Person1" ,"Common" ,"-n-a-nni"],
-      ["InfinitiveConn" ,"Plural" ,"Person2" ,"Common" ,"-tin-a-nni"],
-      ["InfinitiveConn" ,"Plural" ,"Person3" ,"Common" ,"-t-a-nni"],
-      ["SubjMarkerRed" ,"Singular" ,"Person1" ,"Common" ,"⊤"],
-      ["SubjMarkerRed" ,"Singular" ,"Person2" ,"Common" ,"-t"],
-      ["SubjMarkerRed" ,"Singular" ,"Person3" ,"Masc" ,"⊤"],
-      ["SubjMarkerRed" ,"Singular" ,"Person3" ,"Fem" ,"-t"],
-      ["SubjMarkerRed" ,"Plural" ,"Person1" ,"Common" ,"-n"],
-      ["SubjMarkerRed" ,"Plural" ,"Person2" ,"Common" ,"-tin"],
-      ["SubjMarkerRed" ,"Plural" ,"Person3" ,"Common" ,"-t"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-Ø-e"],
+      ["Singular" ,"Person2" ,"Common" ,"-t-e"],
+      ["Singular" ,"Person3" ,"Masc" ,"-Ø-e"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t-e"],
+      ["Plural" ,"Person1" ,"Common" ,"-n-e"],
+      ["Plural" ,"Person2" ,"Common" ,"-tin-e"],
+      ["Plural" ,"Person3" ,"Common" ,"-t-e"]
     ]
   },
   {
-    "label": "sid-Verbmorph-SubjMarkerInfinSub-",
-    "note": "K07t4.12 :: Infinitive Suffix Accompanied by the Person Suffix when Followed by –ra :: The infinitival subordinate consists of the infinitivemarker –a-,followed by a special set of person markers (similar to imperfective),followed by the subordinating suffix –ra. It is used for a large number of infinitival and purpose clauses. cf. K07pp. 420-425.",
+    "label": "sid-morphVerb-SubjMarkerConnConj",
+    "note": "KK07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive construction (verb1=and verb2),all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e",
+    "common": {
+      "pos": "Verb",
+      "configuration": "InfinitiveConj",
+      "morphClass": "SubjMarkerConnConj"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-Ø-a=nna"],
+      ["Singular" ,"Person2" ,"Common" ,"-t-a=nna"],
+      ["Singular" ,"Person3" ,"Masc" ,"-Ø-a=nna"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t-a=nna"],
+      ["Plural" ,"Person1" ,"Common" ,"-n-a=nna"],
+      ["Plural" ,"Person2" ,"Common" ,"-tin-a=nna"],
+      ["Plural" ,"Person3" ,"Common" ,"-t-a=nna"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerConnConj",
+    "note": "KK07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive construction (verb1=and verb2),all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e",
+    "common": {
+      "pos": "Verb",
+      "configuration": "InfinitiveConn",
+      "morphClass": "SubjMarkerConnConj"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-Ø-a-nni"],
+      ["Singular" ,"Person2" ,"Common" ,"-t-a-nni"],
+      ["Singular" ,"Person3" ,"Masc" ,"-Ø-a-nni"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t-a-nni"],
+      ["Plural" ,"Person1" ,"Common" ,"-n-a-nni"],
+      ["Plural" ,"Person2" ,"Common" ,"-tin-a-nni"],
+      ["Plural" ,"Person3" ,"Common" ,"-t-a-nni"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerConnConj",
+    "note": "KK07t4.11 :: Subject Person Suffix (before –CNN or –INF-MANNER). [=nna is a conjunctive enclitic]. There are two basic connective constructions (markers on verb1 for constuctions verb1-and-then verb2or while-verb1,verb2) and one conjunctive construction (verb1=and verb2),all involving a characteristically Cushitic reduced set of person markers :: The connective consists of the reduced person markrs followed by –e",
+    "common": {
+      "pos": "Verb",
+      "configuration": "SubjMarkerRed",
+      "morphClass": "SubjMarkerConnConj"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"⊤"],
+      ["Singular" ,"Person2" ,"Common" ,"-t"],
+      ["Singular" ,"Person3" ,"Masc" ,"⊤"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t"],
+      ["Plural" ,"Person1" ,"Common" ,"-n"],
+      ["Plural" ,"Person2" ,"Common" ,"-tin"],
+      ["Plural" ,"Person3" ,"Common" ,"-t"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerInfinSub",
+    "note": "KK07t4.12 :: Infinitive Suffix Accompanied by the Person Suffix when Followed by –ra :: The infinitival subordinate consists of the infinitivemarker –a-,followed by a special set of person markers (similar to imperfective),followed by the subordinating suffix –ra. It is used for a large number of infinitival and purpose clauses. cf. KK07pp. 420-425.",
     "common": {
       "pos": "Verb",
       "morphClass": "SubjMarkerInfinSub"
@@ -791,55 +992,122 @@
     ]
   },
   {
-    "label": "sid-Verbmorph-SubjMarkerMain-",
-    "note": "K07t4.8;4.9;4.10;4.13;4.15",
+    "label": "sid-morphVerb-SubjMarkerMainImperativeAffirmative",
+    "note": "KK07t4.8;4.9;4.10;4.13;4.15",
     "common": {
       "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Imperative",
       "morphClass": "SubjMarkerMain"
     },
     "terms": [
-      ["polarity" ,"tam" ,"number" ,"person" ,"gender" ,"token"],
-      ["Affirmative" ,"Imperative" ,"Singular" ,"Person2" ,"Common" ,"-i"],
-      ["Affirmative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"-Ce"],
-      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"Masc" ,"-ee-mm-o"],
-      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person1" ,"Fem" ,"-ee-mm-a"],
-      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"Masc" ,"-a-tt-o"],
-      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person2" ,"Fem" ,"-a-tt-a"],
-      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Masc" ,"-anno"],
-      ["Affirmative" ,"Imperfect" ,"Singular" ,"Person3" ,"Fem" ,"-t-anno"],
-      ["Affirmative" ,"Imperfect" ,"Plural" ,"Person1" ,"Common" ,"-n-ee-mmo"],
-      ["Affirmative" ,"Imperfect" ,"Plural" ,"Person2" ,"Common" ,"-tin-anni"],
-      ["Affirmative" ,"Imperfect" ,"Plural" ,"Person3" ,"Common" ,"-t-anno"],
-      ["Affirmative" ,"Optative" ,"Singular" ,"Person1" ,"Common" ,"-o"],
-      ["Affirmative" ,"Optative" ,"Singular" ,"Person3" ,"Masc" ,"-o"],
-      ["Affirmative" ,"Optative" ,"Singular" ,"Person3" ,"Fem" ,"-to"],
-      ["Affirmative" ,"Optative" ,"Plural" ,"Person1" ,"Common" ,"-no"],
-      ["Affirmative" ,"Optative" ,"Plural" ,"Person3" ,"Common" ,"-to"],
-      ["Affirmative" ,"PresentPerfect" ,"Singular" ,"Person1" ,"Masc" ,"-oo-mm-o"],
-      ["Affirmative" ,"PresentPerfect" ,"Singular" ,"Person1" ,"Fem" ,"-oo-mm-a"],
-      ["Affirmative" ,"PresentPerfect" ,"Singular" ,"Person2" ,"Masc" ,"-oo-tt-o"],
-      ["Affirmative" ,"PresentPerfect" ,"Singular" ,"Person2" ,"Fem" ,"-oo-tt-a"],
-      ["Affirmative" ,"PresentPerfect" ,"Singular" ,"Person3" ,"Masc" ,"-ino"],
-      ["Affirmative" ,"PresentPerfect" ,"Singular" ,"Person3" ,"Fem" ,"-i-t-ino"],
-      ["Affirmative" ,"PresentPerfect" ,"Plural" ,"Person1" ,"Common" ,"-i-n-oo-mm-o"],
-      ["Affirmative" ,"PresentPerfect" ,"Plural" ,"Person2" ,"Common" ,"-tin-oonni/tin-ooi"],
-      ["Affirmative" ,"PresentPerfect" ,"Plural" ,"Person3" ,"Common" ,"-i-t-ino"],
-      ["Affirmative" ,"SimplePerfect" ,"Singular" ,"Person1" ,"Masc" ,"-u-mm-o"],
-      ["Affirmative" ,"SimplePerfect" ,"Singular" ,"Person1" ,"Fem" ,"-u-mm-a"],
-      ["Affirmative" ,"SimplePerfect" ,"Singular" ,"Person2" ,"Masc" ,"-i-tt-o"],
-      ["Affirmative" ,"SimplePerfect" ,"Singular" ,"Person2" ,"Fem" ,"-i-tt-a"],
-      ["Affirmative" ,"SimplePerfect" ,"Singular" ,"Person3" ,"Masc" ,"-i"],
-      ["Affirmative" ,"SimplePerfect" ,"Singular" ,"Person3" ,"Fem" ,"-C-u"],
-      ["Affirmative" ,"SimplePerfect" ,"Plural" ,"Person1" ,"Common" ,"-n-ummo"],
-      ["Affirmative" ,"SimplePerfect" ,"Plural" ,"Person2" ,"Common" ,"-in-i"],
-      ["Affirmative" ,"SimplePerfect" ,"Plural" ,"Person3" ,"Common" ,"-C-u"],
-      ["Negative" ,"Imperative" ,"Singular" ,"Person2" ,"Common" ,"-tooti"],
-      ["Negative" ,"Imperative" ,"Plural" ,"Person2" ,"Common" ,"-tinoonte"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"-i"],
+      ["Plural" ,"Person2" ,"Common" ,"-Ce"]
     ]
   },
   {
-    "label": "sid-Verbmorph-SuffStructure--wil-SimplePerfect",
-    "note": "K07t4.19 :: [the V in token-structure is a contextually conditioned epenthetic vowel]",
+    "label": "sid-morphVerb-SubjMarkerMainImperativeNegative",
+    "note": "KK07t4.8;4.9;4.10;4.13;4.15",
+    "common": {
+      "pos": "Verb",
+      "polarity": "Negative",
+      "tam": "Imperative",
+      "morphClass": "SubjMarkerMain"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person2" ,"Common" ,"-tooti"],
+      ["Plural" ,"Person2" ,"Common" ,"-tinoonte"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerMainImperfectAffirmative",
+    "note": "KK07t4.8;4.9;4.10;4.13;4.15",
+    "common": {
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "Imperfect",
+      "morphClass": "SubjMarkerMain"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-ee-mm-o"],
+      ["Singular" ,"Person1" ,"Fem" ,"-ee-mm-a"],
+      ["Singular" ,"Person2" ,"Masc" ,"-a-tt-o"],
+      ["Singular" ,"Person2" ,"Fem" ,"-a-tt-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"-anno"],
+      ["Singular" ,"Person3" ,"Fem" ,"-t-anno"],
+      ["Plural" ,"Person1" ,"Common" ,"-n-ee-mmo"],
+      ["Plural" ,"Person2" ,"Common" ,"-tin-anni"],
+      ["Plural" ,"Person3" ,"Common" ,"-t-anno"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerMainOptativeAfirmative",
+    "note": "KK07t4.8;4.9;4.10;4.13;4.15",
+    "common": {
+      "pos": "Verb",
+      "polarity": "Afirmative",
+      "tam": "Optative",
+      "morphClass": "SubjMarkerMain"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"-o"],
+      ["Singular" ,"Person3" ,"Masc" ,"-o"],
+      ["Singular" ,"Person3" ,"Fem" ,"-to"],
+      ["Plural" ,"Person1" ,"Common" ,"-no"],
+      ["Plural" ,"Person3" ,"Common" ,"-to"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerMainPresentPerfectAffirmative",
+    "note": "KK07t4.8;4.9;4.10;4.13;4.15",
+    "common": {
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "PresentPerfect",
+      "morphClass": "SubjMarkerMain"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-oo-mm-o"],
+      ["Singular" ,"Person1" ,"Fem" ,"-oo-mm-a"],
+      ["Singular" ,"Person2" ,"Masc" ,"-oo-tt-o"],
+      ["Singular" ,"Person2" ,"Fem" ,"-oo-tt-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"-ino"],
+      ["Singular" ,"Person3" ,"Fem" ,"-i-t-ino"],
+      ["Plural" ,"Person1" ,"Common" ,"-i-n-oo-mm-o"],
+      ["Plural" ,"Person2" ,"Common" ,"-tin-oonni/tin-ooi"],
+      ["Plural" ,"Person3" ,"Common" ,"-i-t-ino"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SubjMarkerMainSimplePerfectAffirmative",
+    "note": "KK07t4.8;4.9;4.10;4.13;4.15",
+    "common": {
+      "pos": "Verb",
+      "polarity": "Affirmative",
+      "tam": "SimplePerfect",
+      "morphClass": "SubjMarkerMain"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Masc" ,"-u-mm-o"],
+      ["Singular" ,"Person1" ,"Fem" ,"-u-mm-a"],
+      ["Singular" ,"Person2" ,"Masc" ,"-i-tt-o"],
+      ["Singular" ,"Person2" ,"Fem" ,"-i-tt-a"],
+      ["Singular" ,"Person3" ,"Masc" ,"-i"],
+      ["Singular" ,"Person3" ,"Fem" ,"-C-u"],
+      ["Plural" ,"Person1" ,"Common" ,"-n-ummo"],
+      ["Plural" ,"Person2" ,"Common" ,"-in-i"],
+      ["Plural" ,"Person3" ,"Common" ,"-C-u"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-SuffStructure-wil-SimplePerfect",
+    "note": "KK07t4.19 :: [the V in token-structure is a contextually conditioned epenthetic vowel]",
     "common": {
       "lexeme": "wil",
       "pos": "Verb",
@@ -860,40 +1128,65 @@
     ]
   },
   {
-    "label": "sid-Verbmorph-TensePersNumGenTemplate-",
-    "note": "K07t4.6 :: There is a basic template:1:tense,2:numPers,3:genM/genF. Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the simple perfect,and the present perfect,together with suffixes for theperson/number of the subject. In addition,the genders of the first- and second-personsingular subjects are also marked with suffixes (M:-o,F:-a). Template note: :token-genF, :token-genM, :token-numPers, :token-tense.",
+    "label": "sid-morphVerb-TensePersNumGenTemplateImperfect",
+    "note": "KK07t4.6 :: There is a basic template:1:tense,2:numPers,3:genM/genF. Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the simple perfect,and the present perfect,together with suffixes for theperson/number of the subject. In addition,the genders of the first- and second-personsingular subjects are also marked with suffixes (M:-o,F:-a). Template note: :token-genF, :token-genM, :token-numPers, :token-tense.",
     "common": {
       "pos": "Verb",
+      "tam": "Imperfect",
       "morphClass": "TensePersNumGenTemplate"
     },
     "terms": [
-      ["tam" ,"number" ,"person" ,"gender" ,"token" ,"token-note-template"],
-      ["Imperfect" ,"Singular" ,"Person1" ,"Common" ,"-a : -o : -mm : -ee" ,"-a + -o + -mm + -ee"],
-      ["Imperfect" ,"Singular" ,"Person2" ,"Common" ,"-a : -o : -tt : -a" ,"-a + -o + -tt + -a"],
-      ["Imperfect" ,"Singular" ,"Person3" ,"Masc" ," : Common : Common : -anno" ," + Common + Common + -anno"],
-      ["Imperfect" ,"Singular" ,"Person3" ,"Fem" ," : Common : -t : -anno" ," + Common + -t + -anno"],
-      ["Imperfect" ,"Plural" ,"Person1" ,"Common" ," : Common : -n-V–mmo : -ee" ," + Common + -n-V–mmo + -ee"],
-      ["Imperfect" ,"Plural" ,"Person2" ,"Common" ," : Common : -tin : -anni" ," + Common + -tin + -anni"],
-      ["Imperfect" ,"Plural" ,"Person3" ,"Common" ," : Common : -t : -anno" ," + Common + -t + -anno"],
-      ["PresentPerfect" ,"Singular" ,"Person1" ,"Common" ,"-a : -o : -mm : -oo" ,"-a + -o + -mm + -oo"],
-      ["PresentPerfect" ,"Singular" ,"Person2" ,"Common" ,"-a : -o : -tt : -oo" ,"-a + -o + -tt + -oo"],
-      ["PresentPerfect" ,"Singular" ,"Person3" ,"Masc" ," : Common : Common : -ino" ," + Common + Common + -ino"],
-      ["PresentPerfect" ,"Singular" ,"Person3" ,"Fem" ," : Common : -t : -ino" ," + Common + -t + -ino"],
-      ["PresentPerfect" ,"Plural" ,"Person1" ,"Common" ," : Common : -n-V–mmo : -oo" ," + Common + -n-V–mmo + -oo"],
-      ["PresentPerfect" ,"Plural" ,"Person2" ,"Common" ," : Common : -tin : -oonni" ," + Common + -tin + -oonni"],
-      ["PresentPerfect" ,"Plural" ,"Person3" ,"Common" ," : Common : -t : -ino" ," + Common + -t + -ino"],
-      ["SimplePerfect" ,"Singular" ,"Person1" ,"Common" ,"-a : -o : -mm : -u" ,"-a + -o + -mm + -u"],
-      ["SimplePerfect" ,"Singular" ,"Person2" ,"Common" ,"-a : -o : -tt : -i" ,"-a + -o + -tt + -i"],
-      ["SimplePerfect" ,"Singular" ,"Person3" ,"Masc" ," : Common : Common : -i" ," + Common + Common + -i"],
-      ["SimplePerfect" ,"Singular" ,"Person3" ,"Fem" ," : Common : -t : -u" ," + Common + -t + -u"],
-      ["SimplePerfect" ,"Plural" ,"Person1" ,"Common" ," : Common : -n-V–mmo : -u" ," + Common + -n-V–mmo + -u"],
-      ["SimplePerfect" ,"Plural" ,"Person2" ,"Common" ," : Common : -tin : -i" ," + Common + -tin + -i"],
-      ["SimplePerfect" ,"Plural" ,"Person3" ,"Common" ," : Common : -t : -u" ," + Common + -t + -u"]
+      ["number" ,"person" ,"gender" ,"token" ,"token-note-template"],
+      ["Singular" ,"Person1" ,"Common" ,"-a : -o : -mm : -ee" ,"-a + -o + -mm + -ee"],
+      ["Singular" ,"Person2" ,"Common" ,"-a : -o : -tt : -a" ,"-a + -o + -tt + -a"],
+      ["Singular" ,"Person3" ,"Masc" ," : Common : Common : -anno" ," + Common + Common + -anno"],
+      ["Singular" ,"Person3" ,"Fem" ," : Common : -t : -anno" ," + Common + -t + -anno"],
+      ["Plural" ,"Person1" ,"Common" ," : Common : -n-V–mmo : -ee" ," + Common + -n-V–mmo + -ee"],
+      ["Plural" ,"Person2" ,"Common" ," : Common : -tin : -anni" ," + Common + -tin + -anni"],
+      ["Plural" ,"Person3" ,"Common" ," : Common : -t : -anno" ," + Common + -t + -anno"]
     ]
   },
   {
-    "label": "sid-Verbmorph-VerbNegation-",
-    "note": "K07##3.2.2.4;4.2.2.3.5;4.2.2.3.7 :: Sidaama has the simplest negative morphology of any Cushitic or Omotic language. A specific negative form exists only for the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di= which can attach to the verb,or in fact to any foregrounded sentence constituent. For subordinate clause negation a suffix –kki is attached to the verb form. There is also a negative suffix –nke which attaches to the optative,including the 1 pl optative, which acts as a 1 pl imperative",
+    "label": "sid-morphVerb-TensePersNumGenTemplatePresentPerfect",
+    "note": "KK07t4.6 :: There is a basic template:1:tense,2:numPers,3:genM/genF. Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the simple perfect,and the present perfect,together with suffixes for theperson/number of the subject. In addition,the genders of the first- and second-personsingular subjects are also marked with suffixes (M:-o,F:-a). Template note: :token-genF, :token-genM, :token-numPers, :token-tense.",
+    "common": {
+      "pos": "Verb",
+      "tam": "PresentPerfect",
+      "morphClass": "TensePersNumGenTemplate"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token" ,"token-note-template"],
+      ["Singular" ,"Person1" ,"Common" ,"-a : -o : -mm : -oo" ,"-a + -o + -mm + -oo"],
+      ["Singular" ,"Person2" ,"Common" ,"-a : -o : -tt : -oo" ,"-a + -o + -tt + -oo"],
+      ["Singular" ,"Person3" ,"Masc" ," : Common : Common : -ino" ," + Common + Common + -ino"],
+      ["Singular" ,"Person3" ,"Fem" ," : Common : -t : -ino" ," + Common + -t + -ino"],
+      ["Plural" ,"Person1" ,"Common" ," : Common : -n-V–mmo : -oo" ," + Common + -n-V–mmo + -oo"],
+      ["Plural" ,"Person2" ,"Common" ," : Common : -tin : -oonni" ," + Common + -tin + -oonni"],
+      ["Plural" ,"Person3" ,"Common" ," : Common : -t : -ino" ," + Common + -t + -ino"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-TensePersNumGenTemplateSimplePerfect",
+    "note": "KK07t4.6 :: There is a basic template:1:tense,2:numPers,3:genM/genF. Verbs can be marked with suffixes for three types of temporal aspects,the imperfect,the simple perfect,and the present perfect,together with suffixes for theperson/number of the subject. In addition,the genders of the first- and second-personsingular subjects are also marked with suffixes (M:-o,F:-a). Template note: :token-genF, :token-genM, :token-numPers, :token-tense.",
+    "common": {
+      "pos": "Verb",
+      "tam": "SimplePerfect",
+      "morphClass": "TensePersNumGenTemplate"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token" ,"token-note-template"],
+      ["Singular" ,"Person1" ,"Common" ,"-a : -o : -mm : -u" ,"-a + -o + -mm + -u"],
+      ["Singular" ,"Person2" ,"Common" ,"-a : -o : -tt : -i" ,"-a + -o + -tt + -i"],
+      ["Singular" ,"Person3" ,"Masc" ," : Common : Common : -i" ," + Common + Common + -i"],
+      ["Singular" ,"Person3" ,"Fem" ," : Common : -t : -u" ," + Common + -t + -u"],
+      ["Plural" ,"Person1" ,"Common" ," : Common : -n-V–mmo : -u" ," + Common + -n-V–mmo + -u"],
+      ["Plural" ,"Person2" ,"Common" ," : Common : -tin : -i" ," + Common + -tin + -i"],
+      ["Plural" ,"Person3" ,"Common" ," : Common : -t : -u" ," + Common + -t + -u"]
+    ]
+  },
+  {
+    "label": "sid-morphVerb-VerbNegation",
+    "note": "KK07##3.2.2.4;4.2.2.3.5;4.2.2.3.7 :: Sidaama has the simplest negative morphology of any Cushitic or Omotic language. A specific negative form exists only for the (2nd person) imperative. Otherwise main clause negation is expressed by a clitic di= which can attach to the verb,or in fact to any foregrounded sentence constituent. For subordinate clause negation a suffix –kki is attached to the verb form. There is also a negative suffix –nke which attaches to the optative,including the 1 pl optative, which acts as a 1 pl imperative",
     "common": {
       "pos": "Verb",
       "morphClass": "VerbNegation"
